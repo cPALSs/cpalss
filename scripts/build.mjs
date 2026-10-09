@@ -39,7 +39,7 @@ function renderNav(current) {
     .map((item) => {
       const active = isActive(item, current) ? " is-active" : "";
       if (!item.children) {
-        return `<li class="nav-item${active}"><a class="nav-link"${linkAttrs(item.href)}>${esc(item.label)}</a></li>`;
+        return `<li class="nav-item${item.href === "/" ? " nav-home" : ""}${active}"><a class="nav-link"${linkAttrs(item.href)}>${esc(item.label)}</a></li>`;
       }
       const top = item.href
         ? `<a class="nav-link"${linkAttrs(item.href)}>${esc(item.label)}</a>`
@@ -56,6 +56,7 @@ function renderNav(current) {
   return `<ul class="nav-list">
         ${items}
         <li class="nav-item nav-donate"><a class="btn btn-small"${linkAttrs(meta.donateUrl)}>Donate</a></li>
+        <li class="nav-item nav-social">${renderSocial("nav-social-link")}</li>
       </ul>`;
 }
 
@@ -121,7 +122,7 @@ function renderHeader(current) {
     <div class="header-inner">
       <a class="brand" href="/">
         <img class="brand-logo" src="/assets/logo.png" alt="" width="44" height="44" />
-        <span class="brand-text"><span class="brand-name">cPALSs</span><span class="brand-sub">Community Partners Advocate of Little Saigon Sacramento</span></span>
+        <span class="brand-text"><span class="brand-name">cPALSs</span></span>
       </a>
       <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
         <span class="nav-toggle-bars" aria-hidden="true"></span>
@@ -133,22 +134,73 @@ function renderHeader(current) {
   </header>`;
 }
 
+const SOCIAL_ICONS = {
+  facebook:
+    '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>',
+  instagram:
+    '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" stroke="none"/></svg>',
+  youtube:
+    '<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>',
+};
+
+function renderSocial(cls) {
+  return meta.social
+    .map((s) => {
+      const icon = SOCIAL_ICONS[s.label.toLowerCase()];
+      return icon
+        ? `<a class="${cls}"${linkAttrs(s.url)} aria-label="${esc(s.label)}" title="${esc(s.label)}">${icon}</a>`
+        : `<a${linkAttrs(s.url)}>${esc(s.label)}</a>`;
+    })
+    .join("");
+}
+
 function renderFooter() {
-  const social = meta.social.map((s) => `<a${linkAttrs(s.url)}>${esc(s.label)}</a>`).join(" · ");
+  const social = renderSocial("footer-social-link");
   return `<footer class="site-footer">
     <div class="footer-inner">
       <img class="footer-logo" src="/assets/logo.png" alt="cPALSs logo" width="72" height="72" loading="lazy" />
       <div>
-        <p class="footer-org">${esc(meta.orgName)} (cPALSs)</p>
-        <p class="footer-links">${social} · <a href="mailto:${esc(meta.email)}">${esc(meta.email)}</a></p>
-        <p class="footer-fine">A California 501(c)(3) nonprofit · <a${linkAttrs(meta.donateUrl)}>Donate</a></p>
-      </div>
+        <p class="footer-org">${esc(meta.orgName)}</p>
+        <p class="footer-links"><span class="footer-social">${social}</span><a href="mailto:${esc(meta.email)}">${esc(meta.email)}</a></p>      </div>
     </div>
   </footer>`;
 }
 
 function img(src, alt, extra = "") {
   return `<img src="${esc(src)}" alt="${esc(alt || "")}" loading="lazy" decoding="async"${extra} />`;
+}
+
+const ZOOM_ICON =
+  '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg>';
+
+const EXTERNAL_ICON =
+  '<svg class="ext-icon" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
+
+/** Escaped text with the last word and an external-link icon kept on one line. */
+function withExternalIcon(text) {
+  const i = text.lastIndexOf(" ");
+  return `${esc(text.slice(0, i + 1))}<span class="nowrap">${esc(text.slice(i + 1))}${EXTERNAL_ICON}</span>`;
+}
+
+/** Pixel size of a local JPEG or PNG under ROOT, or null. */
+function imageSize(src) {
+  let buf;
+  try {
+    buf = fs.readFileSync(path.join(ROOT, src));
+  } catch {
+    return null;
+  }
+  if (buf.readUInt32BE(0) === 0x89504e47) return { width: buf.readUInt32BE(16), height: buf.readUInt32BE(20) };
+  if (buf.readUInt16BE(0) !== 0xffd8) return null;
+  for (let i = 2; i + 9 < buf.length; ) {
+    if (buf[i] !== 0xff) return null;
+    const marker = buf[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+      return { width: buf.readUInt16BE(i + 7), height: buf.readUInt16BE(i + 5) };
+    }
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return null;
 }
 
 const blockRenderers = {
@@ -227,14 +279,23 @@ const blockRenderers = {
       .map((g) => {
         const pic = img(g.image, g.caption);
         const media = g.href ? `<a${linkAttrs(g.href)}>${pic}</a>` : `<a href="${esc(g.image)}" class="zoom">${pic}</a>`;
-        const cap = g.href ? `<a${linkAttrs(g.href)}>${esc(g.caption)}</a>` : esc(g.caption);
-        return `<figure class="gallery-item">${media}<figcaption><strong>${cap}</strong>${g.sub ? `<span>${esc(g.sub)}</span>` : ""}</figcaption></figure>`;
+        const cap = g.href && g.hrefLabel
+          ? `<strong>${esc(g.caption)}</strong> • <a${linkAttrs(g.href)}>${esc(g.hrefLabel)}</a>`
+          : `<strong>${esc(g.caption)}</strong>`;
+        const size = b.framed && b.fit !== "cover" ? imageSize(g.image) : null;
+        const landscape = size && size.width > size.height ? " is-landscape" : "";
+        const label = b.noun ? `${g.caption} ${b.noun}` : g.caption;
+        const lightbox = `href="${esc(g.image)}" data-lightbox data-caption="${esc(g.caption)}" data-alt="${esc(label)}"`;
+        const framed = b.framed
+          ? `<div class="gallery-frame"><a ${lightbox} aria-label="Enlarge ${esc(label)}">${pic}</a><a class="gallery-zoom" ${lightbox} tabindex="-1" aria-hidden="true">${ZOOM_ICON}</a></div>`
+          : media;
+        return `<figure class="gallery-item${landscape}">${framed}<figcaption>${cap}${g.sub ? `<span>${esc(g.sub)}</span>` : ""}</figcaption></figure>`;
       })
       .join("\n        ");
     return `<section class="block block-gallery">
       ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
       ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
-      <div class="gallery${b.wide ? " gallery-wide" : ""}">
+      <div class="gallery${b.wide ? " gallery-wide" : ""}${b.framed ? " gallery-framed" : ""}"${b.aspect ? ` style="--frame-aspect: ${esc(b.aspect)}"` : ""}>
         ${items}
       </div>
     </section>`;
@@ -273,7 +334,7 @@ const blockRenderers = {
     const items = b.items
       .map((v) => {
         const cap = v.caption
-          ? `<figcaption>${v.href ? `<a${linkAttrs(v.href)}>${esc(v.caption)}</a>` : esc(v.caption)}</figcaption>`
+          ? `<figcaption>${v.href ? `<a${linkAttrs(v.href)}>${withExternalIcon(v.caption)}<span class="visually-hidden"> (opens in new tab)</span></a>` : esc(v.caption)}</figcaption>`
           : "";
         return `<figure class="video">
           <div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/${esc(v.id)}" title="${esc(v.caption || "cPALSs video")}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -294,7 +355,14 @@ const blockRenderers = {
       .map(
         (g) => `<div class="credit-group">
           ${g.heading ? `<h3>${esc(g.heading)}</h3>` : ""}
-          <ul>${g.lines.map((l) => `<li>${esc(l)}</li>`).join("")}</ul>
+          <ul>${g.lines
+            .map((l) => {
+              const [role, name] = l.includes(" | ") ? l.split(" | ") : [null, l];
+              return role
+                ? `<li class="has-role">${esc(name)}<span class="credit-role">${esc(role)}</span></li>`
+                : `<li>${esc(name)}</li>`;
+            })
+            .join("")}</ul>
         </div>`
       )
       .join("\n        ");
@@ -339,7 +407,8 @@ function renderPage(page) {
   const blocks = (page.blocks || []).map((b) => {
     const fn = blockRenderers[b.type];
     if (!fn) throw new Error(`Unknown block type "${b.type}" on ${page.path}`);
-    return fn(b);
+    const html = fn(b);
+    return b.id ? html.replace("<section ", `<section id="${esc(b.id)}" `) : html;
   });
   return `<!DOCTYPE html>
 <html lang="en">
@@ -370,7 +439,8 @@ function renderRedirect(to) {
   <link rel="canonical" href="${esc(target)}" />
   <meta name="robots" content="noindex" />
   <meta http-equiv="refresh" content="0; url=${esc(to)}" />
-  <script>location.replace(${JSON.stringify(to)} + location.search + location.hash);</script>
+  <script>var t = ${JSON.stringify(to)}, i = t.indexOf("#");
+  location.replace(i < 0 ? t + location.search + location.hash : t.slice(0, i) + location.search + t.slice(i));</script>
 </head>
 <body><p><a href="${esc(to)}">Continue to ${esc(target)}</a></p></body>
 </html>

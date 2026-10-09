@@ -20,7 +20,7 @@
       "label": "About",
       "href": "/about/",
       "children": [
-        { "label": "About", "href": "/about/" },
+        { "label": "Mission & History", "href": "/about/" },
         { "label": "Team", "href": "/about/team/" }
       ]
     },
@@ -36,10 +36,8 @@
       "label": "Little Saigon",
       "href": "/little-saigon/",
       "children": [
-        { "label": "Little Saigon", "href": "/little-saigon/" },
-        { "label": "Resolutions", "href": "/little-saigon/resolutions/" },
+        { "label": "About Little Saigon", "href": "/little-saigon/" },
         { "label": "Stories", "href": "/little-saigon/stories/" },
-        { "label": "Visuals", "href": "/little-saigon/visuals/" },
         { "label": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
         { "label": "15th Anniversary Gala", "href": "/little-saigon/15th-anniversary-gala/" }
       ]
@@ -74,7 +72,7 @@
     },
     {
       "path": "/about/",
-      "title": "About",
+      "title": "Mission & History",
       "description": "The mission and history of Community Partners Advocate of Little Saigon Sacramento (cPALSs), a 501(c)(3) nonprofit founded in 2012.",
       "blocks": [
         {
@@ -188,11 +186,10 @@
             },
             {
               "title": "Phở for Seniors",
-              "href": "/projects/pho-for-seniors/",
+              "href": "https://phoforseniors.cpalss.com",
               "image": "/assets/projects/pho-for-seniors.jpg",
               "imageAlt": "Phở for Seniors",
-              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back. Sign-ups are open.",
-              "more": { "label": "Sign up at phoforseniors.cpalss.com", "href": "https://phoforseniors.cpalss.com" }
+              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back. Sign-ups are open."
             }
           ]
         }
@@ -207,8 +204,10 @@
         {
           "type": "gallery",
           "heading": "Past Fliers",
+          "framed": true,
+          "noun": "flier",
           "items": [
-            { "image": "/assets/installation-gala/2025.jpg", "caption": "2025", "href": "/little-saigon/15th-anniversary-gala/" },
+            { "image": "/assets/installation-gala/2025.jpg", "caption": "2025", "href": "/little-saigon/15th-anniversary-gala/", "hrefLabel": "Event page" },
             { "image": "/assets/installation-gala/2024.jpg", "caption": "2024" },
             { "image": "/assets/installation-gala/2023.jpg", "caption": "2023" },
             { "image": "/assets/installation-gala/2019.jpg", "caption": "2019" },
@@ -222,30 +221,8 @@
       ]
     },
     {
-      "path": "/projects/pho-for-seniors/",
-      "aliases": ["/projects/phở-for-seniors/"],
-      "title": "Phở for Seniors",
-      "description": "Phở for Seniors: cPALSs supported local small businesses and underserved seniors during the COVID-19 pandemic.",
-      "breadcrumb": [{ "label": "Projects", "href": "/projects/" }],
-      "blocks": [
-        {
-          "type": "feature",
-          "image": "/assets/pho-for-seniors/pho-for-seniors.jpg",
-          "imageAlt": "Phở for Seniors",
-          "body": "In the spirit of philanthropy and supporting local small businesses, in 2020 we came together to share love and spreading generosity to those that are in need in our local underserved community during the COVID-19 pandemic. Phở for Seniors is coming back.",
-          "paragraphs": [
-            "Date and location coming soon. Seniors, families, senior centers, volunteers, students, and restaurants can sign up now at <a href=\"https://phoforseniors.cpalss.com\">phoforseniors.cpalss.com</a>."
-          ]
-        },
-        {
-          "type": "links",
-          "items": [{ "label": "Sign up a senior or volunteer", "href": "https://phoforseniors.cpalss.com" }]
-        }
-      ]
-    },
-    {
       "path": "/little-saigon/",
-      "title": "Little Saigon",
+      "title": "About Little Saigon",
       "description": "Little Saigon Sacramento: a two-mile cultural district on Stockton Blvd between Fruitridge Road and Florin Road, designated in 2010.",
       "blocks": [
         {
@@ -263,11 +240,36 @@
         {
           "type": "cards",
           "items": [
-            { "title": "Resolutions", "href": "/little-saigon/resolutions/", "body": "Official recognitions" },
             { "title": "Stories", "href": "/little-saigon/stories/", "body": "Articles and videos covering the Little Saigon area and its community" },
-            { "title": "Visuals", "href": "/little-saigon/visuals/", "body": "Interesting sights adorning the district" },
             { "title": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
             { "title": "15th Anniversary of Little Saigon Designation Gala", "href": "/little-saigon/15th-anniversary-gala/" }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "resolutions",
+          "heading": "Resolutions",
+          "lead": "Official recognitions of Little Saigon Sacramento.",
+          "wide": true,
+          "items": [
+            { "image": "/assets/resolutions/county-resolution.jpg", "caption": "County Resolution" },
+            { "image": "/assets/resolutions/city-resolution.jpg", "caption": "City Resolution" },
+            { "image": "/assets/resolutions/city-report-to-council.jpg", "caption": "City of Sacramento — Report to Council (PDF)", "href": "/assets/resolutions/city-report-to-council-2010.pdf" },
+            { "image": "/assets/resolutions/state-treasurer-recognition.jpg", "caption": "State Treasurer Fiona Ma recognition of 15th Anniversary of Little Saigon" }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "visuals",
+          "heading": "Visuals",
+          "framed": true,
+          "aspect": "1 / 2",
+          "fit": "cover",
+          "lead": "Street banners adorning the district are supported by the <a href=\"https://stocktonblvdpartnership.org/\">Stockton Boulevard Partnership</a>, and have rotated every few years.",
+          "items": [
+            { "image": "/assets/visuals/banner-current.png", "caption": "Current banner" },
+            { "image": "/assets/visuals/banner-2020.png", "caption": "2020 banner" },
+            { "image": "/assets/visuals/banner-2018.jpg", "caption": "2018 banner", "sub": "Photo: Barbara L. Steinberg" }
           ]
         },
         {
@@ -277,24 +279,6 @@
           "imageHref": "https://stocktonblvdpartnership.org/",
           "paragraphs": [
             "The Little Saigon District is located within the <a href=\"https://stocktonblvdpartnership.org/\">Stockton Boulevard Partnership</a> corridor as well. SBP is a 501(c)(6) organization and is a collaborative effort of property and business owners along Stockton Boulevard working to address issues impacting the business corridor."
-          ]
-        }
-      ]
-    },
-    {
-      "path": "/little-saigon/resolutions/",
-      "title": "Resolutions",
-      "description": "Official recognitions of Little Saigon Sacramento: Sacramento County and City of Sacramento resolutions, and California State Treasurer recognition.",
-      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
-      "blocks": [
-        {
-          "type": "gallery",
-          "wide": true,
-          "items": [
-            { "image": "/assets/resolutions/county-resolution.jpg", "caption": "County Resolution" },
-            { "image": "/assets/resolutions/city-resolution.jpg", "caption": "City Resolution" },
-            { "image": "/assets/resolutions/city-report-to-council.jpg", "caption": "City of Sacramento — Report to Council (PDF)", "href": "https://sacramento.granicus.com/MetaViewer.php?view_id=8&clip_id=2188&meta_id=190689" },
-            { "image": "/assets/resolutions/state-treasurer-recognition.jpg", "caption": "State Treasurer Fiona Ma recognition of cPALSs hosting the 15th Anniversary of Little Saigon Designation Gala" }
           ]
         }
       ]
@@ -319,7 +303,7 @@
             { "date": "Jan 27, 2019", "source": "Stockton Boulevard Partnership", "title": "Stockton Boulevard Destination: Little Saigon 2019", "href": "https://stocktonblvdpartnership.org/stockton-boulevard-destination-little-saigon-2019/" },
             { "date": "May 7, 2015", "source": "Sacramento Bee", "title": "40 years after Vietnam's fall, one Sacramento family remembers", "href": "https://www.sacbee.com/news/local/history/article20390895.html" },
             { "date": "Apr 30, 2015", "source": "KCRA", "title": "40 years after Saigon, Sacramento's Vietnamese community reflects", "href": "https://www.kcra.com/article/40-years-after-saigon-sacramento-s-vietnamese-community-reflects/6422157" },
-            { "date": "Feb 2, 2010", "source": "City of Sacramento", "title": "Report to Council — Resolution Designating a Portion of the Stockton Boulevard Corridor as \"Little Saigon\"", "href": "https://sacramento.granicus.com/MetaViewer.php?view_id=8&clip_id=2188&meta_id=190689" }
+            { "date": "Feb 2, 2010", "source": "City of Sacramento", "title": "Report to Council — Resolution Designating a Portion of the Stockton Boulevard Corridor as \"Little Saigon\"", "href": "/assets/resolutions/city-report-to-council-2010.pdf" }
           ]
         },
         {
@@ -329,7 +313,6 @@
           "items": [
             { "id": "dwCPyelj93U", "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - History" },
             { "id": "pvZe4TZIj9s", "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - Future" },
-            { "id": "jkpMmW2TjTI", "caption": "Feb 13, 2010 — KCRA: Stretch Of Stockton Blvd. Named Little Saigon" },
             { "id": "P7lTHhbDUmw", "caption": "May 28, 2025 — KCRA: The rich, resilient history of Sacramento's Little Saigon neighborhood", "href": "https://www.kcra.com/article/sacramento-little-saigon-neighborhood/64910396" },
             { "id": "V6FuyyGAsXE", "caption": "May 27, 2025 — KCRA: How the Sacramento area sparked a Vietnamese-American nail revolution with help from a Hollywood star", "href": "https://www.kcra.com/article/california-vietnamese-american-nail-revolution-tippi-hedren/64896702" },
             { "id": "uUh6w5I1TfU", "caption": "May 22, 2024 — FOX40: A taste of Little Saigon" },
@@ -338,24 +321,8 @@
             { "id": "75o7HzMdPuk", "caption": "Sep 30, 2021 — ABC10: Sacramento's Vietnamese community welcomes incoming Afghan refugees through letters | NorCal Strong" },
             { "id": "qn3LvES41PQ", "caption": "Feb 25, 2021 — CapRadio: Drive-Through Lunar New Year, Sacramento" },
             { "id": "m2GbzQnWH1A", "caption": "Jun 16, 2020 — Sacramento Bee: Can Sacramento's Little Saigon business district survive the economic shutdown?", "href": "https://www.sacbee.com/news/local/sacramento-tipping-point/article243037311.html" },
-            { "id": "RJj3ae7AQ9w", "caption": "Feb 7, 2012 — Little Saigon TV: Tet Parade 2012 - Little Saigon - Sacramento, California" }
-          ]
-        }
-      ]
-    },
-    {
-      "path": "/little-saigon/visuals/",
-      "title": "Visuals",
-      "description": "Interesting sights adorning Sacramento's Little Saigon district, including the Stockton Boulevard Partnership street banners.",
-      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
-      "blocks": [
-        {
-          "type": "gallery",
-          "heading": "Banners",
-          "lead": "The banners are supported by the <a href=\"https://stocktonblvdpartnership.org/\">Stockton Boulevard Partnership</a>, and has rotated every few years.",
-          "items": [
-            { "image": "/assets/visuals/banner-current.png", "caption": "Current" },
-            { "image": "/assets/visuals/banner-2020.png", "caption": "2020" }
+            { "id": "RJj3ae7AQ9w", "caption": "Feb 7, 2012 — Little Saigon TV: Tet Parade 2012 - Little Saigon - Sacramento, California" },
+            { "id": "jkpMmW2TjTI", "caption": "Feb 13, 2010 — KCRA: Stretch Of Stockton Blvd. Named Little Saigon" }
           ]
         }
       ]
@@ -418,6 +385,10 @@
   ],
   "redirects": [
     { "from": "/home/", "to": "/" },
-    { "from": "/projects/mid-autumn-festival/", "to": "https://greatlantern.com/resources/media/#posters" }
+    { "from": "/projects/mid-autumn-festival/", "to": "https://greatlantern.com/resources/media/#posters" },
+    { "from": "/little-saigon/resolutions/", "to": "/little-saigon/#resolutions" },
+    { "from": "/little-saigon/visuals/", "to": "/little-saigon/#visuals" },
+    { "from": "/projects/pho-for-seniors/", "to": "https://phoforseniors.cpalss.com/" },
+    { "from": "/projects/phở-for-seniors/", "to": "https://phoforseniors.cpalss.com/" }
   ]
 }

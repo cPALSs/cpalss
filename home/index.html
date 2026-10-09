@@ -6,7 +6,8 @@
   <link rel="canonical" href="https://cpalss.com/" />
   <meta name="robots" content="noindex" />
   <meta http-equiv="refresh" content="0; url=/" />
-  <script>location.replace("/" + location.search + location.hash);</script>
+  <script>var t = "/", i = t.indexOf("#");
+  location.replace(i < 0 ? t + location.search + location.hash : t.slice(0, i) + location.search + t.slice(i));</script>
 </head>
 <body><p><a href="/">Continue to https://cpalss.com/</a></p></body>
 </html>
