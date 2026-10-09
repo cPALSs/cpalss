@@ -255,12 +255,15 @@ const blockRenderers = {
     </section>`;
   },
   projects(b) {
-    const items = b.items
+    const sortKey = (p) => p.next?.sort || "\uffff";
+    const list = b.sortByNext ? [...b.items].sort((a, z) => sortKey(a).localeCompare(sortKey(z))) : b.items;
+    const items = list
       .map(
         (p) => `<article class="project">
-          <a class="project-media"${linkAttrs(p.href)}>${img(p.image, p.imageAlt)}</a>
+          <a class="project-media"${linkAttrs(p.href)}>${img(p.image, p.imageAlt, p.imagePosition ? ` style="object-position: ${esc(p.imagePosition)}"` : "")}</a>
           <div class="project-body">
             <h3><a${linkAttrs(p.href)}>${esc(p.title)}${isExternal(p.href) ? ' <span class="ext" aria-hidden="true">↗</span>' : ""}</a></h3>
+            ${p.next ? `<p class="project-next">${p.next.sort ? "Next: " : ""}<strong>${esc(p.next.label)}</strong>${p.next.status ? ` <span class="project-next-status">${esc(p.next.status)}</span>` : ""}</p>` : ""}
             <p>${p.body}</p>
             ${p.more ? `<p class="project-more"><a${linkAttrs(p.more.href)}>${esc(p.more.label)} →</a></p>` : ""}
           </div>
@@ -269,6 +272,7 @@ const blockRenderers = {
       .join("\n        ");
     return `<section class="block block-projects">
       <h2>${esc(b.heading)}</h2>
+      ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
       <div class="project-list">
         ${items}
       </div>
@@ -385,7 +389,7 @@ function renderPageHeader(page) {
       <img class="hero-image" src="${esc(h.image)}" alt="${esc(h.imageAlt)}" fetchpriority="high" />
       <div class="hero-scrim" aria-hidden="true"></div>
       <div class="hero-inner">
-        <p class="hero-kicker">${esc(h.kicker)}</p>
+        ${h.kicker ? `<p class="hero-kicker">${esc(h.kicker)}</p>` : ""}
         <h1 class="hero-title">${esc(h.title)}</h1>
         <div class="hero-cta">${ctas}</div>
       </div>
@@ -469,7 +473,7 @@ write(
       {
         type: "text",
         paragraphs: [
-          'That page isn’t here. Try the <a href="/">home page</a>, <a href="/projects/">projects</a>, or <a href="/little-saigon/">Little Saigon</a>.',
+          'That page isn’t here. Try the <a href="/">home page</a>, <a href="/#projects">projects</a>, or <a href="/little-saigon/">Little Saigon</a>.',
         ],
       },
     ],

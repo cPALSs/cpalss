@@ -24,7 +24,6 @@
         { "label": "Team", "href": "/about/team/" }
       ]
     },
-    { "label": "Projects", "href": "/projects/" },
     {
       "label": "Resources",
       "children": [
@@ -49,12 +48,11 @@
       "title": "Community Partners Advocate of Little Saigon Sacramento",
       "description": "cPALSs connects community partners with residents, resources, and recreation in Sacramento's Little Saigon and Greater Sacramento.",
       "hero": {
-        "kicker": "cPALSs",
         "title": "Community Partners Advocate of Little Saigon Sacramento",
         "image": "/assets/home/community-holiday-stage.jpg",
         "imageAlt": "cPALSs board, volunteers, and pageant titleholders on stage at the Elk Grove Toy Drive Celebration",
         "ctas": [
-          { "label": "Our projects", "href": "/projects/" },
+          { "label": "Our projects", "href": "#projects" },
           { "label": "Donate", "href": "https://www.zeffy.com/en-US/peer-to-peer/uplifting-community", "style": "ghost" }
         ]
       },
@@ -62,10 +60,68 @@
         {
           "type": "text",
           "heading": "UPLIFTING",
-          "lead": "Uniting People with Leaders to Innovate and Flourish Together through Inspiration, Nobility and Goodwill.",
+          "lead": "<span class=\"visually-hidden\">Uniting People with Leaders to Innovate and Flourish Together through Inspiration, Nobility and Goodwill</span><span aria-hidden=\"true\"><span class=\"acrostic\">U</span>niting <span class=\"acrostic\">P</span>eople with <span class=\"acrostic\">L</span>eaders to <span class=\"acrostic\">I</span>nnovate and <span class=\"acrostic\">F</span>lourish <span class=\"acrostic\">T</span>ogether through <span class=\"acrostic\">I</span>nspiration, <span class=\"acrostic\">N</span>obility and <span class=\"acrostic\">G</span>oodwill</span>",
           "paragraphs": [
             "Our mission is to engage in community development and enrichment by supporting and connecting community partners with residences, resources, recreations, and referral resources, such as local business services, statewide government assistance programs, and other community resources to local underserved communities.",
             "Seeing a need for energetic, nonprofit work in this area, we formed our organization to provide sensible solutions. We've consistently grown since then, all thanks to the helping hands of this amazing community!"
+          ]
+        },
+        {
+          "type": "projects",
+          "id": "projects",
+          "heading": "Projects",
+          "lead": "Our recurring and ongoing projects, in order of what's coming up next.",
+          "sortByNext": true,
+          "items": [
+            {
+              "title": "Phở for Seniors",
+              "href": "https://phoforseniors.cpalss.com",
+              "image": "/assets/projects/pho-for-seniors.jpg",
+              "imageAlt": "Phở for Seniors",
+              "next": { "label": "November 2026", "sort": "2026-11", "status": "estimated" },
+              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back. Sign-ups are open."
+            },
+            {
+              "title": "Elk Grove Toy Drive Celebration",
+              "href": "https://elkgrovetoydrive.com",
+              "image": "/assets/projects/elk-grove-toy-drive.jpg",
+              "imageAlt": "Community members on stage at the Elk Grove Toy Drive Celebration",
+              "next": { "label": "Sun, Dec 6, 2026", "sort": "2026-12-06", "status": "tentative" },
+              "body": "The annual Elk Grove Toy Drive Celebration engages the community in holiday celebrations while collecting toys to donate to local charities supporting children in need."
+            },
+            {
+              "title": "Miss & Miss Teen Vietnam of Northern California",
+              "href": "https://facebook.com/MissVietnamNorthernCalifornia",
+              "image": "/assets/projects/miss-vietnam-norcal.jpg",
+              "imageAlt": "Miss & Miss Teen Vietnam of Northern California titleholders with bouquets on stage",
+              "next": { "label": "July 2027", "sort": "2027-07", "status": "estimated" },
+              "body": "Miss & Miss Teen Vietnam Northern California empowers young Vietnamese American women to achieve their goals and make a difference in the community."
+            },
+            {
+              "title": "Lunar New Year Tết",
+              "href": "https://eglny.com",
+              "image": "/assets/projects/lunar-new-year.jpg",
+              "imageAlt": "Elk Grove Lunar New Year Tết",
+              "next": { "label": "Sat–Sun, Feb 13–14, 2027", "sort": "2027-02-13" },
+              "body": "Tết celebrates Vietnamese and Asian heritage, preserving traditions and family bonds while building cultural pride and cross-cultural unity across our diverse region."
+            },
+            {
+              "title": "Installation Gala",
+              "href": "/projects/installation-gala/",
+              "image": "/assets/projects/installation-gala.jpg",
+              "imageAlt": "15th Anniversary of Little Saigon Designation Gala flyer",
+              "imagePosition": "center top",
+              "next": { "label": "August 2027", "sort": "2027-08", "status": "estimated" },
+              "body": "The annual Installation Gala is a banquet that honors the accomplishments of community members."
+            },
+            {
+              "title": "Great Lantern Festival",
+              "href": "https://greatlantern.com",
+              "image": "/assets/projects/great-lantern-festival.jpg",
+              "imageAlt": "Great Lantern Festival",
+              "next": { "label": "September 2027", "sort": "2027-09", "status": "estimated" },
+              "body": "Our Mid-Autumn Festival, where families gather to appreciate the full moon and give thanks for the harvest."
+            }
           ]
         }
       ]
@@ -99,7 +155,7 @@
       "path": "/about/team/",
       "title": "Team",
       "description": "The cPALSs Board of Directors, committee chairs, and Advisory Board for 2026–2027.",
-      "intro": "Interested in volunteering as a board member, or any of our <a href=\"/projects/\">projects</a>? Send us a message at <a href=\"mailto:Contact@cPALSs.com\">Contact@cPALSs.com</a> and we'll get back to you!",
+      "intro": "Interested in volunteering as a board member, or any of our <a href=\"/#projects\">projects</a>? Send us a message at <a href=\"mailto:Contact@cPALSs.com\">Contact@cPALSs.com</a> and we'll get back to you!",
       "blocks": [
         {
           "type": "people",
@@ -141,65 +197,10 @@
       ]
     },
     {
-      "path": "/projects/",
-      "title": "Projects",
-      "description": "cPALSs recurring projects: Miss & Miss Teen Vietnam of Northern California, Lunar New Year Tết, the Installation Gala, the Great Lantern Festival, the Elk Grove Toy Drive Celebration, and Phở for Seniors.",
-      "blocks": [
-        {
-          "type": "projects",
-          "heading": "Recurring & Ongoing Projects",
-          "items": [
-            {
-              "title": "Miss & Miss Teen Vietnam of Northern California",
-              "href": "https://facebook.com/MissVietnamNorthernCalifornia",
-              "image": "/assets/projects/miss-vietnam-norcal.jpg",
-              "imageAlt": "Miss & Miss Teen Vietnam of Northern California titleholders with bouquets on stage",
-              "body": "Miss & Miss Teen Vietnam Northern California empowers young Vietnamese American women to achieve their goals and make a difference in the community."
-            },
-            {
-              "title": "Lunar New Year Tết",
-              "href": "https://eglny.com",
-              "image": "/assets/projects/lunar-new-year.jpg",
-              "imageAlt": "Elk Grove Lunar New Year Tết",
-              "body": "Lunar New Year Tết celebrates Vietnamese and Asian heritage by preserving traditions, fostering family bonds, instilling cultural pride in younger generations. It also promotes cross-cultural unity in the region’s diverse community, offering residents a chance to experience and appreciate different traditions."
-            },
-            {
-              "title": "Installation Gala",
-              "href": "/projects/installation-gala/",
-              "image": "/assets/projects/installation-gala.jpg",
-              "imageAlt": "15th Anniversary of Little Saigon Designation Gala flyer",
-              "body": "The annual Installation Gala is a banquet that honors the accomplishments of community members."
-            },
-            {
-              "title": "Great Lantern Festival",
-              "href": "https://greatlantern.com",
-              "image": "/assets/projects/great-lantern-festival.jpg",
-              "imageAlt": "Great Lantern Festival",
-              "body": "The Mid-Autumn Festival is a time for families to gather, appreciate the full moon, and give thanks for the harvest. The festival is branded as the Great Lantern Festival."
-            },
-            {
-              "title": "Elk Grove Toy Drive Celebration",
-              "href": "https://elkgrovetoydrive.com",
-              "image": "/assets/projects/elk-grove-toy-drive.jpg",
-              "imageAlt": "Community members on stage at the Elk Grove Toy Drive Celebration",
-              "body": "The annual Elk Grove Toy Drive Celebration engages the community in holiday celebrations while collecting toys to donate to local charities supporting children in need."
-            },
-            {
-              "title": "Phở for Seniors",
-              "href": "https://phoforseniors.cpalss.com",
-              "image": "/assets/projects/pho-for-seniors.jpg",
-              "imageAlt": "Phở for Seniors",
-              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back. Sign-ups are open."
-            }
-          ]
-        }
-      ]
-    },
-    {
       "path": "/projects/installation-gala/",
       "title": "Installation Gala",
       "description": "The cPALSs annual Installation Gala honors the accomplishments of community members. Past fliers from 2013 to 2025.",
-      "breadcrumb": [{ "label": "Projects", "href": "/projects/" }],
+      "breadcrumb": [{ "label": "Projects", "href": "/#projects" }],
       "blocks": [
         {
           "type": "gallery",
@@ -385,6 +386,7 @@
   ],
   "redirects": [
     { "from": "/home/", "to": "/" },
+    { "from": "/projects/", "to": "/#projects" },
     { "from": "/projects/mid-autumn-festival/", "to": "https://greatlantern.com/resources/media/#posters" },
     { "from": "/little-saigon/resolutions/", "to": "/little-saigon/#resolutions" },
     { "from": "/little-saigon/visuals/", "to": "/little-saigon/#visuals" },

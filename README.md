@@ -29,6 +29,8 @@ Generated HTML is committed (GitHub Pages serves it as-is) — always rerun `nod
 
 **Team page:** keep in sync with the Board roster in the latest Board minutes. Committee Chairs lists year-round standing committees only — not seasonal project chairs (e.g. Toy Drive). Open officer or standing-committee seats use `{ "open": true, ... }` with a mailto CTA.
 
+**Projects (home page `#projects`):** each project has `next: { label, sort, status }`. `sort` is `YYYY-MM` or `YYYY-MM-DD` and orders the list (`sortByNext`); items without one go last. `status` (`estimated` / `tentative`) shows as a pill — omit it once a date is confirmed. Roll `next` forward after each event. `/projects/` redirects to `/#projects`.
+
 **Aliases / redirects:** `pages[].aliases` and top-level `redirects` write small redirect pages (e.g. `/home/` → `/`, `/projects/pho-for-seniors/` and the old Unicode `/projects/phở-for-seniors/` → `https://phoforseniors.cpalss.com/`).
 
 **Framed galleries:** `"framed": true` on a `gallery` block puts each image in a 4:5 box — portrait images cover-fill it, landscape images (detected from the file's pixel size at build time) fit the width with space above and below.
