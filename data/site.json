@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "siteName": "cPALSs",
+    "orgName": "Community Partners Advocate of Little Saigon Sacramento",
+    "canonicalBase": "https://cpalss.com",
+    "analyticsId": "G-31M3604P57",
+    "email": "Contact@cPALSs.com",
+    "defaultDescription": "Community Partners Advocate of Little Saigon Sacramento (cPALSs) connects community partners with residents, resources, and recreation in Sacramento's Little Saigon and Greater Sacramento.",
+    "ogImage": "/assets/og-default.jpg",
+    "social": [
+      { "label": "Facebook", "url": "https://facebook.com/cpalss/" },
+      { "label": "Instagram", "url": "https://www.instagram.com/cpalss.uplifting/" },
+      { "label": "YouTube", "url": "https://youtube.com/@cpalss" }
+    ],
+    "donateUrl": "https://www.zeffy.com/en-US/peer-to-peer/uplifting-community"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    {
+      "label": "About",
+      "href": "/about/",
+      "children": [
+        { "label": "About", "href": "/about/" },
+        { "label": "Team", "href": "/about/team/" }
+      ]
+    },
+    { "label": "Projects", "href": "/projects/" },
+    {
+      "label": "Resources",
+      "children": [
+        { "label": "Viet Youth Resources", "href": "https://youth.cpalss.com/" },
+        { "label": "Festival Season Network", "href": "https://festival.cpalss.com/" }
+      ]
+    },
+    {
+      "label": "Little Saigon",
+      "href": "/little-saigon/",
+      "children": [
+        { "label": "Little Saigon", "href": "/little-saigon/" },
+        { "label": "Resolutions", "href": "/little-saigon/resolutions/" },
+        { "label": "Stories", "href": "/little-saigon/stories/" },
+        { "label": "Visuals", "href": "/little-saigon/visuals/" },
+        { "label": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
+        { "label": "15th Anniversary Gala", "href": "/little-saigon/15th-anniversary-gala/" }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Community Partners Advocate of Little Saigon Sacramento",
+      "description": "cPALSs connects community partners with residents, resources, and recreation in Sacramento's Little Saigon and Greater Sacramento.",
+      "hero": {
+        "kicker": "cPALSs",
+        "title": "Community Partners Advocate of Little Saigon Sacramento",
+        "image": "/assets/home/community-holiday-stage.jpg",
+        "imageAlt": "cPALSs board, volunteers, and pageant titleholders on stage at the Elk Grove Toy Drive Celebration",
+        "ctas": [
+          { "label": "Our projects", "href": "/projects/" },
+          { "label": "Donate", "href": "https://www.zeffy.com/en-US/peer-to-peer/uplifting-community", "style": "ghost" }
+        ]
+      },
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            { "title": "Calendar", "body": "List of community events" },
+            { "title": "Businesses", "body": "“Yellow pages” of businesses supporting cPALSs and the Little Saigon District." },
+            { "title": "Creatives", "body": "Directory of creatives local to Greater Sacramento" }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "UPLIFTING",
+          "lead": "Uniting People with Leaders to Innovate and Flourish Together through Inspiration, Nobility and Goodwill.",
+          "paragraphs": [
+            "Our mission is to engage in community development and enrichment by supporting and connecting community partners with residences, resources, recreations, and referral resources, such as local business services, statewide government assistance programs, and other community resources to local underserved communities.",
+            "Seeing a need for energetic, nonprofit work in this area, we formed our organization to provide sensible solutions. We've consistently grown since then, all thanks to the helping hands of this amazing community!"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/about/",
+      "title": "About",
+      "description": "The mission and history of Community Partners Advocate of Little Saigon Sacramento (cPALSs), a 501(c)(3) nonprofit founded in 2012.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Mission",
+          "paragraphs": [
+            "Our mission is to engage in community development and enrichment by supporting and connecting community partners with residences, resources, recreations, and referral resources, such as local business services, statewide government assistance programs, and other community resources to local underserved communities."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "History",
+          "paragraphs": [
+            "The organization was registered in the State of California in 2012 originally under the name Greater Sacramento Vietnamese Foundation, and received its 501(c)(3) tax-exempt status in 2016. In 2019, the organization was renamed to Community Partners Advocate of Little Saigon Sacramento."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [{ "label": "Meet the team", "href": "/about/team/" }]
+        }
+      ]
+    },
+    {
+      "path": "/about/team/",
+      "title": "Team",
+      "description": "The cPALSs Board of Directors, committee chairs, and Advisory Board for 2026–2027.",
+      "intro": "Interested in volunteering as a board member, or any of our <a href=\"/projects/\">projects</a>? Send us a message at <a href=\"mailto:Contact@cPALSs.com\">Contact@cPALSs.com</a> and we'll get back to you!",
+      "blocks": [
+        {
+          "type": "people",
+          "heading": "Board of Directors (2026–2027)",
+          "items": [
+            { "name": "Ellie King", "roles": ["Chair", "Toy Drive Chair", "Community Resources Chair"], "photo": "/assets/team/ellie-king.jpg" },
+            { "name": "Bao Thien Ngo", "roles": ["Vice Chair", "Festivals Chair", "Operations Chair"], "photo": "/assets/team/bao-thien-ngo.jpg" },
+            { "name": "Mamie Yee", "roles": ["Interim Treasurer", "Finance Chair"], "photo": "/assets/team/mamie-yee.jpg" },
+            { "name": "Dai Nguyen", "roles": ["Director of Community Events", "Community Pageant Co-Chair"], "photo": "/assets/team/dai-nguyen.jpg" },
+            { "open": true, "name": "Secretary", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Secretary%20interest" } }
+          ]
+        },
+        {
+          "type": "people",
+          "heading": "Committee Chairs",
+          "items": [
+            { "name": "Sophia Nguyen", "roles": ["Community Pageant Co-Chair", "Executive Director of Miss & Miss Teen Vietnam of NorCal Pageant"], "photo": "/assets/team/sophia-nguyen.jpg" },
+            { "name": "Vu N. Tran", "roles": ["College Student Liaison Chair"], "photo": "/assets/team/vu-n-tran.jpg" },
+            { "open": true, "name": "Toy Drive Co-Chair", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=Toy%20Drive%20Co-Chair%20interest" } }
+          ]
+        },
+        {
+          "type": "people",
+          "heading": "Advisory Board",
+          "items": [
+            { "name": "Kevin P. Nguyen", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/kevin-p-nguyen.jpg" },
+            { "name": "Mamie Yee", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/mamie-yee.jpg" },
+            { "name": "Nikki Nguyen", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/nikki-nguyen.jpg" },
+            { "name": "Kenrick W. Young", "roles": ["Legal Counsel"], "photo": "/assets/team/kenrick-w-young.jpg" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/projects/",
+      "title": "Projects",
+      "description": "cPALSs recurring projects: Miss & Miss Teen Vietnam of Northern California, Lunar New Year Tết, the Installation Gala, the Great Lantern Festival, and the Elk Grove Toy Drive Celebration.",
+      "blocks": [
+        {
+          "type": "projects",
+          "heading": "Recurring & Ongoing Projects",
+          "items": [
+            {
+              "title": "Miss & Miss Teen Vietnam of Northern California",
+              "href": "https://facebook.com/MissVietnamNorthernCalifornia",
+              "image": "/assets/projects/miss-vietnam-norcal.jpg",
+              "imageAlt": "Miss & Miss Teen Vietnam of Northern California titleholders with bouquets on stage",
+              "body": "Miss & Miss Teen Vietnam Northern California empowers young Vietnamese American women to achieve their goals and make a difference in the community."
+            },
+            {
+              "title": "Lunar New Year Tết",
+              "href": "https://eglny.com",
+              "image": "/assets/projects/lunar-new-year.jpg",
+              "imageAlt": "Elk Grove Lunar New Year Tết",
+              "body": "Lunar New Year Tết celebrates Vietnamese and Asian heritage by preserving traditions, fostering family bonds, instilling cultural pride in younger generations. It also promotes cross-cultural unity in the region’s diverse community, offering residents a chance to experience and appreciate different traditions."
+            },
+            {
+              "title": "Installation Gala",
+              "href": "/projects/installation-gala/",
+              "image": "/assets/projects/installation-gala.jpg",
+              "imageAlt": "15th Anniversary of Little Saigon Designation Gala flyer",
+              "body": "The annual Installation Gala is a banquet that honors the accomplishments of community members."
+            },
+            {
+              "title": "Great Lantern Festival",
+              "href": "https://greatlantern.com",
+              "image": "/assets/projects/great-lantern-festival.jpg",
+              "imageAlt": "Great Lantern Festival",
+              "body": "The Mid-Autumn Festival is a time for families to gather, appreciate the full moon, and give thanks for the harvest. The festival is branded as the Great Lantern Festival.",
+              "more": { "label": "Past Mid-Autumn fliers", "href": "/projects/mid-autumn-festival/" }
+            },
+            {
+              "title": "Elk Grove Toy Drive Celebration",
+              "href": "https://elkgrovetoydrive.com",
+              "image": "/assets/projects/elk-grove-toy-drive.jpg",
+              "imageAlt": "Community members on stage at the Elk Grove Toy Drive Celebration",
+              "body": "The annual Elk Grove Toy Drive Celebration engages the community in holiday celebrations while collecting toys to donate to local charities supporting children in need."
+            }
+          ]
+        },
+        {
+          "type": "projects",
+          "heading": "Archives",
+          "items": [
+            {
+              "title": "Phở for Seniors",
+              "href": "/projects/pho-for-seniors/",
+              "image": "/assets/projects/pho-for-seniors.jpg",
+              "imageAlt": "Phở for Seniors",
+              "body": "Helping the underserved during the COVID-19 pandemic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/projects/installation-gala/",
+      "title": "Installation Gala",
+      "description": "The cPALSs annual Installation Gala honors the accomplishments of community members. Past fliers from 2013 to 2025.",
+      "breadcrumb": [{ "label": "Projects", "href": "/projects/" }],
+      "blocks": [
+        {
+          "type": "gallery",
+          "heading": "Past Fliers",
+          "items": [
+            { "image": "/assets/installation-gala/2025.jpg", "caption": "2025", "href": "/little-saigon/15th-anniversary-gala/" },
+            { "image": "/assets/installation-gala/2024.jpg", "caption": "2024" },
+            { "image": "/assets/installation-gala/2023.jpg", "caption": "2023" },
+            { "image": "/assets/installation-gala/2019.jpg", "caption": "2019" },
+            { "image": "/assets/installation-gala/2017.jpg", "caption": "2017" },
+            { "image": "/assets/installation-gala/2016.jpg", "caption": "2016" },
+            { "image": "/assets/installation-gala/2015.jpg", "caption": "2015" },
+            { "image": "/assets/installation-gala/2014.jpg", "caption": "2014" },
+            { "image": "/assets/installation-gala/2013.jpg", "caption": "2013" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/projects/mid-autumn-festival/",
+      "title": "Mid-Autumn Festival",
+      "description": "The cPALSs Mid-Autumn Festival, now branded as the Great Lantern Festival. Past fliers from 2021 to 2024.",
+      "breadcrumb": [{ "label": "Projects", "href": "/projects/" }],
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Great Lantern Festival",
+          "paragraphs": [
+            "The Great Lantern Festival is the new brand name for the Mid-Autumn Festival. Please visit <a href=\"https://greatlantern.com\">greatlantern.com</a> for more details!"
+          ]
+        },
+        {
+          "type": "gallery",
+          "heading": "Past Fliers",
+          "items": [
+            { "image": "/assets/mid-autumn/2024.jpg", "caption": "2024", "sub": "Laguna Town Hall" },
+            { "image": "/assets/mid-autumn/2023.jpg", "caption": "2023", "sub": "Laguna Town Hall" },
+            { "image": "/assets/mid-autumn/2022.jpg", "caption": "2022", "sub": "Florin Towne Centre" },
+            { "image": "/assets/mid-autumn/2021.jpg", "caption": "2021", "sub": "Florin Towne Centre" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/projects/pho-for-seniors/",
+      "aliases": ["/projects/phở-for-seniors/"],
+      "title": "Phở for Seniors",
+      "description": "Phở for Seniors: cPALSs supported local small businesses and underserved seniors during the COVID-19 pandemic.",
+      "breadcrumb": [{ "label": "Projects", "href": "/projects/" }],
+      "blocks": [
+        {
+          "type": "feature",
+          "image": "/assets/pho-for-seniors/pho-for-seniors.jpg",
+          "imageAlt": "Phở for Seniors",
+          "body": "In the spirit of philanthropy and supporting local small businesses, in 2020 we came together to share love and spreading generosity to those that are in need in our local underserved community during the COVID-19 pandemic."
+        }
+      ]
+    },
+    {
+      "path": "/little-saigon/",
+      "title": "Little Saigon",
+      "description": "Little Saigon Sacramento: a two-mile cultural district on Stockton Blvd between Fruitridge Road and Florin Road, designated in 2010.",
+      "blocks": [
+        {
+          "type": "feature",
+          "image": "/assets/little-saigon/banner-current.png",
+          "imageAlt": "Little Saigon Sacramento street banner",
+          "imageNarrow": true,
+          "heading": "Welcome to Little Saigon Sacramento,",
+          "paragraphs": [
+            "a vibrant cultural district that stands as a testament to resilience, community, and the enduring spirit of the Vietnamese-American people. Located along a two-mile stretch of Stockton Boulevard between Fruitridge Road and Florin Road, this thriving neighborhood was officially designated as \"Little Saigon\" in 2010, becoming Sacramento's premier destination for authentic Vietnamese culture, cuisine, and commerce.",
+            "Born from the aftermath of the 1975 Fall of Saigon, when thousands of Vietnamese refugees fled their homeland seeking safety and opportunity, Little Saigon Sacramento represents the remarkable journey of a community that transformed a once-dilapidated corridor into a bustling cultural hub. Today, this dynamic district is home to over 85 restaurants serving everything from steaming bowls of phở to fresh bánh mì sandwiches, along with supermarkets, bakeries, nail salons, and specialty shops that cater to the diverse Asian American and Pacific Islander community.",
+            "As the 10th largest Vietnamese metropolitan population in the United States with over 40,000 residents, Sacramento's Little Saigon serves as both a cultural anchor and a bridge between generations. Here, you'll discover the rich flavors of traditional Vietnamese cuisine, experience the warmth of family-owned businesses that have thrived for decades, and witness the ongoing story of a community that continues to grow, adapt, and celebrate its heritage while embracing the American dream. Whether you're seeking authentic Vietnamese flavors, exploring the area's rich history, or simply looking to experience one of Sacramento's most vibrant cultural districts, Little Saigon welcomes you with open arms and a spirit that honors both the past and the future."
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            { "title": "Resolutions", "href": "/little-saigon/resolutions/", "body": "Official recognitions" },
+            { "title": "Stories", "href": "/little-saigon/stories/", "body": "Articles and videos covering the Little Saigon area and its community" },
+            { "title": "Visuals", "href": "/little-saigon/visuals/", "body": "Interesting sights adorning the district" },
+            { "title": "Businesses", "body": "“Yellow pages” of businesses supporting cPALSs and the Little Saigon District." },
+            { "title": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
+            { "title": "15th Anniversary of Little Saigon Designation Gala", "href": "/little-saigon/15th-anniversary-gala/" }
+          ]
+        },
+        {
+          "type": "feature",
+          "image": "/assets/little-saigon/stockton-boulevard-partnership.png",
+          "imageAlt": "Stockton Boulevard Partnership logo",
+          "imageHref": "https://stocktonblvdpartnership.org/",
+          "paragraphs": [
+            "The Little Saigon District is located within the <a href=\"https://stocktonblvdpartnership.org/\">Stockton Boulevard Partnership</a> corridor as well. SBP is a 501(c)(6) organization and is a collaborative effort of property and business owners along Stockton Boulevard working to address issues impacting the business corridor."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/little-saigon/resolutions/",
+      "title": "Resolutions",
+      "description": "Official recognitions of Little Saigon Sacramento: Sacramento County and City of Sacramento resolutions, and California State Treasurer recognition.",
+      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
+      "blocks": [
+        {
+          "type": "gallery",
+          "wide": true,
+          "items": [
+            { "image": "/assets/resolutions/county-resolution.jpg", "caption": "County Resolution" },
+            { "image": "/assets/resolutions/city-resolution.jpg", "caption": "City Resolution" },
+            { "image": "/assets/resolutions/city-report-to-council.jpg", "caption": "City of Sacramento — Report to Council (PDF)", "href": "https://sacramento.granicus.com/MetaViewer.php?view_id=8&clip_id=2188&meta_id=190689" },
+            { "image": "/assets/resolutions/state-treasurer-recognition.jpg", "caption": "State Treasurer Fiona Ma recognition of cPALSs hosting the 15th Anniversary of Little Saigon Designation Gala" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/little-saigon/stories/",
+      "title": "Stories",
+      "description": "Articles and videos covering Sacramento's Little Saigon and its community, from the 2010 designation to today.",
+      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
+      "blocks": [
+        {
+          "type": "articles",
+          "heading": "Articles",
+          "items": [
+            { "date": "Oct 24, 2024", "source": "Sacramento Bee", "title": "South Sacramento’s ‘pride and joy’: Little Saigon to get archway honoring Vietnamese community", "href": "https://www.sacbee.com/news/equity-lab/representation/article294359109.html" },
+            { "date": "May 22, 2024", "source": "FOX40", "title": "Little Saigon: A Sacramento cultural district rich in AAPI heritage", "href": "https://fox40.com/news/local-news/sacramento/little-saigon-sacramento-aapi-heritage/" },
+            { "date": "Jan 19, 2023", "source": "Visit Sacramento", "title": "Podcast: Get to Know Sacramento's Little Saigon & Stockton Boulevard Partnership", "href": "https://www.visitsacramento.com/blog/stories/post/podcast-get-to-know-sacramentos-little-saigon-stockton-boulevard-partnership/" },
+            { "date": "Mar 1, 2022", "source": "Sacramento News & Review", "title": "From big upheaval to Little Saigon, the artists of Sacramento’s Vietnamese-American community yield powerful voices", "href": "https://sacramento.newsreview.com/2022/03/01/from-big-upheaval-to-little-saigon-the-artists-of-sacramentos-vietnamese-american-community-yield-powerful-voices/" },
+            { "date": "Jun 2, 2021", "source": "FOX40", "title": "Little Saigon celebrates 11th anniversary as hurt businesses emerge from pandemic", "href": "https://fox40.com/news/local-news/little-saigon-celebrates-11th-anniversary-as-hurt-businesses-emerge-from-pandemic/" },
+            { "date": "Feb 11, 2021", "source": "CapRadio", "title": "A Neighborhood In Transition: Sacramento’s Little Saigon Grapples With Culture And The American Dream", "href": "https://www.capradio.org/articles/2021/02/11/a-neighborhood-in-transition-sacramentos-little-saigon-grapples-with-culture-and-the-american-dream/" },
+            { "date": "Oct 20, 2020", "source": "Comstock's Magazine", "title": "Lineage of Success: Family businesses are the heart and soul of Little Saigon in south Sacramento", "href": "https://www.comstocksmag.com/longreads/lineage-success" },
+            { "date": "Jan 27, 2019", "source": "Stockton Boulevard Partnership", "title": "Stockton Boulevard Destination: Little Saigon 2019", "href": "https://stocktonblvdpartnership.org/stockton-boulevard-destination-little-saigon-2019/" },
+            { "date": "May 7, 2015", "source": "Sacramento Bee", "title": "40 years after Vietnam's fall, one Sacramento family remembers", "href": "https://www.sacbee.com/news/local/history/article20390895.html" },
+            { "date": "Apr 30, 2015", "source": "KCRA", "title": "40 years after Saigon, Sacramento's Vietnamese community reflects", "href": "https://www.kcra.com/article/40-years-after-saigon-sacramento-s-vietnamese-community-reflects/6422157" },
+            { "date": "Feb 2, 2010", "source": "City of Sacramento", "title": "Report to Council — Resolution Designating a Portion of the Stockton Boulevard Corridor as \"Little Saigon\"", "href": "https://sacramento.granicus.com/MetaViewer.php?view_id=8&clip_id=2188&meta_id=190689" }
+          ]
+        },
+        {
+          "type": "videos",
+          "heading": "Videos",
+          "lead": "See all videos at the <a href=\"https://youtube.com/@cpalss\">cPALSs YouTube channel</a>.",
+          "items": [
+            { "id": "dwCPyelj93U", "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - History" },
+            { "id": "pvZe4TZIj9s", "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - Future" },
+            { "id": "jkpMmW2TjTI", "caption": "Feb 13, 2010 — KCRA: Stretch Of Stockton Blvd. Named Little Saigon" },
+            { "id": "P7lTHhbDUmw", "caption": "May 28, 2025 — KCRA: The rich, resilient history of Sacramento's Little Saigon neighborhood", "href": "https://www.kcra.com/article/sacramento-little-saigon-neighborhood/64910396" },
+            { "id": "V6FuyyGAsXE", "caption": "May 27, 2025 — KCRA: How the Sacramento area sparked a Vietnamese-American nail revolution with help from a Hollywood star", "href": "https://www.kcra.com/article/california-vietnamese-american-nail-revolution-tippi-hedren/64896702" },
+            { "id": "uUh6w5I1TfU", "caption": "May 22, 2024 — FOX40: A taste of Little Saigon" },
+            { "id": "9ReyuxZ9N9o", "caption": "May 26, 2023 — ABC10: The history of Sacramento's Little Saigon, told through Vietnamese cuisine", "href": "https://www.abc10.com/article/news/local/the-history-of-sacramentos-little-saigon/103-bf59226d-32c2-40e8-b5a9-5315e99a79ca" },
+            { "id": "QVbWwLDlUbk", "caption": "Oct 2, 2021 — KCRA: South Sacramento hosts first annual Mid-Autumn Moon Festival after pandemic caused delays" },
+            { "id": "75o7HzMdPuk", "caption": "Sep 30, 2021 — ABC10: Sacramento's Vietnamese community welcomes incoming Afghan refugees through letters | NorCal Strong" },
+            { "id": "qn3LvES41PQ", "caption": "Feb 25, 2021 — CapRadio: Drive-Through Lunar New Year, Sacramento" },
+            { "id": "m2GbzQnWH1A", "caption": "Jun 16, 2020 — Sacramento Bee: Can Sacramento's Little Saigon business district survive the economic shutdown?", "href": "https://www.sacbee.com/news/local/sacramento-tipping-point/article243037311.html" },
+            { "id": "RJj3ae7AQ9w", "caption": "Feb 7, 2012 — Little Saigon TV: Tet Parade 2012 - Little Saigon - Sacramento, California" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/little-saigon/visuals/",
+      "title": "Visuals",
+      "description": "Interesting sights adorning Sacramento's Little Saigon district, including the Stockton Boulevard Partnership street banners.",
+      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
+      "blocks": [
+        {
+          "type": "gallery",
+          "heading": "Banners",
+          "lead": "The banners are supported by the <a href=\"https://stocktonblvdpartnership.org/\">Stockton Boulevard Partnership</a>, and has rotated every few years.",
+          "items": [
+            { "image": "/assets/visuals/banner-current.png", "caption": "Current" },
+            { "image": "/assets/visuals/banner-2020.png", "caption": "2020" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/little-saigon/15th-anniversary-gala/",
+      "title": "15th Anniversary Gala",
+      "description": "The 15th Anniversary of Little Saigon Designation Gala, hosted by cPALSs on August 23, 2025: videos, credits, sponsors, and donors.",
+      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
+      "blocks": [
+        {
+          "type": "feature",
+          "image": "/assets/gala-15th/flyer.jpg",
+          "imageAlt": "15th Anniversary of Little Saigon Designation Gala flyer",
+          "imageNarrow": true
+        },
+        {
+          "type": "videos",
+          "heading": "Videos",
+          "items": [
+            { "id": "S9kMGV3OiHk" },
+            { "id": "dwCPyelj93U" },
+            { "id": "pvZe4TZIj9s" }
+          ]
+        },
+        {
+          "type": "credits",
+          "heading": "Credits",
+          "groups": [
+            { "lines": ["Coordinator | Mai Nguyen", "Producer | Nikki Nguyen"] },
+            { "heading": "Production Volunteers", "lines": ["Dai Nguyen", "Daniel Nguyen", "Kevin P. Nguyen", "Vu Tran", "Vivian Vu", "Mamie Yee", "Kenrick W. Young"] },
+            { "heading": "Miss Vietnam & Miss Teen Vietnam of Northern California", "lines": ["Executive Director | Sophia Nguyen", "Miss Teen Eloquence Vietnam NorCal 2025 | Phoebe Nguyen", "Miss Eloquence Vietnam NorCal 2025 | Brittany Tran", "Miss Scholastic Vietnam NorCal 2025 | Jasmine Phan", "Miss Heritage Vietnam NorCal 2025 | Denise Ly", "Miss People’s Choice Vietnam NorCal 2025 | Minh Thao Nguyen"] }
+          ]
+        },
+        {
+          "type": "credits",
+          "heading": "Sponsors & Donors",
+          "groups": [
+            { "heading": "Diamond Sponsors", "lines": ["American Furniture Galleries", "Duc Huong Sandwiches", "SF Supermarket – Cali Saigon Mall"] },
+            { "heading": "Gold Sponsors", "lines": ["SDHC Pharmacy", "SMUD"] },
+            { "heading": "Bronze Sponsors", "lines": ["Anthem Blue Cross", "DNT Karaoke", "MD Partners"] },
+            { "heading": "VIP", "lines": ["A & A Supermarket", "AABC", "All United Flooring", "Chasons Crab Stadium", "City of Sacramento – Office of Innovation and Economic Development", "Cố Đô Restaurant", "District Attorney Thien Ho", "Dr. Hoàng Trí Dũng", "Hannah Nguyen – Loan Factory", "HB Auto Parts Express", "Iris Tran – Windimere Real Estate", "Parkwest Casino Lotus", "Pure Water Convenient Store (Cam Phan)", "Stockton Boulevard Partnership", "Tracy Tran – Farmers Insurance", "Tri Foods Distributor", "Tuan Tran – 3T Homes", "VACOS", "Vinh Phat Supermarket"] },
+            { "heading": "Supporters", "lines": ["Amour Florist & Bridal", "Bargain Bin", "Councilmember Darren Suen", "Councilmember Eric Guerra", "Florin Road Partnership", "Mack Road Partnership", "Mamie's Administrative Services", "Sacto Printing", "Sharif Jewelers", "Supervisor Pat Hume", "Supervisor Patrick Kennedy"] },
+            { "heading": "In-Kind", "lines": ["BawsHuman", "Bon Mua Restaurant", "Equity Zone Mortgage", "Grachik", "Hinoka Sushi", "Lollibowl", "Long Sandwich", "Nikki Win Realty Team", "Pho King 2", "Thanh Son Tofu", "Vivian Vu Realtor"] }
+          ]
+        },
+        {
+          "type": "credits",
+          "heading": "Program",
+          "groups": [
+            { "heading": "Entertainment", "lines": ["Emcee | Kenny Dang", "Singer | Hoàng Thúy Vy", "Singer | Ngô Khải Anh", "Band, Sound, and Lighting | Hai Le", "Stage LED | DNT Karaoke", "Dancers | Viet Serenity Sisters"] },
+            { "heading": "Activities", "lines": ["Photo Booth | Desmond Bryant"] },
+            { "heading": "Media", "lines": ["Media relations | Ellie King", "iHeartRadio", "KCRA", "KFBK Radio", "KOVR", "Làng Weekly Magazine", "Thằng Mõ Weekly Magazine"] },
+            { "heading": "Design & Multimedia", "lines": ["Multimedia coordinator | Bao Thien Ngo", "Documentary videographer | Soul Original Media", "Plaque awards | Tony Pham"] },
+            { "heading": "Special Thanks", "lines": ["Ban Cứu Trợ TPB Sacramento", "Councilmember Mai Vang", "David Doan", "Dr. Kevin Vu", "New Happy Garden Restaurant", "Pegasus Bakery"] }
+          ]
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    { "from": "/home/", "to": "/" }
+  ]
+}
