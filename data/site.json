@@ -62,14 +62,6 @@
       },
       "blocks": [
         {
-          "type": "cards",
-          "items": [
-            { "title": "Calendar", "body": "List of community events" },
-            { "title": "Businesses", "body": "“Yellow pages” of businesses supporting cPALSs and the Little Saigon District." },
-            { "title": "Creatives", "body": "Directory of creatives local to Greater Sacramento" }
-          ]
-        },
-        {
           "type": "text",
           "heading": "UPLIFTING",
           "lead": "Uniting People with Leaders to Innovate and Flourish Together through Inspiration, Nobility and Goodwill.",
@@ -290,7 +282,6 @@
             { "title": "Resolutions", "href": "/little-saigon/resolutions/", "body": "Official recognitions" },
             { "title": "Stories", "href": "/little-saigon/stories/", "body": "Articles and videos covering the Little Saigon area and its community" },
             { "title": "Visuals", "href": "/little-saigon/visuals/", "body": "Interesting sights adorning the district" },
-            { "title": "Businesses", "body": "“Yellow pages” of businesses supporting cPALSs and the Little Saigon District." },
             { "title": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
             { "title": "15th Anniversary of Little Saigon Designation Gala", "href": "/little-saigon/15th-anniversary-gala/" }
           ]
