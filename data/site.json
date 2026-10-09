@@ -183,7 +183,8 @@
               "href": "/projects/pho-for-seniors/",
               "image": "/assets/projects/pho-for-seniors.jpg",
               "imageAlt": "Phở for Seniors",
-              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back."
+              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back. Sign-ups are open.",
+              "more": { "label": "Sign up at phoforseniors.cpalss.com", "href": "https://phoforseniors.cpalss.com" }
             }
           ]
         }
@@ -223,7 +224,14 @@
           "type": "feature",
           "image": "/assets/pho-for-seniors/pho-for-seniors.jpg",
           "imageAlt": "Phở for Seniors",
-          "body": "In the spirit of philanthropy and supporting local small businesses, in 2020 we came together to share love and spreading generosity to those that are in need in our local underserved community during the COVID-19 pandemic. Phở for Seniors is coming back — stay tuned for dates."
+          "body": "In the spirit of philanthropy and supporting local small businesses, in 2020 we came together to share love and spreading generosity to those that are in need in our local underserved community during the COVID-19 pandemic. Phở for Seniors is coming back.",
+          "paragraphs": [
+            "Date and location coming soon. Seniors, families, senior centers, volunteers, students, and restaurants can sign up now at <a href=\"https://phoforseniors.cpalss.com\">phoforseniors.cpalss.com</a>."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [{ "label": "Sign up a senior or volunteer", "href": "https://phoforseniors.cpalss.com" }]
         }
       ]
     },
