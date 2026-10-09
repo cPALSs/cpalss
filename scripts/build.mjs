@@ -190,7 +190,7 @@ const blockRenderers = {
         return `<li class="person${p.open ? " person-open" : ""}">
           ${photo}
           <h3 class="person-name">${esc(p.name)}</h3>
-          <p class="person-roles">${p.roles.map(esc).join("<br />")}</p>
+          ${p.roles?.length ? `<ul class="person-roles">${p.roles.map((r) => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
           ${cta}
         </li>`;
       })

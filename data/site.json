@@ -111,7 +111,8 @@
             { "name": "Bao Thien Ngo", "roles": ["Vice Chair", "Festivals Chair", "Operations Chair"], "photo": "/assets/team/bao-thien-ngo.jpg" },
             { "name": "Mamie Yee", "roles": ["Interim Treasurer", "Finance Chair"], "photo": "/assets/team/mamie-yee.jpg" },
             { "name": "Dai Nguyen", "roles": ["Director of Community Events", "Community Pageant Co-Chair"], "photo": "/assets/team/dai-nguyen.jpg" },
-            { "open": true, "name": "Secretary", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Secretary%20interest" } }
+            { "open": true, "name": "Secretary", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Secretary%20interest" } },
+            { "open": true, "name": "Treasurer", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Treasurer%20interest" } }
           ]
         },
         {
@@ -130,6 +131,13 @@
             { "name": "Mamie Yee", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/mamie-yee.jpg" },
             { "name": "Nikki Nguyen", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/nikki-nguyen.jpg" },
             { "name": "Kenrick W. Young", "roles": ["Legal Counsel"], "photo": "/assets/team/kenrick-w-young.jpg" }
+          ]
+        },
+        {
+          "type": "people",
+          "heading": "Board Alumni",
+          "items": [
+            { "name": "Vivian Vu", "roles": [], "photo": "/assets/team/vivian-vu.jpg" }
           ]
         }
       ]
