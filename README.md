@@ -48,4 +48,6 @@ Visitor pages must not link monorepo paths or private vault docs.
 | A | `@` | `185.199.111.153` | DNS only |
 | CNAME | `www` | `cpalss.github.io` | DNS only |
 
+API token (machine-local, not in the vault): `~/.config/cloudflare/cpalss.env` → `CLOUDFLARE_API_TOKEN`. It is account-owned, so `/user/tokens/verify` and the legacy Page Rules endpoint reject it; DNS records and rulesets work.
+
 No Cloudflare redirect rule for apex ↔ www — GitHub Pages redirects `www` → apex. Leave `toydrive` (Google Sites), `portal` (Cloud Run), `*` (GitHub Pages), MX, SPF, and the `google-site-verification` TXT untouched.
