@@ -137,7 +137,7 @@
     {
       "path": "/projects/",
       "title": "Projects",
-      "description": "cPALSs recurring projects: Miss & Miss Teen Vietnam of Northern California, Lunar New Year Tết, the Installation Gala, the Great Lantern Festival, and the Elk Grove Toy Drive Celebration.",
+      "description": "cPALSs recurring projects: Miss & Miss Teen Vietnam of Northern California, Lunar New Year Tết, the Installation Gala, the Great Lantern Festival, the Elk Grove Toy Drive Celebration, and Phở for Seniors.",
       "blocks": [
         {
           "type": "projects",
@@ -169,8 +169,7 @@
               "href": "https://greatlantern.com",
               "image": "/assets/projects/great-lantern-festival.jpg",
               "imageAlt": "Great Lantern Festival",
-              "body": "The Mid-Autumn Festival is a time for families to gather, appreciate the full moon, and give thanks for the harvest. The festival is branded as the Great Lantern Festival.",
-              "more": { "label": "Past Mid-Autumn fliers", "href": "/projects/mid-autumn-festival/" }
+              "body": "The Mid-Autumn Festival is a time for families to gather, appreciate the full moon, and give thanks for the harvest. The festival is branded as the Great Lantern Festival."
             },
             {
               "title": "Elk Grove Toy Drive Celebration",
@@ -178,19 +177,13 @@
               "image": "/assets/projects/elk-grove-toy-drive.jpg",
               "imageAlt": "Community members on stage at the Elk Grove Toy Drive Celebration",
               "body": "The annual Elk Grove Toy Drive Celebration engages the community in holiday celebrations while collecting toys to donate to local charities supporting children in need."
-            }
-          ]
-        },
-        {
-          "type": "projects",
-          "heading": "Archives",
-          "items": [
+            },
             {
               "title": "Phở for Seniors",
               "href": "/projects/pho-for-seniors/",
               "image": "/assets/projects/pho-for-seniors.jpg",
               "imageAlt": "Phở for Seniors",
-              "body": "Helping the underserved during the COVID-19 pandemic."
+              "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back."
             }
           ]
         }
@@ -220,31 +213,6 @@
       ]
     },
     {
-      "path": "/projects/mid-autumn-festival/",
-      "title": "Mid-Autumn Festival",
-      "description": "The cPALSs Mid-Autumn Festival, now branded as the Great Lantern Festival. Past fliers from 2021 to 2024.",
-      "breadcrumb": [{ "label": "Projects", "href": "/projects/" }],
-      "blocks": [
-        {
-          "type": "text",
-          "heading": "Great Lantern Festival",
-          "paragraphs": [
-            "The Great Lantern Festival is the new brand name for the Mid-Autumn Festival. Please visit <a href=\"https://greatlantern.com\">greatlantern.com</a> for more details!"
-          ]
-        },
-        {
-          "type": "gallery",
-          "heading": "Past Fliers",
-          "items": [
-            { "image": "/assets/mid-autumn/2024.jpg", "caption": "2024", "sub": "Laguna Town Hall" },
-            { "image": "/assets/mid-autumn/2023.jpg", "caption": "2023", "sub": "Laguna Town Hall" },
-            { "image": "/assets/mid-autumn/2022.jpg", "caption": "2022", "sub": "Florin Towne Centre" },
-            { "image": "/assets/mid-autumn/2021.jpg", "caption": "2021", "sub": "Florin Towne Centre" }
-          ]
-        }
-      ]
-    },
-    {
       "path": "/projects/pho-for-seniors/",
       "aliases": ["/projects/phở-for-seniors/"],
       "title": "Phở for Seniors",
@@ -255,7 +223,7 @@
           "type": "feature",
           "image": "/assets/pho-for-seniors/pho-for-seniors.jpg",
           "imageAlt": "Phở for Seniors",
-          "body": "In the spirit of philanthropy and supporting local small businesses, in 2020 we came together to share love and spreading generosity to those that are in need in our local underserved community during the COVID-19 pandemic."
+          "body": "In the spirit of philanthropy and supporting local small businesses, in 2020 we came together to share love and spreading generosity to those that are in need in our local underserved community during the COVID-19 pandemic. Phở for Seniors is coming back — stay tuned for dates."
         }
       ]
     },
@@ -433,6 +401,7 @@
     }
   ],
   "redirects": [
-    { "from": "/home/", "to": "/" }
+    { "from": "/home/", "to": "/" },
+    { "from": "/projects/mid-autumn-festival/", "to": "https://greatlantern.com/resources/media/#posters" }
   ]
 }

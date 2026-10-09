@@ -361,7 +361,7 @@ ${renderHead(page)}
 }
 
 function renderRedirect(to) {
-  const target = meta.canonicalBase + encodeURI(to);
+  const target = /^https?:\/\//.test(to) ? to : meta.canonicalBase + encodeURI(to);
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
