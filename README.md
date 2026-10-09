@@ -27,7 +27,7 @@ Push to `main` deploys via `.github/workflows/deploy-pages.yml`. Hold the push w
 
 Generated HTML is committed (GitHub Pages serves it as-is) — always rerun `node scripts/build.mjs` after editing `data/site.json`.
 
-**Team page:** keep in sync with the Board roster in the latest Board minutes. Open officer or co-chair seats use `{ "open": true, ... }` with a mailto CTA.
+**Team page:** keep in sync with the Board roster in the latest Board minutes. Committee Chairs lists year-round standing committees only — not seasonal project chairs (e.g. Toy Drive). Open officer or standing-committee seats use `{ "open": true, ... }` with a mailto CTA.
 
 **Aliases / redirects:** `pages[].aliases` and top-level `redirects` write small redirect pages (e.g. `/home/` → `/`, the old Unicode `/projects/phở-for-seniors/` → `/projects/pho-for-seniors/`).
 

@@ -115,7 +115,7 @@
           "type": "people",
           "heading": "Board of Directors (2026–2027)",
           "items": [
-            { "name": "Ellie King", "roles": ["Chair", "Toy Drive Chair", "Community Resources Chair"], "photo": "/assets/team/ellie-king.jpg" },
+            { "name": "Ellie King", "roles": ["Chair", "Community Resources Chair"], "photo": "/assets/team/ellie-king.jpg" },
             { "name": "Bao Thien Ngo", "roles": ["Vice Chair", "Festivals Chair", "Operations Chair"], "photo": "/assets/team/bao-thien-ngo.jpg" },
             { "name": "Mamie Yee", "roles": ["Interim Treasurer", "Finance Chair"], "photo": "/assets/team/mamie-yee.jpg" },
             { "name": "Dai Nguyen", "roles": ["Director of Community Events", "Community Pageant Co-Chair"], "photo": "/assets/team/dai-nguyen.jpg" },
@@ -127,8 +127,7 @@
           "heading": "Committee Chairs",
           "items": [
             { "name": "Sophia Nguyen", "roles": ["Community Pageant Co-Chair", "Executive Director of Miss & Miss Teen Vietnam of NorCal Pageant"], "photo": "/assets/team/sophia-nguyen.jpg" },
-            { "name": "Vu N. Tran", "roles": ["College Student Liaison Chair"], "photo": "/assets/team/vu-n-tran.jpg" },
-            { "open": true, "name": "Toy Drive Co-Chair", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=Toy%20Drive%20Co-Chair%20interest" } }
+            { "name": "Vu N. Tran", "roles": ["College Student Liaison Chair"], "photo": "/assets/team/vu-n-tran.jpg" }
           ]
         },
         {
