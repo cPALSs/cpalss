@@ -46,16 +46,16 @@
       "label": "Resources",
       "children": [
         {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        },
+        {
           "label": "Viet Youth Resources",
           "href": "https://youth.cpalss.com/"
         },
         {
           "label": "Festival Season Network",
           "href": "https://festival.cpalss.com/"
-        },
-        {
-          "label": "Vietnamese American demographics",
-          "href": "/demographics/vietnamese/"
         }
       ]
     },
