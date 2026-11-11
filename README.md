@@ -21,7 +21,7 @@ Push to `main` deploys via `.github/workflows/deploy-pages.yml`. Hold the push w
 
 | File | What to edit |
 |------|----------------|
-| `data/site.json` | Nav, footer links, and every page (`pages[].blocks`). Block types: `text`, `cards`, `links`, `people`, `projects`, `gallery`, `feature`, `articles`, `videos`, `credits`. |
+| `data/site.json` | Nav, footer links, and every page (`pages[].blocks`). Block types: `text`, `table`, `cards`, `links`, `people`, `projects`, `gallery`, `feature`, `articles`, `videos`, `credits`. |
 | `assets/` | Images, grouped by page. Team portraits are `assets/team/{name-slug}.jpg` (square, ~480px). |
 | `site.css` / `site.js` | Look and mobile nav. |
 

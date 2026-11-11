@@ -8,38 +8,77 @@
     "defaultDescription": "Community Partners Advocate of Little Saigon Sacramento (cPALSs) connects community partners with residents, resources, and recreation in Sacramento's Little Saigon and Greater Sacramento.",
     "ogImage": "/assets/og-default.jpg",
     "social": [
-      { "label": "Facebook", "url": "https://facebook.com/cpalss/" },
-      { "label": "Instagram", "url": "https://www.instagram.com/cpalss.uplifting/" },
-      { "label": "YouTube", "url": "https://youtube.com/@cpalss" }
+      {
+        "label": "Facebook",
+        "url": "https://facebook.com/cpalss/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/cpalss.uplifting/"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://youtube.com/@cpalss"
+      }
     ],
     "donateUrl": "https://www.zeffy.com/en-US/peer-to-peer/uplifting-community"
   },
   "nav": [
-    { "label": "Home", "href": "/" },
+    {
+      "label": "Home",
+      "href": "/"
+    },
     {
       "label": "About",
       "href": "/about/",
       "children": [
-        { "label": "Mission & History", "href": "/about/" },
-        { "label": "Team", "href": "/about/team/" }
+        {
+          "label": "Mission & History",
+          "href": "/about/"
+        },
+        {
+          "label": "Team",
+          "href": "/about/team/"
+        }
       ]
     },
     {
       "label": "Resources",
       "children": [
-        { "label": "Viet Youth Resources", "href": "https://youth.cpalss.com/" },
-        { "label": "Festival Season Network", "href": "https://festival.cpalss.com/" },
-        { "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }
+        {
+          "label": "Viet Youth Resources",
+          "href": "https://youth.cpalss.com/"
+        },
+        {
+          "label": "Festival Season Network",
+          "href": "https://festival.cpalss.com/"
+        },
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
       ]
     },
     {
       "label": "Little Saigon",
       "href": "/little-saigon/",
       "children": [
-        { "label": "About Little Saigon", "href": "/little-saigon/" },
-        { "label": "Stories", "href": "/little-saigon/stories/" },
-        { "label": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
-        { "label": "15th Anniversary Gala", "href": "/little-saigon/15th-anniversary-gala/" }
+        {
+          "label": "About Little Saigon",
+          "href": "/little-saigon/"
+        },
+        {
+          "label": "Stories",
+          "href": "/little-saigon/stories/"
+        },
+        {
+          "label": "Gateway Project",
+          "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project"
+        },
+        {
+          "label": "15th Anniversary Gala",
+          "href": "/little-saigon/15th-anniversary-gala/"
+        }
       ]
     }
   ],
@@ -53,8 +92,15 @@
         "image": "/assets/home/community-holiday-stage.jpg",
         "imageAlt": "cPALSs board, volunteers, and pageant titleholders on stage at the Elk Grove Toy Drive Celebration",
         "ctas": [
-          { "label": "Our projects", "href": "#projects" },
-          { "label": "Donate", "href": "https://www.zeffy.com/en-US/peer-to-peer/uplifting-community", "style": "ghost" }
+          {
+            "label": "Our projects",
+            "href": "#projects"
+          },
+          {
+            "label": "Donate",
+            "href": "https://www.zeffy.com/en-US/peer-to-peer/uplifting-community",
+            "style": "ghost"
+          }
         ]
       },
       "blocks": [
@@ -79,7 +125,11 @@
               "href": "https://phoforseniors.cpalss.com",
               "image": "/assets/projects/pho-for-seniors.jpg",
               "imageAlt": "Phở for Seniors",
-              "next": { "label": "November 2026", "sort": "2026-11", "status": "estimated" },
+              "next": {
+                "label": "November 2026",
+                "sort": "2026-11",
+                "status": "estimated"
+              },
               "body": "Sharing phở from local small businesses with underserved seniors. Started during the COVID-19 pandemic, and coming back. Sign-ups are open."
             },
             {
@@ -87,7 +137,11 @@
               "href": "https://elkgrovetoydrive.com",
               "image": "/assets/projects/elk-grove-toy-drive.jpg",
               "imageAlt": "Community members on stage at the Elk Grove Toy Drive Celebration",
-              "next": { "label": "Sun, Dec 6, 2026", "sort": "2026-12-06", "status": "tentative" },
+              "next": {
+                "label": "Sun, Dec 6, 2026",
+                "sort": "2026-12-06",
+                "status": "tentative"
+              },
               "body": "The annual Elk Grove Toy Drive Celebration engages the community in holiday celebrations while collecting toys to donate to local charities supporting children in need."
             },
             {
@@ -95,7 +149,11 @@
               "href": "https://facebook.com/MissVietnamNorthernCalifornia",
               "image": "/assets/projects/miss-vietnam-norcal.jpg",
               "imageAlt": "Miss & Miss Teen Vietnam of Northern California titleholders with bouquets on stage",
-              "next": { "label": "July 2027", "sort": "2027-07", "status": "estimated" },
+              "next": {
+                "label": "July 2027",
+                "sort": "2027-07",
+                "status": "estimated"
+              },
               "body": "Miss & Miss Teen Vietnam Northern California empowers young Vietnamese American women to achieve their goals and make a difference in the community."
             },
             {
@@ -103,7 +161,10 @@
               "href": "https://eglny.com",
               "image": "/assets/projects/lunar-new-year.jpg",
               "imageAlt": "Elk Grove Lunar New Year Tết",
-              "next": { "label": "Sat–Sun, Feb 13–14, 2027", "sort": "2027-02-13" },
+              "next": {
+                "label": "Sat–Sun, Feb 13–14, 2027",
+                "sort": "2027-02-13"
+              },
               "body": "Tết celebrates Vietnamese and Asian heritage, preserving traditions and family bonds while building cultural pride and cross-cultural unity across our diverse region."
             },
             {
@@ -112,7 +173,11 @@
               "image": "/assets/projects/installation-gala.jpg",
               "imageAlt": "15th Anniversary of Little Saigon Designation Gala flyer",
               "imagePosition": "center top",
-              "next": { "label": "August 2027", "sort": "2027-08", "status": "estimated" },
+              "next": {
+                "label": "August 2027",
+                "sort": "2027-08",
+                "status": "estimated"
+              },
               "body": "The annual Installation Gala is a banquet that honors the accomplishments of community members."
             },
             {
@@ -120,7 +185,11 @@
               "href": "https://greatlantern.com",
               "image": "/assets/projects/great-lantern-festival.jpg",
               "imageAlt": "Great Lantern Festival",
-              "next": { "label": "September 2027", "sort": "2027-09", "status": "estimated" },
+              "next": {
+                "label": "September 2027",
+                "sort": "2027-09",
+                "status": "estimated"
+              },
               "body": "Our Mid-Autumn Festival, where families gather to appreciate the full moon and give thanks for the harvest."
             }
           ]
@@ -148,7 +217,12 @@
         },
         {
           "type": "links",
-          "items": [{ "label": "Meet the team", "href": "/about/team/" }]
+          "items": [
+            {
+              "label": "Meet the team",
+              "href": "/about/team/"
+            }
+          ]
         }
       ]
     },
@@ -162,37 +236,127 @@
           "type": "people",
           "heading": "Board of Directors (2026–2027)",
           "items": [
-            { "name": "Ellie King", "roles": ["Chair", "Community Resources Chair"], "photo": "/assets/team/ellie-king.jpg" },
-            { "name": "Bao Thien Ngo", "roles": ["Vice Chair", "Festivals Chair", "Operations Chair"], "photo": "/assets/team/bao-thien-ngo.jpg" },
-            { "name": "Mamie Yee", "roles": ["Interim Treasurer", "Finance Chair"], "photo": "/assets/team/mamie-yee.jpg" },
-            { "name": "Dai Nguyen", "roles": ["Director of Community Events", "Community Pageant Co-Chair"], "photo": "/assets/team/dai-nguyen.jpg" },
-            { "open": true, "name": "Secretary", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Secretary%20interest" } },
-            { "open": true, "name": "Treasurer", "roles": ["Open seat — we're recruiting"], "cta": { "label": "Ask about this role", "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Treasurer%20interest" } }
+            {
+              "name": "Ellie King",
+              "roles": [
+                "Chair",
+                "Community Resources Chair"
+              ],
+              "photo": "/assets/team/ellie-king.jpg"
+            },
+            {
+              "name": "Bao Thien Ngo",
+              "roles": [
+                "Vice Chair",
+                "Festivals Chair",
+                "Operations Chair"
+              ],
+              "photo": "/assets/team/bao-thien-ngo.jpg"
+            },
+            {
+              "name": "Mamie Yee",
+              "roles": [
+                "Interim Treasurer",
+                "Finance Chair"
+              ],
+              "photo": "/assets/team/mamie-yee.jpg"
+            },
+            {
+              "name": "Dai Nguyen",
+              "roles": [
+                "Director of Community Events",
+                "Community Pageant Co-Chair"
+              ],
+              "photo": "/assets/team/dai-nguyen.jpg"
+            },
+            {
+              "open": true,
+              "name": "Secretary",
+              "roles": [
+                "Open seat — we're recruiting"
+              ],
+              "cta": {
+                "label": "Ask about this role",
+                "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Secretary%20interest"
+              }
+            },
+            {
+              "open": true,
+              "name": "Treasurer",
+              "roles": [
+                "Open seat — we're recruiting"
+              ],
+              "cta": {
+                "label": "Ask about this role",
+                "href": "mailto:Contact@cPALSs.com?subject=cPALSs%20Board%20Treasurer%20interest"
+              }
+            }
           ]
         },
         {
           "type": "people",
           "heading": "Committee Chairs",
           "items": [
-            { "name": "Sophia Nguyen", "roles": ["Community Pageant Co-Chair", "Executive Director of Miss & Miss Teen Vietnam of NorCal Pageant"], "photo": "/assets/team/sophia-nguyen.jpg" },
-            { "name": "Vu N. Tran", "roles": ["College Student Liaison Chair"], "photo": "/assets/team/vu-n-tran.jpg" }
+            {
+              "name": "Sophia Nguyen",
+              "roles": [
+                "Community Pageant Co-Chair",
+                "Executive Director of Miss & Miss Teen Vietnam of NorCal Pageant"
+              ],
+              "photo": "/assets/team/sophia-nguyen.jpg"
+            },
+            {
+              "name": "Vu N. Tran",
+              "roles": [
+                "College Student Liaison Chair"
+              ],
+              "photo": "/assets/team/vu-n-tran.jpg"
+            }
           ]
         },
         {
           "type": "people",
           "heading": "Advisory Board",
           "items": [
-            { "name": "Kevin P. Nguyen", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/kevin-p-nguyen.jpg" },
-            { "name": "Mamie Yee", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/mamie-yee.jpg" },
-            { "name": "Nikki Nguyen", "roles": ["Lifetime Advisory Board Member"], "photo": "/assets/team/nikki-nguyen.jpg" },
-            { "name": "Kenrick W. Young", "roles": ["Legal Counsel"], "photo": "/assets/team/kenrick-w-young.jpg" }
+            {
+              "name": "Kevin P. Nguyen",
+              "roles": [
+                "Lifetime Advisory Board Member"
+              ],
+              "photo": "/assets/team/kevin-p-nguyen.jpg"
+            },
+            {
+              "name": "Mamie Yee",
+              "roles": [
+                "Lifetime Advisory Board Member"
+              ],
+              "photo": "/assets/team/mamie-yee.jpg"
+            },
+            {
+              "name": "Nikki Nguyen",
+              "roles": [
+                "Lifetime Advisory Board Member"
+              ],
+              "photo": "/assets/team/nikki-nguyen.jpg"
+            },
+            {
+              "name": "Kenrick W. Young",
+              "roles": [
+                "Legal Counsel"
+              ],
+              "photo": "/assets/team/kenrick-w-young.jpg"
+            }
           ]
         },
         {
           "type": "people",
           "heading": "Board Alumni",
           "items": [
-            { "name": "Vivian Vu", "roles": [], "photo": "/assets/team/vivian-vu.jpg" }
+            {
+              "name": "Vivian Vu",
+              "roles": [],
+              "photo": "/assets/team/vivian-vu.jpg"
+            }
           ]
         }
       ]
@@ -201,7 +365,12 @@
       "path": "/projects/installation-gala/",
       "title": "Installation Gala",
       "description": "The cPALSs annual Installation Gala honors the accomplishments of community members. Past fliers from 2013 to 2025.",
-      "breadcrumb": [{ "label": "Projects", "href": "/#projects" }],
+      "breadcrumb": [
+        {
+          "label": "Projects",
+          "href": "/#projects"
+        }
+      ],
       "blocks": [
         {
           "type": "gallery",
@@ -209,15 +378,44 @@
           "framed": true,
           "noun": "flier",
           "items": [
-            { "image": "/assets/installation-gala/2025.jpg", "caption": "2025", "href": "/little-saigon/15th-anniversary-gala/", "hrefLabel": "Event page" },
-            { "image": "/assets/installation-gala/2024.jpg", "caption": "2024" },
-            { "image": "/assets/installation-gala/2023.jpg", "caption": "2023" },
-            { "image": "/assets/installation-gala/2019.jpg", "caption": "2019" },
-            { "image": "/assets/installation-gala/2017.jpg", "caption": "2017" },
-            { "image": "/assets/installation-gala/2016.jpg", "caption": "2016" },
-            { "image": "/assets/installation-gala/2015.jpg", "caption": "2015" },
-            { "image": "/assets/installation-gala/2014.jpg", "caption": "2014" },
-            { "image": "/assets/installation-gala/2013.jpg", "caption": "2013" }
+            {
+              "image": "/assets/installation-gala/2025.jpg",
+              "caption": "2025",
+              "href": "/little-saigon/15th-anniversary-gala/",
+              "hrefLabel": "Event page"
+            },
+            {
+              "image": "/assets/installation-gala/2024.jpg",
+              "caption": "2024"
+            },
+            {
+              "image": "/assets/installation-gala/2023.jpg",
+              "caption": "2023"
+            },
+            {
+              "image": "/assets/installation-gala/2019.jpg",
+              "caption": "2019"
+            },
+            {
+              "image": "/assets/installation-gala/2017.jpg",
+              "caption": "2017"
+            },
+            {
+              "image": "/assets/installation-gala/2016.jpg",
+              "caption": "2016"
+            },
+            {
+              "image": "/assets/installation-gala/2015.jpg",
+              "caption": "2015"
+            },
+            {
+              "image": "/assets/installation-gala/2014.jpg",
+              "caption": "2014"
+            },
+            {
+              "image": "/assets/installation-gala/2013.jpg",
+              "caption": "2013"
+            }
           ]
         }
       ]
@@ -242,9 +440,19 @@
         {
           "type": "cards",
           "items": [
-            { "title": "Stories", "href": "/little-saigon/stories/", "body": "Articles and videos covering the Little Saigon area and its community" },
-            { "title": "Gateway Project", "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project" },
-            { "title": "15th Anniversary of Little Saigon Designation Gala", "href": "/little-saigon/15th-anniversary-gala/" }
+            {
+              "title": "Stories",
+              "href": "/little-saigon/stories/",
+              "body": "Articles and videos covering the Little Saigon area and its community"
+            },
+            {
+              "title": "Gateway Project",
+              "href": "https://www.cityofsacramento.gov/public-works/engineering/projects/little-saigon-gateway-project"
+            },
+            {
+              "title": "15th Anniversary of Little Saigon Designation Gala",
+              "href": "/little-saigon/15th-anniversary-gala/"
+            }
           ]
         },
         {
@@ -254,10 +462,23 @@
           "lead": "Official recognitions of Little Saigon Sacramento.",
           "wide": true,
           "items": [
-            { "image": "/assets/resolutions/county-resolution.jpg", "caption": "County Resolution" },
-            { "image": "/assets/resolutions/city-resolution.jpg", "caption": "City Resolution" },
-            { "image": "/assets/resolutions/city-report-to-council.jpg", "caption": "City of Sacramento — Report to Council (PDF)", "href": "/assets/resolutions/city-report-to-council-2010.pdf" },
-            { "image": "/assets/resolutions/state-treasurer-recognition.jpg", "caption": "State Treasurer Fiona Ma recognition of 15th Anniversary of Little Saigon" }
+            {
+              "image": "/assets/resolutions/county-resolution.jpg",
+              "caption": "County Resolution"
+            },
+            {
+              "image": "/assets/resolutions/city-resolution.jpg",
+              "caption": "City Resolution"
+            },
+            {
+              "image": "/assets/resolutions/city-report-to-council.jpg",
+              "caption": "City of Sacramento — Report to Council (PDF)",
+              "href": "/assets/resolutions/city-report-to-council-2010.pdf"
+            },
+            {
+              "image": "/assets/resolutions/state-treasurer-recognition.jpg",
+              "caption": "State Treasurer Fiona Ma recognition of 15th Anniversary of Little Saigon"
+            }
           ]
         },
         {
@@ -269,9 +490,19 @@
           "fit": "cover",
           "lead": "Street banners adorning the district are supported by the <a href=\"https://stocktonblvdpartnership.org/\">Stockton Boulevard Partnership</a>, and have rotated every few years.",
           "items": [
-            { "image": "/assets/visuals/banner-current.png", "caption": "Current banner" },
-            { "image": "/assets/visuals/banner-2020.png", "caption": "2020 banner" },
-            { "image": "/assets/visuals/banner-2018.jpg", "caption": "2018 banner", "sub": "Photo: Barbara L. Steinberg" }
+            {
+              "image": "/assets/visuals/banner-current.png",
+              "caption": "Current banner"
+            },
+            {
+              "image": "/assets/visuals/banner-2020.png",
+              "caption": "2020 banner"
+            },
+            {
+              "image": "/assets/visuals/banner-2018.jpg",
+              "caption": "2018 banner",
+              "sub": "Photo: Barbara L. Steinberg"
+            }
           ]
         },
         {
@@ -289,23 +520,83 @@
       "path": "/little-saigon/stories/",
       "title": "Stories",
       "description": "Articles and videos covering Sacramento's Little Saigon and its community, from the 2010 designation to today.",
-      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
+      "breadcrumb": [
+        {
+          "label": "Little Saigon",
+          "href": "/little-saigon/"
+        }
+      ],
       "blocks": [
         {
           "type": "articles",
           "heading": "Articles",
           "items": [
-            { "date": "Oct 24, 2024", "source": "Sacramento Bee", "title": "South Sacramento’s ‘pride and joy’: Little Saigon to get archway honoring Vietnamese community", "href": "https://www.sacbee.com/news/equity-lab/representation/article294359109.html" },
-            { "date": "May 22, 2024", "source": "FOX40", "title": "Little Saigon: A Sacramento cultural district rich in AAPI heritage", "href": "https://fox40.com/news/local-news/sacramento/little-saigon-sacramento-aapi-heritage/" },
-            { "date": "Jan 19, 2023", "source": "Visit Sacramento", "title": "Podcast: Get to Know Sacramento's Little Saigon & Stockton Boulevard Partnership", "href": "https://www.visitsacramento.com/blog/stories/post/podcast-get-to-know-sacramentos-little-saigon-stockton-boulevard-partnership/" },
-            { "date": "Mar 1, 2022", "source": "Sacramento News & Review", "title": "From big upheaval to Little Saigon, the artists of Sacramento’s Vietnamese-American community yield powerful voices", "href": "https://sacramento.newsreview.com/2022/03/01/from-big-upheaval-to-little-saigon-the-artists-of-sacramentos-vietnamese-american-community-yield-powerful-voices/" },
-            { "date": "Jun 2, 2021", "source": "FOX40", "title": "Little Saigon celebrates 11th anniversary as hurt businesses emerge from pandemic", "href": "https://fox40.com/news/local-news/little-saigon-celebrates-11th-anniversary-as-hurt-businesses-emerge-from-pandemic/" },
-            { "date": "Feb 11, 2021", "source": "CapRadio", "title": "A Neighborhood In Transition: Sacramento’s Little Saigon Grapples With Culture And The American Dream", "href": "https://www.capradio.org/articles/2021/02/11/a-neighborhood-in-transition-sacramentos-little-saigon-grapples-with-culture-and-the-american-dream/" },
-            { "date": "Oct 20, 2020", "source": "Comstock's Magazine", "title": "Lineage of Success: Family businesses are the heart and soul of Little Saigon in south Sacramento", "href": "https://www.comstocksmag.com/longreads/lineage-success" },
-            { "date": "Jan 27, 2019", "source": "Stockton Boulevard Partnership", "title": "Stockton Boulevard Destination: Little Saigon 2019", "href": "https://stocktonblvdpartnership.org/stockton-boulevard-destination-little-saigon-2019/" },
-            { "date": "May 7, 2015", "source": "Sacramento Bee", "title": "40 years after Vietnam's fall, one Sacramento family remembers", "href": "https://www.sacbee.com/news/local/history/article20390895.html" },
-            { "date": "Apr 30, 2015", "source": "KCRA", "title": "40 years after Saigon, Sacramento's Vietnamese community reflects", "href": "https://www.kcra.com/article/40-years-after-saigon-sacramento-s-vietnamese-community-reflects/6422157" },
-            { "date": "Feb 2, 2010", "source": "City of Sacramento", "title": "Report to Council — Resolution Designating a Portion of the Stockton Boulevard Corridor as \"Little Saigon\"", "href": "/assets/resolutions/city-report-to-council-2010.pdf" }
+            {
+              "date": "Oct 24, 2024",
+              "source": "Sacramento Bee",
+              "title": "South Sacramento’s ‘pride and joy’: Little Saigon to get archway honoring Vietnamese community",
+              "href": "https://www.sacbee.com/news/equity-lab/representation/article294359109.html"
+            },
+            {
+              "date": "May 22, 2024",
+              "source": "FOX40",
+              "title": "Little Saigon: A Sacramento cultural district rich in AAPI heritage",
+              "href": "https://fox40.com/news/local-news/sacramento/little-saigon-sacramento-aapi-heritage/"
+            },
+            {
+              "date": "Jan 19, 2023",
+              "source": "Visit Sacramento",
+              "title": "Podcast: Get to Know Sacramento's Little Saigon & Stockton Boulevard Partnership",
+              "href": "https://www.visitsacramento.com/blog/stories/post/podcast-get-to-know-sacramentos-little-saigon-stockton-boulevard-partnership/"
+            },
+            {
+              "date": "Mar 1, 2022",
+              "source": "Sacramento News & Review",
+              "title": "From big upheaval to Little Saigon, the artists of Sacramento’s Vietnamese-American community yield powerful voices",
+              "href": "https://sacramento.newsreview.com/2022/03/01/from-big-upheaval-to-little-saigon-the-artists-of-sacramentos-vietnamese-american-community-yield-powerful-voices/"
+            },
+            {
+              "date": "Jun 2, 2021",
+              "source": "FOX40",
+              "title": "Little Saigon celebrates 11th anniversary as hurt businesses emerge from pandemic",
+              "href": "https://fox40.com/news/local-news/little-saigon-celebrates-11th-anniversary-as-hurt-businesses-emerge-from-pandemic/"
+            },
+            {
+              "date": "Feb 11, 2021",
+              "source": "CapRadio",
+              "title": "A Neighborhood In Transition: Sacramento’s Little Saigon Grapples With Culture And The American Dream",
+              "href": "https://www.capradio.org/articles/2021/02/11/a-neighborhood-in-transition-sacramentos-little-saigon-grapples-with-culture-and-the-american-dream/"
+            },
+            {
+              "date": "Oct 20, 2020",
+              "source": "Comstock's Magazine",
+              "title": "Lineage of Success: Family businesses are the heart and soul of Little Saigon in south Sacramento",
+              "href": "https://www.comstocksmag.com/longreads/lineage-success"
+            },
+            {
+              "date": "Jan 27, 2019",
+              "source": "Stockton Boulevard Partnership",
+              "title": "Stockton Boulevard Destination: Little Saigon 2019",
+              "href": "https://stocktonblvdpartnership.org/stockton-boulevard-destination-little-saigon-2019/"
+            },
+            {
+              "date": "May 7, 2015",
+              "source": "Sacramento Bee",
+              "title": "40 years after Vietnam's fall, one Sacramento family remembers",
+              "href": "https://www.sacbee.com/news/local/history/article20390895.html"
+            },
+            {
+              "date": "Apr 30, 2015",
+              "source": "KCRA",
+              "title": "40 years after Saigon, Sacramento's Vietnamese community reflects",
+              "href": "https://www.kcra.com/article/40-years-after-saigon-sacramento-s-vietnamese-community-reflects/6422157"
+            },
+            {
+              "date": "Feb 2, 2010",
+              "source": "City of Sacramento",
+              "title": "Report to Council — Resolution Designating a Portion of the Stockton Boulevard Corridor as \"Little Saigon\"",
+              "href": "/assets/resolutions/city-report-to-council-2010.pdf"
+            }
           ]
         },
         {
@@ -313,18 +604,58 @@
           "heading": "Videos",
           "lead": "See all videos at the <a href=\"https://youtube.com/@cpalss\">cPALSs YouTube channel</a>.",
           "items": [
-            { "id": "dwCPyelj93U", "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - History" },
-            { "id": "pvZe4TZIj9s", "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - Future" },
-            { "id": "P7lTHhbDUmw", "caption": "May 28, 2025 — KCRA: The rich, resilient history of Sacramento's Little Saigon neighborhood", "href": "https://www.kcra.com/article/sacramento-little-saigon-neighborhood/64910396" },
-            { "id": "V6FuyyGAsXE", "caption": "May 27, 2025 — KCRA: How the Sacramento area sparked a Vietnamese-American nail revolution with help from a Hollywood star", "href": "https://www.kcra.com/article/california-vietnamese-american-nail-revolution-tippi-hedren/64896702" },
-            { "id": "uUh6w5I1TfU", "caption": "May 22, 2024 — FOX40: A taste of Little Saigon" },
-            { "id": "9ReyuxZ9N9o", "caption": "May 26, 2023 — ABC10: The history of Sacramento's Little Saigon, told through Vietnamese cuisine", "href": "https://www.abc10.com/article/news/local/the-history-of-sacramentos-little-saigon/103-bf59226d-32c2-40e8-b5a9-5315e99a79ca" },
-            { "id": "QVbWwLDlUbk", "caption": "Oct 2, 2021 — KCRA: South Sacramento hosts first annual Mid-Autumn Moon Festival after pandemic caused delays" },
-            { "id": "75o7HzMdPuk", "caption": "Sep 30, 2021 — ABC10: Sacramento's Vietnamese community welcomes incoming Afghan refugees through letters | NorCal Strong" },
-            { "id": "qn3LvES41PQ", "caption": "Feb 25, 2021 — CapRadio: Drive-Through Lunar New Year, Sacramento" },
-            { "id": "m2GbzQnWH1A", "caption": "Jun 16, 2020 — Sacramento Bee: Can Sacramento's Little Saigon business district survive the economic shutdown?", "href": "https://www.sacbee.com/news/local/sacramento-tipping-point/article243037311.html" },
-            { "id": "RJj3ae7AQ9w", "caption": "Feb 7, 2012 — Little Saigon TV: Tet Parade 2012 - Little Saigon - Sacramento, California" },
-            { "id": "jkpMmW2TjTI", "caption": "Feb 13, 2010 — KCRA: Stretch Of Stockton Blvd. Named Little Saigon" }
+            {
+              "id": "dwCPyelj93U",
+              "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - History"
+            },
+            {
+              "id": "pvZe4TZIj9s",
+              "caption": "Aug 23, 2025 — 15th Anniversary of Little Saigon Designation - Future"
+            },
+            {
+              "id": "P7lTHhbDUmw",
+              "caption": "May 28, 2025 — KCRA: The rich, resilient history of Sacramento's Little Saigon neighborhood",
+              "href": "https://www.kcra.com/article/sacramento-little-saigon-neighborhood/64910396"
+            },
+            {
+              "id": "V6FuyyGAsXE",
+              "caption": "May 27, 2025 — KCRA: How the Sacramento area sparked a Vietnamese-American nail revolution with help from a Hollywood star",
+              "href": "https://www.kcra.com/article/california-vietnamese-american-nail-revolution-tippi-hedren/64896702"
+            },
+            {
+              "id": "uUh6w5I1TfU",
+              "caption": "May 22, 2024 — FOX40: A taste of Little Saigon"
+            },
+            {
+              "id": "9ReyuxZ9N9o",
+              "caption": "May 26, 2023 — ABC10: The history of Sacramento's Little Saigon, told through Vietnamese cuisine",
+              "href": "https://www.abc10.com/article/news/local/the-history-of-sacramentos-little-saigon/103-bf59226d-32c2-40e8-b5a9-5315e99a79ca"
+            },
+            {
+              "id": "QVbWwLDlUbk",
+              "caption": "Oct 2, 2021 — KCRA: South Sacramento hosts first annual Mid-Autumn Moon Festival after pandemic caused delays"
+            },
+            {
+              "id": "75o7HzMdPuk",
+              "caption": "Sep 30, 2021 — ABC10: Sacramento's Vietnamese community welcomes incoming Afghan refugees through letters | NorCal Strong"
+            },
+            {
+              "id": "qn3LvES41PQ",
+              "caption": "Feb 25, 2021 — CapRadio: Drive-Through Lunar New Year, Sacramento"
+            },
+            {
+              "id": "m2GbzQnWH1A",
+              "caption": "Jun 16, 2020 — Sacramento Bee: Can Sacramento's Little Saigon business district survive the economic shutdown?",
+              "href": "https://www.sacbee.com/news/local/sacramento-tipping-point/article243037311.html"
+            },
+            {
+              "id": "RJj3ae7AQ9w",
+              "caption": "Feb 7, 2012 — Little Saigon TV: Tet Parade 2012 - Little Saigon - Sacramento, California"
+            },
+            {
+              "id": "jkpMmW2TjTI",
+              "caption": "Feb 13, 2010 — KCRA: Stretch Of Stockton Blvd. Named Little Saigon"
+            }
           ]
         }
       ]
@@ -333,7 +664,12 @@
       "path": "/little-saigon/15th-anniversary-gala/",
       "title": "15th Anniversary Gala",
       "description": "The 15th Anniversary of Little Saigon Designation Gala, hosted by cPALSs on August 23, 2025: videos, credits, sponsors, and donors.",
-      "breadcrumb": [{ "label": "Little Saigon", "href": "/little-saigon/" }],
+      "breadcrumb": [
+        {
+          "label": "Little Saigon",
+          "href": "/little-saigon/"
+        }
+      ],
       "blocks": [
         {
           "type": "feature",
@@ -345,41 +681,189 @@
           "type": "videos",
           "heading": "Videos",
           "items": [
-            { "id": "S9kMGV3OiHk" },
-            { "id": "dwCPyelj93U" },
-            { "id": "pvZe4TZIj9s" }
+            {
+              "id": "S9kMGV3OiHk"
+            },
+            {
+              "id": "dwCPyelj93U"
+            },
+            {
+              "id": "pvZe4TZIj9s"
+            }
           ]
         },
         {
           "type": "credits",
           "heading": "Credits",
           "groups": [
-            { "lines": ["Coordinator | Mai Nguyen", "Producer | Nikki Nguyen"] },
-            { "heading": "Production Volunteers", "lines": ["Dai Nguyen", "Daniel Nguyen", "Kevin P. Nguyen", "Vu Tran", "Vivian Vu", "Mamie Yee", "Kenrick W. Young"] },
-            { "heading": "Miss Vietnam & Miss Teen Vietnam of Northern California", "lines": ["Executive Director | Sophia Nguyen", "Miss Teen Eloquence Vietnam NorCal 2025 | Phoebe Nguyen", "Miss Eloquence Vietnam NorCal 2025 | Brittany Tran", "Miss Scholastic Vietnam NorCal 2025 | Jasmine Phan", "Miss Heritage Vietnam NorCal 2025 | Denise Ly", "Miss People’s Choice Vietnam NorCal 2025 | Minh Thao Nguyen"] }
+            {
+              "lines": [
+                "Coordinator | Mai Nguyen",
+                "Producer | Nikki Nguyen"
+              ]
+            },
+            {
+              "heading": "Production Volunteers",
+              "lines": [
+                "Dai Nguyen",
+                "Daniel Nguyen",
+                "Kevin P. Nguyen",
+                "Vu Tran",
+                "Vivian Vu",
+                "Mamie Yee",
+                "Kenrick W. Young"
+              ]
+            },
+            {
+              "heading": "Miss Vietnam & Miss Teen Vietnam of Northern California",
+              "lines": [
+                "Executive Director | Sophia Nguyen",
+                "Miss Teen Eloquence Vietnam NorCal 2025 | Phoebe Nguyen",
+                "Miss Eloquence Vietnam NorCal 2025 | Brittany Tran",
+                "Miss Scholastic Vietnam NorCal 2025 | Jasmine Phan",
+                "Miss Heritage Vietnam NorCal 2025 | Denise Ly",
+                "Miss People’s Choice Vietnam NorCal 2025 | Minh Thao Nguyen"
+              ]
+            }
           ]
         },
         {
           "type": "credits",
           "heading": "Sponsors & Donors",
           "groups": [
-            { "heading": "Diamond Sponsors", "lines": ["American Furniture Galleries", "Duc Huong Sandwiches", "SF Supermarket – Cali Saigon Mall"] },
-            { "heading": "Gold Sponsors", "lines": ["SDHC Pharmacy", "SMUD"] },
-            { "heading": "Bronze Sponsors", "lines": ["Anthem Blue Cross", "DNT Karaoke", "MD Partners"] },
-            { "heading": "VIP", "lines": ["A & A Supermarket", "AABC", "All United Flooring", "Chasons Crab Stadium", "City of Sacramento – Office of Innovation and Economic Development", "Cố Đô Restaurant", "District Attorney Thien Ho", "Dr. Hoàng Trí Dũng", "Hannah Nguyen – Loan Factory", "HB Auto Parts Express", "Iris Tran – Windimere Real Estate", "Parkwest Casino Lotus", "Pure Water Convenient Store (Cam Phan)", "Stockton Boulevard Partnership", "Tracy Tran – Farmers Insurance", "Tri Foods Distributor", "Tuan Tran – 3T Homes", "VACOS", "Vinh Phat Supermarket"] },
-            { "heading": "Supporters", "lines": ["Amour Florist & Bridal", "Bargain Bin", "Councilmember Darren Suen", "Councilmember Eric Guerra", "Florin Road Partnership", "Mack Road Partnership", "Mamie's Administrative Services", "Sacto Printing", "Sharif Jewelers", "Supervisor Pat Hume", "Supervisor Patrick Kennedy"] },
-            { "heading": "In-Kind", "lines": ["BawsHuman", "Bon Mua Restaurant", "Equity Zone Mortgage", "Grachik", "Hinoka Sushi", "Lollibowl", "Long Sandwich", "Nikki Win Realty Team", "Pho King 2", "Thanh Son Tofu", "Vivian Vu Realtor"] }
+            {
+              "heading": "Diamond Sponsors",
+              "lines": [
+                "American Furniture Galleries",
+                "Duc Huong Sandwiches",
+                "SF Supermarket – Cali Saigon Mall"
+              ]
+            },
+            {
+              "heading": "Gold Sponsors",
+              "lines": [
+                "SDHC Pharmacy",
+                "SMUD"
+              ]
+            },
+            {
+              "heading": "Bronze Sponsors",
+              "lines": [
+                "Anthem Blue Cross",
+                "DNT Karaoke",
+                "MD Partners"
+              ]
+            },
+            {
+              "heading": "VIP",
+              "lines": [
+                "A & A Supermarket",
+                "AABC",
+                "All United Flooring",
+                "Chasons Crab Stadium",
+                "City of Sacramento – Office of Innovation and Economic Development",
+                "Cố Đô Restaurant",
+                "District Attorney Thien Ho",
+                "Dr. Hoàng Trí Dũng",
+                "Hannah Nguyen – Loan Factory",
+                "HB Auto Parts Express",
+                "Iris Tran – Windimere Real Estate",
+                "Parkwest Casino Lotus",
+                "Pure Water Convenient Store (Cam Phan)",
+                "Stockton Boulevard Partnership",
+                "Tracy Tran – Farmers Insurance",
+                "Tri Foods Distributor",
+                "Tuan Tran – 3T Homes",
+                "VACOS",
+                "Vinh Phat Supermarket"
+              ]
+            },
+            {
+              "heading": "Supporters",
+              "lines": [
+                "Amour Florist & Bridal",
+                "Bargain Bin",
+                "Councilmember Darren Suen",
+                "Councilmember Eric Guerra",
+                "Florin Road Partnership",
+                "Mack Road Partnership",
+                "Mamie's Administrative Services",
+                "Sacto Printing",
+                "Sharif Jewelers",
+                "Supervisor Pat Hume",
+                "Supervisor Patrick Kennedy"
+              ]
+            },
+            {
+              "heading": "In-Kind",
+              "lines": [
+                "BawsHuman",
+                "Bon Mua Restaurant",
+                "Equity Zone Mortgage",
+                "Grachik",
+                "Hinoka Sushi",
+                "Lollibowl",
+                "Long Sandwich",
+                "Nikki Win Realty Team",
+                "Pho King 2",
+                "Thanh Son Tofu",
+                "Vivian Vu Realtor"
+              ]
+            }
           ]
         },
         {
           "type": "credits",
           "heading": "Program",
           "groups": [
-            { "heading": "Entertainment", "lines": ["Emcee | Kenny Dang", "Singer | Hoàng Thúy Vy", "Singer | Ngô Khải Anh", "Band, Sound, and Lighting | Hai Le", "Stage LED | DNT Karaoke", "Dancers | Viet Serenity Sisters"] },
-            { "heading": "Activities", "lines": ["Photo Booth | Desmond Bryant"] },
-            { "heading": "Media", "lines": ["Media relations | Ellie King", "iHeartRadio", "KCRA", "KFBK Radio", "KOVR", "Làng Weekly Magazine", "Thằng Mõ Weekly Magazine"] },
-            { "heading": "Design & Multimedia", "lines": ["Multimedia coordinator | Bao Thien Ngo", "Documentary videographer | Soul Original Media", "Plaque awards | Tony Pham"] },
-            { "heading": "Special Thanks", "lines": ["Ban Cứu Trợ TPB Sacramento", "Councilmember Mai Vang", "David Doan", "Dr. Kevin Vu", "New Happy Garden Restaurant", "Pegasus Bakery"] }
+            {
+              "heading": "Entertainment",
+              "lines": [
+                "Emcee | Kenny Dang",
+                "Singer | Hoàng Thúy Vy",
+                "Singer | Ngô Khải Anh",
+                "Band, Sound, and Lighting | Hai Le",
+                "Stage LED | DNT Karaoke",
+                "Dancers | Viet Serenity Sisters"
+              ]
+            },
+            {
+              "heading": "Activities",
+              "lines": [
+                "Photo Booth | Desmond Bryant"
+              ]
+            },
+            {
+              "heading": "Media",
+              "lines": [
+                "Media relations | Ellie King",
+                "iHeartRadio",
+                "KCRA",
+                "KFBK Radio",
+                "KOVR",
+                "Làng Weekly Magazine",
+                "Thằng Mõ Weekly Magazine"
+              ]
+            },
+            {
+              "heading": "Design & Multimedia",
+              "lines": [
+                "Multimedia coordinator | Bao Thien Ngo",
+                "Documentary videographer | Soul Original Media",
+                "Plaque awards | Tony Pham"
+              ]
+            },
+            {
+              "heading": "Special Thanks",
+              "lines": [
+                "Ban Cứu Trợ TPB Sacramento",
+                "Councilmember Mai Vang",
+                "David Doan",
+                "Dr. Kevin Vu",
+                "New Happy Garden Restaurant",
+                "Pegasus Bakery"
+              ]
+            }
           ]
         }
       ]
@@ -391,25 +875,49 @@
       "intro": "A briefing series for organizers, partners, and marketers who need numbers and channel sense — not one flyer for “the Vietnamese community.” Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
-          "type": "text",
-          "heading": "How to read these pages",
-          "paragraphs": [
-            "Use the <a href=\"https://www.census.gov/programs-surveys/acs\">American Community Survey (ACS)</a> and Bao’s ACS write-ups for <strong>headcount, geography, language, and income</strong>. Use <a href=\"https://www.pewresearch.org/race-and-ethnicity/\">Pew Research Center</a> for <strong>self-label preference</strong> and <strong>national</strong> religion and age patterns — not as a Sacramento poll.",
-            "Local channel evidence (Facebook groups, millennial parent habits, collapsed Sac Vietnamese radio) is labeled as local. National under-30 or kids-media figures are labeled as U.S. extrapolations."
-          ]
-        },
-        {
           "type": "cards",
           "heading": "Topics",
           "items": [
-            { "title": "Population & geography", "href": "/demographics/vietnamese/population-geography/", "body": "County ~35k, metro catchment, Elk Grove vs Sacramento city vs unincorporated corridor" },
-            { "title": "Language", "href": "/demographics/vietnamese/language/", "body": "English proficiency, English-only growth, bilingual bridge, age cuts" },
-            { "title": "Income & poverty", "href": "/demographics/vietnamese/income-poverty/", "body": "Household vs person income, elder poverty, wallets by generation" },
-            { "title": "Nativity & generation", "href": "/demographics/vietnamese/nativity-generation/", "body": "U.S.-born share, immigrant median age, cohort labels, post-2000 arrivals" },
-            { "title": "Identity labels", "href": "/demographics/vietnamese/identity-labels/", "body": "Pew: 41% most often say Vietnamese American" },
-            { "title": "Media & outreach", "href": "/demographics/vietnamese/media-outreach/", "body": "Why one post cannot reach the whole public; rails by generation" },
-            { "title": "Religion", "href": "/demographics/vietnamese/religion/", "body": "National Buddhist / Christian / unaffiliated split as a distribution system" },
-            { "title": "Transnational economics", "href": "/demographics/vietnamese/transnational-economics/", "body": "Remittances, filial obligation, and family stress — essay-informed" }
+            {
+              "title": "Population & geography",
+              "href": "/demographics/vietnamese/population-geography/",
+              "body": "County ~35k, metro catchment, Elk Grove vs Sacramento city vs unincorporated corridor"
+            },
+            {
+              "title": "Language",
+              "href": "/demographics/vietnamese/language/",
+              "body": "English proficiency, English-only growth, bilingual bridge, age cuts"
+            },
+            {
+              "title": "Income & poverty",
+              "href": "/demographics/vietnamese/income-poverty/",
+              "body": "Household vs person income, elder poverty, wallets by generation"
+            },
+            {
+              "title": "Nativity & generation",
+              "href": "/demographics/vietnamese/nativity-generation/",
+              "body": "U.S.-born share, immigrant median age, cohort labels, post-2000 arrivals"
+            },
+            {
+              "title": "Identity labels",
+              "href": "/demographics/vietnamese/identity-labels/",
+              "body": "Pew: 41% most often say Vietnamese American"
+            },
+            {
+              "title": "Media & outreach",
+              "href": "/demographics/vietnamese/media-outreach/",
+              "body": "Why one post cannot reach the whole public; rails by generation"
+            },
+            {
+              "title": "Religion",
+              "href": "/demographics/vietnamese/religion/",
+              "body": "National Buddhist / Christian / unaffiliated split as a distribution system"
+            },
+            {
+              "title": "Transnational economics",
+              "href": "/demographics/vietnamese/transnational-economics/",
+              "body": "Remittances, filial obligation, and family stress — essay-informed"
+            }
           ]
         },
         {
@@ -425,7 +933,12 @@
       "path": "/demographics/vietnamese/population-geography/",
       "title": "Population & geography",
       "description": "How many Vietnamese Americans live in Sacramento County and Greater Sacramento, and where — ACS headcounts for organizers.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -438,6 +951,134 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "Headcount reference",
+          "numeric": false,
+          "headers": [
+            "Geography",
+            "Vietnamese",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Sacramento County (ACS 2023 synthesis)",
+              "~35,146",
+              "Workshop / partner figure"
+            ],
+            [
+              "Sacramento–Roseville–Folsom MSA",
+              "37,866 ±2,565",
+              "ACS 2024 5-year, B02015 alone"
+            ],
+            [
+              "Sacramento County (same table)",
+              "33,295 ±2,622",
+              "Vietnamese alone, 5-year"
+            ],
+            [
+              "Placer County",
+              "2,330 ±506",
+              "Roseville, Lincoln, Rocklin"
+            ],
+            [
+              "Yolo County",
+              "1,808 ±505",
+              "Davis, Woodland, West Sac"
+            ],
+            [
+              "El Dorado County",
+              "433 ±201",
+              "Thin"
+            ],
+            [
+              "San Joaquin County (not in MSA)",
+              "8,217 ±1,460",
+              "Stockton drive market"
+            ]
+          ],
+          "note": "Do not mix Bao’s 2023 county synthesis with Vietnamese-alone 5-year city/county rows and call them one table."
+        },
+        {
+          "type": "table",
+          "heading": "Vietnamese by Sacramento County PUMA",
+          "caption": "ACS 2023 synthesis — total 35,146",
+          "headers": [
+            "PUMA",
+            "Vietnamese"
+          ],
+          "rows": [
+            [
+              "Total",
+              "35,146"
+            ],
+            [
+              "Elk Grove City (East)",
+              "7,619"
+            ],
+            [
+              "Elk Grove City (West)",
+              "5,962"
+            ],
+            [
+              "Sacramento City (Southeast / Fruitridge, Avondale & Depot Park)",
+              "6,687"
+            ],
+            [
+              "Galt, Isleton, Delta & Rural",
+              "3,758"
+            ],
+            [
+              "Sacramento City (Southwest / Pocket, Meadowview & North Laguna)",
+              "2,884"
+            ],
+            [
+              "Rancho Cordova City",
+              "2,258"
+            ],
+            [
+              "North Highlands, Foothill Farms & McClellan Park",
+              "1,796"
+            ],
+            [
+              "Sacramento City (North), Antelope & Rio Linda",
+              "1,067"
+            ],
+            [
+              "Sacramento City (Central / Downtown & Midtown)",
+              "893"
+            ],
+            [
+              "Sacramento City (Northwest / Natomas)",
+              "824"
+            ],
+            [
+              "Arden-Arcade, Carmichael & Fair Oaks (West)",
+              "684"
+            ],
+            [
+              "Citrus Heights City",
+              "384"
+            ],
+            [
+              "Folsom City, Orangevale & Fair Oaks (East)",
+              "330"
+            ]
+          ],
+          "wide": true,
+          "note": "About 38.6% in Elk Grove PUMAs combined (7,619 + 5,962) and 35.2% in City of Sacramento PUMAs in Bao’s county grouping."
+        },
+        {
+          "type": "gallery",
+          "heading": "Map",
+          "wide": true,
+          "items": [
+            {
+              "image": "/assets/demographics/sac-puma-map.jpg",
+              "caption": "PUMA map of Vietnamese population across Greater Sacramento (Bao Thien Ngo)"
+            }
+          ]
+        },
+        {
           "type": "text",
           "heading": "Where people live inside the county",
           "paragraphs": [
@@ -445,6 +1086,54 @@
             "Place-level Vietnamese-alone counts (ACS 2024 5-year) put Elk Grove first among incorporated cities (~9,800), Sacramento city second (~8,200), with Roseville, Rancho Cordova, Davis, Folsom, and others thinner. A large share of county Vietnamese live in <strong>unincorporated</strong> South Sacramento / Fruitridge / Laguna-adjacent tracts — including much of the Little Saigon corridor on Stockton Boulevard — that a city-only map undercounts.",
             "Organizer implication: a Facebook group titled “Sacramento” does not mean the poster lives here, and an Elk Grove flyer does not automatically reach unincorporated corridor elders unless someone forwards it. Little Saigon is often a <strong>destination, not home</strong> for households that raised kids on the boulevard and now live in Elk Grove."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Selected places (Vietnamese alone)",
+          "caption": "ACS 2024 5-year",
+          "headers": [
+            "Place",
+            "Vietnamese alone",
+            "±"
+          ],
+          "rows": [
+            [
+              "Elk Grove",
+              "9,757",
+              "1,378"
+            ],
+            [
+              "Sacramento (city)",
+              "8,160",
+              "1,093"
+            ],
+            [
+              "Stockton",
+              "5,438",
+              "1,267"
+            ],
+            [
+              "Roseville",
+              "1,288",
+              "394"
+            ],
+            [
+              "Rancho Cordova",
+              "1,226",
+              "468"
+            ],
+            [
+              "Davis",
+              "1,033",
+              "433"
+            ],
+            [
+              "Folsom",
+              "981",
+              "429"
+            ]
+          ],
+          "note": "City rows undercount unincorporated corridor tracts that sit outside city limits."
         },
         {
           "type": "text",
@@ -456,9 +1145,18 @@
         {
           "type": "links",
           "items": [
-            { "label": "Census data on Vietnamese in Sacramento County", "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento" },
-            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Census data on Vietnamese in Sacramento County",
+              "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento"
+            },
+            {
+              "label": "Vietnamese American demographics (2012 vs 2022)",
+              "href": "https://baohouse.substack.com/p/vietnamese-american-demographics"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -467,7 +1165,12 @@
       "path": "/demographics/vietnamese/language/",
       "title": "Language",
       "description": "English proficiency, English-only growth, and the shrinking bilingual bridge among Vietnamese Americans — ACS findings for organizers.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -479,12 +1182,217 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "National language mix",
+          "caption": "ACS 2022 vs 2012 (Bao synthesis)",
+          "headers": [
+            "Measure",
+            "2012",
+            "2022"
+          ],
+          "rows": [
+            [
+              "English less than “very well”",
+              "~49%",
+              "~41%"
+            ],
+            [
+              "English only",
+              "~16%",
+              "~28%"
+            ],
+            [
+              "Bilingual bridge (remainder)",
+              "~35%",
+              "~31%"
+            ],
+            [
+              "U.S. Vietnamese population",
+              "~1.86M",
+              "~2.30M"
+            ]
+          ]
+        },
+        {
+          "type": "gallery",
+          "wide": true,
+          "items": [
+            {
+              "image": "/assets/demographics/national-language.png",
+              "caption": "Language spoken by Vietnamese Americans — ACS 2022 vs 2012 (English only · bilingual · limited English)"
+            }
+          ]
+        },
+        {
           "type": "text",
           "heading": "Age cuts that matter for outreach",
           "paragraphs": [
             "From <a href=\"https://baohouse.substack.com/p/vietnamese-heritage-language-use\">Vietnamese heritage language use</a> (ACS 2023 PUMS): English-only at home is about <strong>23%</strong> at ages 41–45, <strong>nearly half</strong> among teens, and about <strong>half</strong> among children ~6–10 (today’s Gen Alpha band).",
             "A Người Việt Facebook group is the <strong>bilingual remainder</strong> of Millennials and older — not “Sacramento Vietnamese ages 40–45.” The English-only slice in that band, almost all of Gen Z, and half of elementary-age kids need English or bilingual surfaces that are not Vietnamese classifieds groups."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Language spoken at home by age",
+          "caption": "ACS 2023 1-year PUMS — Vietnamese alone; White/Vietnamese; Chinese/Vietnamese; Vietnamese/Other Asian",
+          "headers": [
+            "Age",
+            "Total (LANX)",
+            "Speaks another language",
+            "English only",
+            "English only or <5"
+          ],
+          "rows": [
+            [
+              "Total",
+              "2,207,475",
+              "1,600,025",
+              "513,960",
+              "27.5%"
+            ],
+            [
+              "Under 1",
+              "16,426",
+              "0",
+              "0",
+              "100.0%"
+            ],
+            [
+              "1–5",
+              "99,609",
+              "10,420",
+              "12,125",
+              "89.5%"
+            ],
+            [
+              "6–10",
+              "120,800",
+              "60,573",
+              "60,227",
+              "49.9%"
+            ],
+            [
+              "11–15",
+              "137,404",
+              "72,113",
+              "65,291",
+              "47.5%"
+            ],
+            [
+              "16–20",
+              "164,357",
+              "103,033",
+              "61,324",
+              "37.3%"
+            ],
+            [
+              "21–25",
+              "150,086",
+              "93,696",
+              "56,390",
+              "37.6%"
+            ],
+            [
+              "26–30",
+              "171,432",
+              "118,481",
+              "52,951",
+              "30.9%"
+            ],
+            [
+              "31–35",
+              "149,265",
+              "105,350",
+              "43,915",
+              "29.4%"
+            ],
+            [
+              "36–40",
+              "144,356",
+              "113,200",
+              "31,156",
+              "21.6%"
+            ],
+            [
+              "41–45",
+              "136,162",
+              "104,521",
+              "31,641",
+              "23.2%"
+            ],
+            [
+              "46–50",
+              "166,570",
+              "137,257",
+              "29,313",
+              "17.6%"
+            ],
+            [
+              "51–55",
+              "177,175",
+              "152,884",
+              "24,291",
+              "13.7%"
+            ],
+            [
+              "56–60",
+              "146,840",
+              "131,918",
+              "14,922",
+              "10.2%"
+            ],
+            [
+              "61–65",
+              "121,249",
+              "113,104",
+              "8,145",
+              "6.7%"
+            ],
+            [
+              "66–70",
+              "105,955",
+              "98,006",
+              "7,949",
+              "7.5%"
+            ],
+            [
+              "71–75",
+              "93,603",
+              "87,813",
+              "5,790",
+              "6.2%"
+            ],
+            [
+              "76–80",
+              "50,571",
+              "46,510",
+              "4,061",
+              "8.0%"
+            ],
+            [
+              "81–85",
+              "34,194",
+              "32,001",
+              "2,193",
+              "6.4%"
+            ],
+            [
+              "86–90",
+              "13,026",
+              "11,900",
+              "1,126",
+              "8.6%"
+            ],
+            [
+              "91–95",
+              "8,395",
+              "7,245",
+              "1,150",
+              "13.7%"
+            ]
+          ],
+          "wide": true,
+          "note": "“English only or <5” includes ages under 5 (LANX N/A). Ages 6–10 are ~half English-only — today’s Gen Alpha band."
         },
         {
           "type": "text",
@@ -496,10 +1404,22 @@
         {
           "type": "links",
           "items": [
-            { "label": "Vietnamese heritage language use", "href": "https://baohouse.substack.com/p/vietnamese-heritage-language-use" },
-            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
-            { "label": "North American Vernacular Vietnamese", "href": "https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Vietnamese heritage language use",
+              "href": "https://baohouse.substack.com/p/vietnamese-heritage-language-use"
+            },
+            {
+              "label": "Vietnamese American demographics (2012 vs 2022)",
+              "href": "https://baohouse.substack.com/p/vietnamese-american-demographics"
+            },
+            {
+              "label": "North American Vernacular Vietnamese",
+              "href": "https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -508,7 +1428,12 @@
       "path": "/demographics/vietnamese/income-poverty/",
       "title": "Income & poverty",
       "description": "Vietnamese American household vs person income, SNAP and retirement, child vs elder poverty, and wallet caveats for festival and program pricing.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -520,11 +1445,342 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "National income trend (selected)",
+          "caption": "ACS — Vietnamese alone or in any combination (Bao synthesis)",
+          "headers": [
+            "Measure",
+            "2012",
+            "2022",
+            "2022 in 2012 $"
+          ],
+          "rows": [
+            [
+              "Per capita income",
+              "$21,307",
+              "$37,724",
+              "$29,595"
+            ],
+            [
+              "Household median income",
+              "$55,339",
+              "$86,025",
+              "$67,488"
+            ],
+            [
+              "Family median income",
+              "$59,017",
+              "$94,318",
+              "$73,994"
+            ],
+            [
+              "Households with SNAP",
+              "14.5%",
+              "15.1%",
+              "—"
+            ],
+            [
+              "Households with Social Security",
+              "17.2%",
+              "22.6%",
+              "—"
+            ],
+            [
+              "Households with retirement income",
+              "6.1%",
+              "12.5%",
+              "—"
+            ],
+            [
+              "Share age 65+",
+              "8.4%",
+              "13.3%",
+              "—"
+            ]
+          ],
+          "wide": true
+        },
+        {
+          "type": "table",
+          "heading": "Income breakdown (ACS 2022)",
+          "caption": "American Community Survey 1-year estimate 2022",
+          "headers": [
+            "Measure",
+            "Total U.S.",
+            "Asian",
+            "Vietnamese"
+          ],
+          "rows": [
+            [
+              "Households",
+              "129,870,928",
+              "7,885,512",
+              "701,024"
+            ],
+            [
+              "Median household income",
+              "$74,755",
+              "$104,646",
+              "$86,025"
+            ],
+            [
+              "With earnings",
+              "77.5%",
+              "87.0%",
+              "87.0%"
+            ],
+            [
+              "Mean earnings",
+              "$108,024",
+              "$149,363",
+              "$121,288"
+            ],
+            [
+              "With Social Security",
+              "31.1%",
+              "20.5%",
+              "22.6%"
+            ],
+            [
+              "Mean Social Security",
+              "$22,349",
+              "$20,643",
+              "$17,945"
+            ],
+            [
+              "With SSI",
+              "5.1%",
+              "4.7%",
+              "7.7%"
+            ],
+            [
+              "Mean SSI",
+              "$10,674",
+              "$9,966",
+              "$10,334"
+            ],
+            [
+              "With cash public assistance",
+              "2.5%",
+              "3.2%",
+              "4.2%"
+            ],
+            [
+              "Mean cash public assistance",
+              "$3,916",
+              "$4,555",
+              "$4,030"
+            ],
+            [
+              "With retirement income",
+              "24.1%",
+              "14.7%",
+              "12.5%"
+            ],
+            [
+              "Mean retirement income",
+              "$31,390",
+              "$32,667",
+              "$25,705"
+            ],
+            [
+              "With SNAP",
+              "12.4%",
+              "9.9%",
+              "15.1%"
+            ],
+            [
+              "Families",
+              "83,304,153",
+              "5,570,485",
+              "514,653"
+            ],
+            [
+              "Median family income",
+              "$92,148",
+              "$122,275",
+              "$94,318"
+            ],
+            [
+              "Married-couple family",
+              "73.1%",
+              "80.1%",
+              "74.3%"
+            ],
+            [
+              "Median income (married-couple)",
+              "$109,250",
+              "$136,898",
+              "$103,626"
+            ],
+            [
+              "Male householder, no spouse",
+              "8.0%",
+              "7.0%",
+              "10.1%"
+            ],
+            [
+              "Median income (male householder)",
+              "$64,777",
+              "$86,597",
+              "$78,070"
+            ],
+            [
+              "Female householder, no spouse",
+              "18.9%",
+              "12.9%",
+              "15.6%"
+            ],
+            [
+              "Median income (female householder)",
+              "$48,032",
+              "$69,882",
+              "$61,975"
+            ],
+            [
+              "Individuals",
+              "333,287,562",
+              "24,207,047",
+              "2,301,868"
+            ],
+            [
+              "Per capita income",
+              "$41,804",
+              "$48,961",
+              "$37,724"
+            ],
+            [
+              "FT/YR mean earnings — male",
+              "$88,350",
+              "$112,532",
+              "$82,171"
+            ],
+            [
+              "FT/YR mean earnings — female",
+              "$67,187",
+              "$87,257",
+              "$72,218"
+            ],
+            [
+              "FT/YR median earnings — male",
+              "$62,344",
+              "$81,550",
+              "$60,412"
+            ],
+            [
+              "FT/YR median earnings — female",
+              "$51,275",
+              "$64,827",
+              "$51,762"
+            ]
+          ],
+          "wide": true
+        },
+        {
           "type": "text",
           "heading": "Poverty: children vs elders",
           "paragraphs": [
             "Overall family poverty fell toward national parity by 2022. Child poverty dropped sharply and sits well below the national average; <strong>elder poverty</strong> improved only slightly and remains <strong>well above</strong> the national elder rate (~16.6% vs ~10.9% in that cut). Public assistance for elders remains structurally important."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Poverty rates (ACS 2022)",
+          "caption": "American Community Survey 1-year estimate 2022",
+          "headers": [
+            "Group",
+            "Total U.S.",
+            "Asian",
+            "Vietnamese"
+          ],
+          "rows": [
+            [
+              "All families",
+              "8.9%",
+              "7.4%",
+              "8.9%"
+            ],
+            [
+              "With related children under 18",
+              "13.6%",
+              "8.4%",
+              "9.8%"
+            ],
+            [
+              "Married-couple family",
+              "4.7%",
+              "5.8%",
+              "6.8%"
+            ],
+            [
+              "Married-couple with related children",
+              "5.8%",
+              "5.8%",
+              "6.1%"
+            ],
+            [
+              "Female householder, no spouse",
+              "23.6%",
+              "15.5%",
+              "16.0%"
+            ],
+            [
+              "Female householder with related children",
+              "32.7%",
+              "22.6%",
+              "23.5%"
+            ],
+            [
+              "All people",
+              "12.6%",
+              "10.0%",
+              "11.3%"
+            ],
+            [
+              "Under 18",
+              "16.3%",
+              "9.4%",
+              "9.6%"
+            ],
+            [
+              "Related children under 18",
+              "16.0%",
+              "9.2%",
+              "9.2%"
+            ],
+            [
+              "18 years and over",
+              "11.5%",
+              "10.2%",
+              "11.8%"
+            ],
+            [
+              "18 to 64",
+              "11.7%",
+              "9.5%",
+              "10.7%"
+            ],
+            [
+              "65 and over",
+              "10.9%",
+              "13.4%",
+              "16.6%"
+            ],
+            [
+              "People in families",
+              "9.6%",
+              "7.1%",
+              "8.0%"
+            ],
+            [
+              "Unrelated individuals 15+",
+              "24.1%",
+              "25.9%",
+              "30.9%"
+            ]
+          ],
+          "wide": true,
+          "note": "Trend vs 2012 (Bao synthesis): all families 14.0%→8.9%; children 17.3%→9.6%; elders 18.6%→16.6%."
         },
         {
           "type": "text",
@@ -535,6 +1791,123 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "Person income by generation",
+          "caption": "ACS 2023 1-year PUMS, Vietnamese alone, including $0",
+          "headers": [
+            "Cohort",
+            "Typical wallet (Q2–Q4)",
+            "Median",
+            "Income > $0",
+            "Below 200% FPL"
+          ],
+          "rows": [
+            [
+              "Millennials (~30–45)",
+              "$14k–$102k",
+              "$51k",
+              "90%",
+              "19%"
+            ],
+            [
+              "Gen X / 1.5 (~46–61)",
+              "$12k–$95k",
+              "$38k",
+              "89%",
+              "25%"
+            ],
+            [
+              "Boomer+ / elders (~62+)",
+              "$6k–$46k",
+              "$15k",
+              "88%",
+              "35%"
+            ],
+            [
+              "Gen Z adults (~18–29)",
+              "$0–$25k",
+              "$3k",
+              "59%",
+              "36%"
+            ],
+            [
+              "Gen Z 25–29 (subset)",
+              "$1k–$51k",
+              "$18k",
+              "82%",
+              "32%"
+            ],
+            [
+              "Gen Z minors (~14–17)",
+              "—",
+              "—",
+              "—",
+              "33%"
+            ]
+          ],
+          "wide": true,
+          "note": "Census does not assign person income under 15. Minors spend through a parent. National cut — Sacramento sample is too thin."
+        },
+        {
+          "type": "table",
+          "heading": "Disability, English, and spend priority",
+          "caption": "ACS 2023 1-year PUMS, Vietnamese alone — person rates",
+          "headers": [
+            "Cohort",
+            "Disability",
+            "English-only",
+            "English less than very well",
+            "Spend priority"
+          ],
+          "rows": [
+            [
+              "Millennials (~30–45)",
+              "6%",
+              "22%",
+              "33%",
+              "1 — primary"
+            ],
+            [
+              "Gen X / 1.5 (~46–61)",
+              "7%",
+              "13%",
+              "61%",
+              "2 — co-primary"
+            ],
+            [
+              "Boomer+ / elders (~62+)",
+              "28% (35% at 65+)",
+              "7%",
+              "79%",
+              "3 — secondary (reach, not wallet)"
+            ],
+            [
+              "Gen Z adults (~18–29)",
+              "5%",
+              "30%",
+              "18%",
+              "4 — campus / labor"
+            ],
+            [
+              "Gen Z 25–29 (subset)",
+              "5%",
+              "29%",
+              "19%",
+              "Rising; below Millennial median"
+            ],
+            [
+              "Gen Z minors (~14–17)",
+              "3%",
+              "38%",
+              "12%",
+              "Via parent (same as Alpha)"
+            ]
+          ],
+          "wide": true,
+          "numeric": false,
+          "note": "English-only = only English at home. Less than very well = another language and English well / not well / not at all. The rest are bilingual “very well.”"
+        },
+        {
           "type": "text",
           "heading": "Sacramento County",
           "paragraphs": [
@@ -542,11 +1915,137 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "Mean income by PUMA (Sacramento County)",
+          "caption": "ACS 2023 synthesis — Vietnamese vs non-Vietnamese (dollars)",
+          "headers": [
+            "PUMA",
+            "Non-Vietnamese",
+            "Vietnamese"
+          ],
+          "rows": [
+            [
+              "Elk Grove City (East)",
+              "$29,930",
+              "$28,254"
+            ],
+            [
+              "Elk Grove City (West)",
+              "$37,403",
+              "$37,309"
+            ],
+            [
+              "Rancho Cordova City",
+              "$33,633",
+              "$29,577"
+            ],
+            [
+              "North Highlands, Foothill Farms & McClellan Park",
+              "$27,459",
+              "$20,745"
+            ],
+            [
+              "Sacramento City (North), Antelope & Rio Linda",
+              "$27,824",
+              "$30,745"
+            ],
+            [
+              "Galt, Isleton, Delta & Rural",
+              "$41,805",
+              "$27,136"
+            ],
+            [
+              "Sacramento City (Southeast / Fruitridge…)",
+              "$29,358",
+              "$20,647"
+            ],
+            [
+              "Sacramento City (Southwest / Pocket…)",
+              "$30,711",
+              "$20,818"
+            ]
+          ],
+          "wide": true,
+          "note": "In the Galt / Delta / rural PUMA, Vietnamese mean income is about two-thirds of non-Vietnamese — the contrast Bao highlights in the county post."
+        },
+        {
+          "type": "table",
+          "heading": "Income-to-poverty ratio (Sacramento County)",
+          "caption": "ACS 2023 synthesis — counts",
+          "headers": [
+            "Income-to-poverty ratio",
+            "Vietnamese",
+            "Non-Vietnamese",
+            "% of Vietnamese"
+          ],
+          "rows": [
+            [
+              "Total",
+              "35,146",
+              "1,550,069",
+              "100%"
+            ],
+            [
+              "Not elsewhere grouped",
+              "1,276",
+              "45,673",
+              "3.6%"
+            ],
+            [
+              "1–100% of FPL",
+              "5,877",
+              "143,692",
+              "16.7%"
+            ],
+            [
+              "101–200%",
+              "4,729",
+              "236,214",
+              "13.5%"
+            ],
+            [
+              "201–300%",
+              "4,309",
+              "237,015",
+              "12.3%"
+            ],
+            [
+              "301–400%",
+              "5,480",
+              "207,577",
+              "15.6%"
+            ],
+            [
+              "401–500%",
+              "4,780",
+              "182,606",
+              "13.6%"
+            ],
+            [
+              "501% or more",
+              "8,695",
+              "497,292",
+              "24.7%"
+            ]
+          ],
+          "wide": true,
+          "note": "About 24.7% of county Vietnamese are at 501%+ of FPL vs 32.1% of non-Vietnamese in the same cut."
+        },
+        {
           "type": "links",
           "items": [
-            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
-            { "label": "Census data on Vietnamese in Sacramento County", "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Vietnamese American demographics (2012 vs 2022)",
+              "href": "https://baohouse.substack.com/p/vietnamese-american-demographics"
+            },
+            {
+              "label": "Census data on Vietnamese in Sacramento County",
+              "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -555,7 +2054,12 @@
       "path": "/demographics/vietnamese/nativity-generation/",
       "title": "Nativity & generation",
       "description": "U.S.-born share, immigrant median age, cultural cohort labels, and the post-2000 family-based immigration wave among Vietnamese Americans.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -567,11 +2071,127 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "Nativity snapshot",
+          "headers": [
+            "Measure",
+            "Immigrants",
+            "U.S.-born"
+          ],
+          "rows": [
+            [
+              "Share of U.S. Vietnamese (Pew ACS 2021–23)",
+              "60%",
+              "40%"
+            ],
+            [
+              "Median age",
+              "50.8",
+              "18.8"
+            ],
+            [
+              "Under 18",
+              "4%",
+              "45%"
+            ],
+            [
+              "65 and older",
+              "23%",
+              "2%"
+            ]
+          ],
+          "note": "Bao’s ACS 2012→2022 cut: U.S.-born share rose from ~37% to ~44%."
+        },
+        {
+          "type": "table",
+          "heading": "Year of immigration (Vietnamese immigrants)",
+          "caption": "Migration Policy Institute figures via Bao’s demographics post",
+          "headers": [
+            "Period",
+            "Share of Vietnamese immigrants"
+          ],
+          "rows": [
+            [
+              "Entered before 2000",
+              "~60%"
+            ],
+            [
+              "2000–2009",
+              "~17%"
+            ],
+            [
+              "2010–2022",
+              "~23%"
+            ]
+          ],
+          "note": "~2000 is a useful line between earlier refugee-heavy arrivals and later family-based immigration."
+        },
+        {
+          "type": "gallery",
+          "wide": true,
+          "items": [
+            {
+              "image": "/assets/demographics/national-nativity.png",
+              "caption": "Native-born vs foreign-born (naturalized / not citizen) — ACS 2012 vs 2022"
+            },
+            {
+              "image": "/assets/demographics/national-immigration-year.png",
+              "caption": "Year of immigration among Vietnamese immigrants — Migration Policy Institute"
+            },
+            {
+              "image": "/assets/demographics/national-immigration-path.png",
+              "caption": "Family ties vs other paths to lawful permanent residence — Migration Policy Institute"
+            }
+          ]
+        },
+        {
           "type": "text",
           "heading": "Working cohort labels (not Census categories)",
           "paragraphs": [
             "Until a published Sacramento Vietnamese age pyramid exists, organizers use national nativity and age as a map, checked against local channels:",
             "<strong>First-gen elders</strong> (roughly before ~1965) — refugee-era and later immigrants; Vietnamese-primary; temple / parish / YouTube. <strong>Gen X / 1.5</strong> (~1965–1980) — often the last fully bilingual household generation. <strong>Millennials</strong> (~1981–1996) — bilingual remainder plus a large English-only slice. <strong>Gen Z</strong> (~1997–2012) — mostly U.S.-born, English-primary. <strong>Gen Alpha</strong> (~2013+) — English-only at home already ~half at ages 6–10."
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Working generation weights",
+          "caption": "National ACS/Pew shape for 2026 planning — not a Sacramento pyramid",
+          "headers": [
+            "Cohort",
+            "Ages in 2026",
+            "Working % of VA public"
+          ],
+          "rows": [
+            [
+              "Boomer+ / first-gen elders",
+              "~62+",
+              "~20%"
+            ],
+            [
+              "Gen X / 1.5",
+              "~46–61",
+              "~22%"
+            ],
+            [
+              "Millennials",
+              "~30–45",
+              "~22%"
+            ],
+            [
+              "Gen Z adults",
+              "~18–29",
+              "~16%"
+            ],
+            [
+              "Gen Z minors",
+              "~14–17",
+              "~4%"
+            ],
+            [
+              "Gen Alpha",
+              "~0–13",
+              "~16%"
+            ]
           ]
         },
         {
@@ -584,9 +2204,18 @@
         {
           "type": "links",
           "items": [
-            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
-            { "label": "Pew: Facts about Vietnamese in the U.S.", "href": "https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Vietnamese American demographics (2012 vs 2022)",
+              "href": "https://baohouse.substack.com/p/vietnamese-american-demographics"
+            },
+            {
+              "label": "Pew: Facts about Vietnamese in the U.S.",
+              "href": "https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -595,7 +2224,12 @@
       "path": "/demographics/vietnamese/identity-labels/",
       "title": "Identity labels",
       "description": "Pew Research Center finding: 41% of Vietnamese adults most often describe themselves as Vietnamese American — highest among the six largest Asian origin groups.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research cite curated for cPALSs; synthesis context by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -605,6 +2239,30 @@
             "Among the six largest Asian origin groups in the U.S., <strong>Vietnamese adults are the most likely</strong> to say they most often describe themselves with their ethnic origin + American — i.e. <strong>Vietnamese American</strong>: <strong>41%</strong>, vs about 20–21% for Indian and Japanese adults (<a href=\"https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/\">Pew Research Center — Asian identity in the U.S.</a>, May 8, 2023).",
             "About <strong>64%</strong> of Vietnamese adults most often use their ethnic label alone or with American (Vietnamese / Vietnamese American). Pan-ethnic Asian / Asian American is less common among Vietnamese (~<strong>25%</strong>) than among Japanese (~39%) or Chinese (~35%)."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Preferred self-label",
+          "caption": "Pew — Asian identity in the U.S. (May 2023)",
+          "headers": [
+            "Group",
+            "Prefer ethnic + “American”"
+          ],
+          "rows": [
+            [
+              "Vietnamese",
+              "41%"
+            ],
+            [
+              "Indian",
+              "21%"
+            ],
+            [
+              "Japanese",
+              "20%"
+            ]
+          ],
+          "note": "64% of Vietnamese adults most often use ethnic alone or with American; pan-ethnic Asian/Asian American ~25%."
         },
         {
           "type": "text",
@@ -617,9 +2275,18 @@
         {
           "type": "links",
           "items": [
-            { "label": "Pew: Asian identity in the U.S. (May 2023)", "href": "https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/" },
-            { "label": "Population & geography", "href": "/demographics/vietnamese/population-geography/" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Pew: Asian identity in the U.S. (May 2023)",
+              "href": "https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/"
+            },
+            {
+              "label": "Population & geography",
+              "href": "/demographics/vietnamese/population-geography/"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -628,7 +2295,12 @@
       "path": "/demographics/vietnamese/media-outreach/",
       "title": "Media & outreach",
       "description": "Why one post cannot reach Vietnamese Americans as a single public — generation-specific news rails for Greater Sacramento organizers.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -638,6 +2310,98 @@
             "Greater Sacramento’s Vietnamese American public is not one audience with one bulletin board. It is stacked generations, two large cities plus a large unincorporated remainder, a language split moving toward English, and faith routes that cover some households and miss others. Posting once in a Người Việt Facebook group reaches a <strong>bilingual Millennial-and-older classifieds</strong> public — not English-only peers, almost any Gen Z, Gen Alpha, or monolingual elders living on YouTube.",
             "Bao’s public argument is spelled out in <a href=\"https://baohouse.substack.com/p/you-cannot-market-to-the-vietnamese\">You cannot market to “the Vietnamese community” in one post</a>."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Working generation weights",
+          "caption": "National ACS/Pew shape for 2026 — not a Sacramento pyramid",
+          "headers": [
+            "Cohort",
+            "Ages in 2026",
+            "Share of VA public"
+          ],
+          "rows": [
+            [
+              "Boomer+ / first-gen elders",
+              "~62+",
+              "~20%"
+            ],
+            [
+              "Gen X / 1.5",
+              "~46–61",
+              "~22%"
+            ],
+            [
+              "Millennials",
+              "~30–45",
+              "~22%"
+            ],
+            [
+              "Gen Z adults",
+              "~18–29",
+              "~16%"
+            ],
+            [
+              "Gen Z minors",
+              "~14–17",
+              "~4%"
+            ],
+            [
+              "Gen Alpha",
+              "~0–13",
+              "~16%"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Disability × English × spend priority",
+          "numeric": false,
+          "headers": [
+            "Cohort",
+            "Disability",
+            "English-only",
+            "English LTVW",
+            "Spend priority"
+          ],
+          "rows": [
+            [
+              "Millennials (~30–45)",
+              "6%",
+              "22%",
+              "33%",
+              "1 — primary"
+            ],
+            [
+              "Gen X / 1.5 (~46–61)",
+              "7%",
+              "13%",
+              "61%",
+              "2 — co-primary"
+            ],
+            [
+              "Boomer+ (~62+)",
+              "28% (35% at 65+)",
+              "7%",
+              "79%",
+              "3 — secondary"
+            ],
+            [
+              "Gen Z adults (~18–29)",
+              "5%",
+              "30%",
+              "18%",
+              "4 — campus / labor"
+            ],
+            [
+              "Gen Z minors (~14–17)",
+              "3%",
+              "38%",
+              "12%",
+              "Via parent"
+            ]
+          ],
+          "wide": true
         },
         {
           "type": "text",
@@ -651,6 +2415,42 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "If you need to reach…",
+          "numeric": false,
+          "headers": [
+            "Audience",
+            "Put the news…"
+          ],
+          "rows": [
+            [
+              "Monolingual elders",
+              "Vietnamese YouTube / SBTN if you can partner; temple and parish; forwardable clips for adult children"
+            ],
+            [
+              "Bilingual Millennials+",
+              "Người Việt group post in classifieds grammar; Facebook Events for dated programs; Instagram proof"
+            ],
+            [
+              "English-only 40s",
+              "English Pages, Events, Nextdoor, school and city calendars — not the Viet group headcount"
+            ],
+            [
+              "Gen Z adults",
+              "Reels / Shorts / TikTok / YouTube search; Discord / VSA / campus — not FB classifieds groups"
+            ],
+            [
+              "Gen Alpha",
+              "Parents + school bag + YouTube as search + the festival as lived news"
+            ],
+            [
+              "Paid attendance / spend",
+              "Millennials first, Gen X second, Boomers secondary (person-income wallets)"
+            ]
+          ],
+          "wide": true
+        },
+        {
           "type": "text",
           "heading": "Minimum stack to claim “the community”",
           "paragraphs": [
@@ -659,12 +2459,53 @@
           ]
         },
         {
+          "type": "table",
+          "heading": "Four-channel stack",
+          "numeric": false,
+          "headers": [
+            "Must buy",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Viet appointment (SBTN or OC/national YouTube + 60-sec forwardable clip)",
+              "Elders / Gen X · ~20–35%"
+            ],
+            [
+              "Classifieds + calendar (Người Việt FB post and a Facebook Event)",
+              "Bilingual Millennial+; Events catch English-only 40s"
+            ],
+            [
+              "Short video (IG Reel and/or TikTok and/or searchable YouTube Short)",
+              "Gen Z adults + visual Millennials; Shorts also hit minors/Alpha search"
+            ],
+            [
+              "Parent/school or faith (school bag, or parish and temple)",
+              "Alpha + Gen Z minors civic · remaining elders"
+            ]
+          ],
+          "wide": true,
+          "note": "Addressable shares overlap. One channel is roughly one-fifth to one-third of the public — not a Facebook group’s member count."
+        },
+        {
           "type": "links",
           "items": [
-            { "label": "You cannot market to the Vietnamese community in one post", "href": "https://baohouse.substack.com/p/you-cannot-market-to-the-vietnamese" },
-            { "label": "NorCal AAPI radio, podcasts, and YouTube", "href": "https://baohouse.substack.com/p/norcal-aapi-radio-podcasts-and-youtube" },
-            { "label": "Language", "href": "/demographics/vietnamese/language/" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "You cannot market to the Vietnamese community in one post",
+              "href": "https://baohouse.substack.com/p/you-cannot-market-to-the-vietnamese"
+            },
+            {
+              "label": "NorCal AAPI radio, podcasts, and YouTube",
+              "href": "https://baohouse.substack.com/p/norcal-aapi-radio-podcasts-and-youtube"
+            },
+            {
+              "label": "Language",
+              "href": "/demographics/vietnamese/language/"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -673,7 +2514,12 @@
       "path": "/demographics/vietnamese/religion/",
       "title": "Religion",
       "description": "National Pew religion identity among Vietnamese Americans — Buddhist, Christian, and unaffiliated — and what that means for local outreach distribution.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
       "blocks": [
         {
@@ -683,6 +2529,30 @@
             "National Pew (2022–23 survey of Vietnamese-alone adults): about <strong>37% Buddhist</strong>, <strong>36% Christian</strong>, and <strong>23% religiously unaffiliated</strong> (<a href=\"https://www.pewresearch.org/race-and-ethnicity/2024/08/06/vietnamese-americans-a-survey-data-snapshot/\">Vietnamese Americans: A Survey Data Snapshot</a>, Aug 2024). Vietnamese Americans are more than three times as likely as Asian Americans overall to identify as Buddhist (37% vs 11%).",
             "There is <strong>no</strong> published Sacramento parish/temple census that redoes those shares for this metro. Treat roughly even Buddhist and Christian blocs, plus a large unaffiliated third, as the working mix."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Religious identity (national)",
+          "caption": "Pew Vietnamese Americans survey snapshot (Aug 2024)",
+          "headers": [
+            "Identity",
+            "Share"
+          ],
+          "rows": [
+            [
+              "Buddhist",
+              "37%"
+            ],
+            [
+              "Christian",
+              "36%"
+            ],
+            [
+              "Religiously unaffiliated",
+              "23%"
+            ]
+          ],
+          "note": "Vietnamese Americans are more than 3× as likely as Asian Americans overall to identify as Buddhist (37% vs 11%). Not a Sacramento attendance census."
         },
         {
           "type": "text",
@@ -695,9 +2565,18 @@
         {
           "type": "links",
           "items": [
-            { "label": "Pew: Vietnamese Americans survey snapshot", "href": "https://www.pewresearch.org/race-and-ethnicity/2024/08/06/vietnamese-americans-a-survey-data-snapshot/" },
-            { "label": "Media & outreach", "href": "/demographics/vietnamese/media-outreach/" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Pew: Vietnamese Americans survey snapshot",
+              "href": "https://www.pewresearch.org/race-and-ethnicity/2024/08/06/vietnamese-americans-a-survey-data-snapshot/"
+            },
+            {
+              "label": "Media & outreach",
+              "href": "/demographics/vietnamese/media-outreach/"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
@@ -706,7 +2585,12 @@
       "path": "/demographics/vietnamese/transnational-economics/",
       "title": "Transnational economics",
       "description": "Remittances, filial obligation, and family stress in transnational Vietnamese families — essay-informed briefing by Bao Thien Ngo.",
-      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "breadcrumb": [
+        {
+          "label": "Vietnamese American demographics",
+          "href": "/demographics/vietnamese/"
+        }
+      ],
       "intro": "Essay-informed briefing by <strong>Bao Thien Ngo</strong> — not an ACS table page. Read as cultural and family-economy context alongside the income topic.",
       "blocks": [
         {
@@ -716,6 +2600,26 @@
             "With a majority of Vietnamese Americans having immigrant roots, many households still send money to relatives in Vietnam. World Bank figures cited in Bao’s <a href=\"https://baohouse.substack.com/p/remittances-and-stressors-on-transnational\">Remittances and stressors on transnational Vietnamese families</a> show remittances to Vietnam rising from about <strong>$1.3 billion</strong> in 2000 to about <strong>$13.2 billion</strong> by 2022.",
             "Cultural framing often cited in remittance commentary — filial piety, extended-family obligation, collectivist mutual support — helps explain why the practice persists even when U.S. senders face paycheck-to-paycheck pressure and high cost of living."
           ]
+        },
+        {
+          "type": "table",
+          "heading": "Remittances to Vietnam",
+          "caption": "World Bank figures cited in Bao’s remittances essay",
+          "headers": [
+            "Year",
+            "Remittances to Vietnam"
+          ],
+          "rows": [
+            [
+              "2000",
+              "~$1.3 billion"
+            ],
+            [
+              "2022",
+              "~$13.2 billion"
+            ]
+          ],
+          "note": "About a tenfold increase over 22 years. Essay-informed context — pair with the Income & poverty topic for ACS wallets."
         },
         {
           "type": "text",
@@ -735,22 +2639,55 @@
         {
           "type": "links",
           "items": [
-            { "label": "Remittances and stressors on transnational Vietnamese families", "href": "https://baohouse.substack.com/p/remittances-and-stressors-on-transnational" },
-            { "label": "Exploring the field of family economics", "href": "https://baohouse.substack.com/p/exploring-the-field-of-family-economics" },
-            { "label": "Income & poverty", "href": "/demographics/vietnamese/income-poverty/" },
-            { "label": "All topics", "href": "/demographics/vietnamese/" }
+            {
+              "label": "Remittances and stressors on transnational Vietnamese families",
+              "href": "https://baohouse.substack.com/p/remittances-and-stressors-on-transnational"
+            },
+            {
+              "label": "Exploring the field of family economics",
+              "href": "https://baohouse.substack.com/p/exploring-the-field-of-family-economics"
+            },
+            {
+              "label": "Income & poverty",
+              "href": "/demographics/vietnamese/income-poverty/"
+            },
+            {
+              "label": "All topics",
+              "href": "/demographics/vietnamese/"
+            }
           ]
         }
       ]
     }
   ],
   "redirects": [
-    { "from": "/home/", "to": "/" },
-    { "from": "/projects/", "to": "/#projects" },
-    { "from": "/projects/mid-autumn-festival/", "to": "https://greatlantern.com/resources/media/#posters" },
-    { "from": "/little-saigon/resolutions/", "to": "/little-saigon/#resolutions" },
-    { "from": "/little-saigon/visuals/", "to": "/little-saigon/#visuals" },
-    { "from": "/projects/pho-for-seniors/", "to": "https://phoforseniors.cpalss.com/" },
-    { "from": "/projects/phở-for-seniors/", "to": "https://phoforseniors.cpalss.com/" }
+    {
+      "from": "/home/",
+      "to": "/"
+    },
+    {
+      "from": "/projects/",
+      "to": "/#projects"
+    },
+    {
+      "from": "/projects/mid-autumn-festival/",
+      "to": "https://greatlantern.com/resources/media/#posters"
+    },
+    {
+      "from": "/little-saigon/resolutions/",
+      "to": "/little-saigon/#resolutions"
+    },
+    {
+      "from": "/little-saigon/visuals/",
+      "to": "/little-saigon/#visuals"
+    },
+    {
+      "from": "/projects/pho-for-seniors/",
+      "to": "https://phoforseniors.cpalss.com/"
+    },
+    {
+      "from": "/projects/phở-for-seniors/",
+      "to": "https://phoforseniors.cpalss.com/"
+    }
   ]
 }

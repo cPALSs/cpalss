@@ -211,6 +211,31 @@ const blockRenderers = {
       ${(b.paragraphs || []).map((p) => `<p>${p}</p>`).join("\n      ")}
     </section>`;
   },
+  table(b) {
+    const cell = (v, tag) => {
+      if (v && typeof v === "object" && v.html) return `<${tag}>${v.html}</${tag}>`;
+      return `<${tag}>${esc(v ?? "")}</${tag}>`;
+    };
+    const head = (b.headers || []).map((h) => cell(h, "th")).join("");
+    const body = (b.rows || [])
+      .map((row) => `<tr>${row.map((c) => cell(c, "td")).join("")}</tr>`)
+      .join("\n          ");
+    const numeric = b.numeric !== false;
+    return `<section class="block block-table${b.wide ? " block-table-wide" : ""}${numeric ? " block-table-numeric" : ""}">
+      ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
+      ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
+      <div class="table-scroll">
+        <table>
+          ${b.caption ? `<caption>${esc(b.caption)}</caption>` : ""}
+          ${head ? `<thead><tr>${head}</tr></thead>` : ""}
+          <tbody>
+          ${body}
+          </tbody>
+        </table>
+      </div>
+      ${b.note ? `<p class="table-note">${b.note}</p>` : ""}
+    </section>`;
+  },
   cards(b) {
     const cards = b.items
       .map((c) => {
@@ -230,7 +255,7 @@ const blockRenderers = {
   links(b) {
     return `<section class="block block-links">${b.items
       .map((l) => `<a class="btn btn-ghost"${linkAttrs(l.href)}>${esc(l.label)} →</a>`)
-      .join(" ")}</section>`;
+      .join("")}</section>`;
   },
   people(b) {
     const people = b.items
