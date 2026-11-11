@@ -2,37 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cpalss.com/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cpalss.com/about/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cpalss.com/about/team/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cpalss.com/projects/installation-gala/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cpalss.com/little-saigon/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cpalss.com/little-saigon/stories/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cpalss.com/little-saigon/15th-anniversary-gala/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/population-geography/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/language/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/income-poverty/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/nativity-generation/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/identity-labels/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/media-outreach/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/religion/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cpalss.com/demographics/vietnamese/transnational-economics/</loc>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

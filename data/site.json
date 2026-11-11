@@ -28,7 +28,8 @@
       "label": "Resources",
       "children": [
         { "label": "Viet Youth Resources", "href": "https://youth.cpalss.com/" },
-        { "label": "Festival Season Network", "href": "https://festival.cpalss.com/" }
+        { "label": "Festival Season Network", "href": "https://festival.cpalss.com/" },
+        { "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }
       ]
     },
     {
@@ -379,6 +380,365 @@
             { "heading": "Media", "lines": ["Media relations | Ellie King", "iHeartRadio", "KCRA", "KFBK Radio", "KOVR", "Làng Weekly Magazine", "Thằng Mõ Weekly Magazine"] },
             { "heading": "Design & Multimedia", "lines": ["Multimedia coordinator | Bao Thien Ngo", "Documentary videographer | Soul Original Media", "Plaque awards | Tony Pham"] },
             { "heading": "Special Thanks", "lines": ["Ban Cứu Trợ TPB Sacramento", "Councilmember Mai Vang", "David Doan", "Dr. Kevin Vu", "New Happy Garden Restaurant", "Pegasus Bakery"] }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/",
+      "title": "Vietnamese American demographics",
+      "description": "Consolidated findings on Vietnamese American population, language, income, identity, and outreach channels for Greater Sacramento organizers — research by Bao Thien Ngo.",
+      "intro": "A briefing series for organizers, partners, and marketers who need numbers and channel sense — not one flyer for “the Vietnamese community.” Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "How to read these pages",
+          "paragraphs": [
+            "Use the <a href=\"https://www.census.gov/programs-surveys/acs\">American Community Survey (ACS)</a> and Bao’s ACS write-ups for <strong>headcount, geography, language, and income</strong>. Use <a href=\"https://www.pewresearch.org/race-and-ethnicity/\">Pew Research Center</a> for <strong>self-label preference</strong> and <strong>national</strong> religion and age patterns — not as a Sacramento poll.",
+            "Local channel evidence (Facebook groups, millennial parent habits, collapsed Sac Vietnamese radio) is labeled as local. National under-30 or kids-media figures are labeled as U.S. extrapolations."
+          ]
+        },
+        {
+          "type": "cards",
+          "heading": "Topics",
+          "items": [
+            { "title": "Population & geography", "href": "/demographics/vietnamese/population-geography/", "body": "County ~35k, metro catchment, Elk Grove vs Sacramento city vs unincorporated corridor" },
+            { "title": "Language", "href": "/demographics/vietnamese/language/", "body": "English proficiency, English-only growth, bilingual bridge, age cuts" },
+            { "title": "Income & poverty", "href": "/demographics/vietnamese/income-poverty/", "body": "Household vs person income, elder poverty, wallets by generation" },
+            { "title": "Nativity & generation", "href": "/demographics/vietnamese/nativity-generation/", "body": "U.S.-born share, immigrant median age, cohort labels, post-2000 arrivals" },
+            { "title": "Identity labels", "href": "/demographics/vietnamese/identity-labels/", "body": "Pew: 41% most often say Vietnamese American" },
+            { "title": "Media & outreach", "href": "/demographics/vietnamese/media-outreach/", "body": "Why one post cannot reach the whole public; rails by generation" },
+            { "title": "Religion", "href": "/demographics/vietnamese/religion/", "body": "National Buddhist / Christian / unaffiliated split as a distribution system" },
+            { "title": "Transnational economics", "href": "/demographics/vietnamese/transnational-economics/", "body": "Remittances, filial obligation, and family stress — essay-informed" }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Attribution",
+          "paragraphs": [
+            "Findings are consolidated from research by <strong>Bao Thien Ngo</strong>, including ACS syntheses published on <a href=\"https://baohouse.substack.com/\">baohouse.substack.com</a> and staff landscape notes used by cPALSs. Primary datasets remain ACS, Pew, and the Migration Policy Institute where cited on each topic page."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/population-geography/",
+      "title": "Population & geography",
+      "description": "How many Vietnamese Americans live in Sacramento County and Greater Sacramento, and where — ACS headcounts for organizers.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Sacramento County and the metro",
+          "paragraphs": [
+            "Sacramento County is the core local public used in workshop and partner briefings: about <strong>35,146</strong> Vietnamese people in ACS <strong>2023</strong>, per Bao’s <a href=\"https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento\">Census data on Vietnamese in Sacramento County</a>. That scale is small enough that a six-figure festival audience cannot be “the community showing up” alone — it requires neighbors who are not Vietnamese.",
+            "Greater Sacramento in Census terms is the Sacramento–Roseville–Folsom metro (Sacramento, Placer, Yolo, and El Dorado Counties). ACS <strong>2024 5-year</strong>, table B02015 Vietnamese alone, puts the MSA at about <strong>37,866</strong> (±2,565). Adding San Joaquin County (Stockton drive market, not in the MSA) adds about <strong>8,217</strong> — roughly <strong>~46k</strong> if the question is catchment, not a single county.",
+            "County Vietnamese-alone 5-year counts and Bao’s 2023 county synthesis are the same place counted two ways. Use <strong>~35k</strong> when partners already know that figure; use metro / Stockton-inclusive numbers when the question is drive-market reach."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Where people live inside the county",
+          "paragraphs": [
+            "Bao’s ACS 2023 county synthesis groups geography so that about <strong>38.6%</strong> of county Vietnamese live in <strong>Elk Grove</strong>, <strong>35.2%</strong> in the <strong>City of Sacramento</strong>, and the rest elsewhere in the county — roughly two-thirds in those two named cities.",
+            "Place-level Vietnamese-alone counts (ACS 2024 5-year) put Elk Grove first among incorporated cities (~9,800), Sacramento city second (~8,200), with Roseville, Rancho Cordova, Davis, Folsom, and others thinner. A large share of county Vietnamese live in <strong>unincorporated</strong> South Sacramento / Fruitridge / Laguna-adjacent tracts — including much of the Little Saigon corridor on Stockton Boulevard — that a city-only map undercounts.",
+            "Organizer implication: a Facebook group titled “Sacramento” does not mean the poster lives here, and an Elk Grove flyer does not automatically reach unincorporated corridor elders unless someone forwards it. Little Saigon is often a <strong>destination, not home</strong> for households that raised kids on the boulevard and now live in Elk Grove."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "National scale",
+          "paragraphs": [
+            "Nationally, about <strong>2.3 million</strong> people identified as Vietnamese in the U.S. in recent ACS cuts; <strong>44%</strong> were U.S.-born in the 2022 cut summarized in <a href=\"https://baohouse.substack.com/p/vietnamese-american-demographics\">Vietnamese American demographics (2012 vs 2022)</a>. Use national scale for proportion and trend — not as a substitute for the Sacramento headcount."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Census data on Vietnamese in Sacramento County", "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento" },
+            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/language/",
+      "title": "Language",
+      "description": "English proficiency, English-only growth, and the shrinking bilingual bridge among Vietnamese Americans — ACS findings for organizers.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "National language mix",
+          "paragraphs": [
+            "Per ACS 2022 (Bao’s national synthesis): about <strong>41%</strong> of Vietnamese Americans spoke English less than “very well,” <strong>28%</strong> spoke <strong>only English</strong>, and <strong>31%</strong> could act as a <strong>bilingual bridge</strong>. A decade earlier, English-only was about <strong>16%</strong>. The bridge is shrinking; English-only is the growth slice.",
+            "Pew’s 2021–23 ACS analysis describes the same shape: <strong>56%</strong> of Vietnamese ages 5+ are English proficient; U.S.-born Vietnamese are about <strong>90%</strong> proficient vs about <strong>36%</strong> of immigrants; about <strong>72%</strong> speak Vietnamese at home (<a href=\"https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/\">Pew Facts about Vietnamese in the U.S.</a>)."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Age cuts that matter for outreach",
+          "paragraphs": [
+            "From <a href=\"https://baohouse.substack.com/p/vietnamese-heritage-language-use\">Vietnamese heritage language use</a> (ACS 2023 PUMS): English-only at home is about <strong>23%</strong> at ages 41–45, <strong>nearly half</strong> among teens, and about <strong>half</strong> among children ~6–10 (today’s Gen Alpha band).",
+            "A Người Việt Facebook group is the <strong>bilingual remainder</strong> of Millennials and older — not “Sacramento Vietnamese ages 40–45.” The English-only slice in that band, almost all of Gen Z, and half of elementary-age kids need English or bilingual surfaces that are not Vietnamese classifieds groups."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Register, not just proficiency",
+          "paragraphs": [
+            "Beyond ACS boxes, Bao’s writing on <a href=\"https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north\">North American Vernacular Vietnamese (NAVV)</a> describes a U.S. Vietnamese register shaped by diaspora life — useful for copy and education design, not a substitute for ACS proficiency tables."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Vietnamese heritage language use", "href": "https://baohouse.substack.com/p/vietnamese-heritage-language-use" },
+            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
+            { "label": "North American Vernacular Vietnamese", "href": "https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/income-poverty/",
+      "title": "Income & poverty",
+      "description": "Vietnamese American household vs person income, SNAP and retirement, child vs elder poverty, and wallet caveats for festival and program pricing.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Household medians hide person wallets",
+          "paragraphs": [
+            "National ACS trends in <a href=\"https://baohouse.substack.com/p/vietnamese-american-demographics\">Vietnamese American demographics (2012 vs 2022)</a> show household and family median income rising after inflation adjustment (household median about <strong>$86,025</strong> in 2022), while per capita income remains below the all-American average. SNAP receipt stayed roughly flat (~15%); Social Security and retirement income shares rose as the population aged (65+ from ~8% to ~13% over the decade).",
+            "<strong>Do not treat the ~$86k household median as an elder’s disposable income.</strong> That figure is often an adult child’s wages plus an elder in the same unit. Festival tickets, merch, and vendor spend come out of the <strong>person’s</strong> wallet."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Poverty: children vs elders",
+          "paragraphs": [
+            "Overall family poverty fell toward national parity by 2022. Child poverty dropped sharply and sits well below the national average; <strong>elder poverty</strong> improved only slightly and remains <strong>well above</strong> the national elder rate (~16.6% vs ~10.9% in that cut). Public assistance for elders remains structurally important."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Person income by generation (targeting)",
+          "paragraphs": [
+            "ACS 2023 1-year PUMS person-income bands (Vietnamese alone, national, including $0) used for cPALSs channel planning put <strong>Millennials</strong> as the primary paid-product wallet (median about <strong>$51k</strong>), <strong>Gen X / 1.5</strong> co-primary (median about <strong>$38k</strong>), and <strong>Boomer+</strong> secondary for spend (median about <strong>$15k</strong>; about <strong>65%</strong> have zero job earnings). About <strong>35%</strong> of Vietnamese 65+ report an ACS disability in that cut.",
+            "Do not mix Pew’s earners-only personal earnings figure with ACS person income that includes zeros. Do not treat lumped “Gen Z 14–29” as one wallet — minors have no person-income row; ages 18–22 often median near $0 (school); ages 25–29 are a junior wallet."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Sacramento County",
+          "paragraphs": [
+            "Local income and poverty detail for the county public is in Bao’s <a href=\"https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento\">Sacramento County ACS synthesis</a>. Prefer that post for place-specific tables; use national person-income bands when the question is generation targeting, not a local wage survey."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
+            { "label": "Census data on Vietnamese in Sacramento County", "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/nativity-generation/",
+      "title": "Nativity & generation",
+      "description": "U.S.-born share, immigrant median age, cultural cohort labels, and the post-2000 family-based immigration wave among Vietnamese Americans.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Nativity and age",
+          "paragraphs": [
+            "In Bao’s ACS 2012 vs 2022 national cut, U.S.-born Vietnamese rose from about <strong>37%</strong> to <strong>44%</strong> of the population; naturalized and non-citizen shares shifted accordingly (<a href=\"https://baohouse.substack.com/p/vietnamese-american-demographics\">Vietnamese American demographics</a>).",
+            "Pew’s 2021–23 ACS analysis puts immigrants at about <strong>60%</strong> and U.S.-born at <strong>40%</strong>, with median ages about <strong>50.8</strong> (immigrants) vs <strong>18.8</strong> (U.S.-born). About <strong>45%</strong> of U.S.-born Vietnamese are under 18 — the youth public is demographically a <strong>second-generation</strong> public (<a href=\"https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/\">Pew fact sheet</a>)."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Working cohort labels (not Census categories)",
+          "paragraphs": [
+            "Until a published Sacramento Vietnamese age pyramid exists, organizers use national nativity and age as a map, checked against local channels:",
+            "<strong>First-gen elders</strong> (roughly before ~1965) — refugee-era and later immigrants; Vietnamese-primary; temple / parish / YouTube. <strong>Gen X / 1.5</strong> (~1965–1980) — often the last fully bilingual household generation. <strong>Millennials</strong> (~1981–1996) — bilingual remainder plus a large English-only slice. <strong>Gen Z</strong> (~1997–2012) — mostly U.S.-born, English-primary. <strong>Gen Alpha</strong> (~2013+) — English-only at home already ~half at ages 6–10."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Post-2000 arrivals sit across age labels",
+          "paragraphs": [
+            "Migration Policy Institute figures summarized in Bao’s demographics post mark ~2000 as a useful line between earlier refugee-heavy arrivals and later <strong>family-based</strong> immigration. Recent nationals may be Millennial or Gen Z by age and still Vietnamese-primary on Zalo and Facebook. <strong>Age is not language.</strong>"
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Vietnamese American demographics (2012 vs 2022)", "href": "https://baohouse.substack.com/p/vietnamese-american-demographics" },
+            { "label": "Pew: Facts about Vietnamese in the U.S.", "href": "https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/identity-labels/",
+      "title": "Identity labels",
+      "description": "Pew Research Center finding: 41% of Vietnamese adults most often describe themselves as Vietnamese American — highest among the six largest Asian origin groups.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research cite curated for cPALSs; synthesis context by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "What Pew measured",
+          "paragraphs": [
+            "Among the six largest Asian origin groups in the U.S., <strong>Vietnamese adults are the most likely</strong> to say they most often describe themselves with their ethnic origin + American — i.e. <strong>Vietnamese American</strong>: <strong>41%</strong>, vs about 20–21% for Indian and Japanese adults (<a href=\"https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/\">Pew Research Center — Asian identity in the U.S.</a>, May 8, 2023).",
+            "About <strong>64%</strong> of Vietnamese adults most often use their ethnic label alone or with American (Vietnamese / Vietnamese American). Pan-ethnic Asian / Asian American is less common among Vietnamese (~<strong>25%</strong>) than among Japanese (~39%) or Chinese (~35%)."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "How organizers should use it",
+          "paragraphs": [
+            "Cite this when arguing for a <strong>named Vietnamese</strong> product, night, brand, or program — not only pan-Asian / AAPI framing. Named-Vietnamese creative matches how a plurality of Vietnamese adults name themselves.",
+            "<strong>Do not</strong> use Pew self-label shares as a population-size or Sacramento County substitute. Pair with ACS / Bao’s headcount pages for scale."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Pew: Asian identity in the U.S. (May 2023)", "href": "https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/" },
+            { "label": "Population & geography", "href": "/demographics/vietnamese/population-geography/" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/media-outreach/",
+      "title": "Media & outreach",
+      "description": "Why one post cannot reach Vietnamese Americans as a single public — generation-specific news rails for Greater Sacramento organizers.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "The one-post myth",
+          "paragraphs": [
+            "Greater Sacramento’s Vietnamese American public is not one audience with one bulletin board. It is stacked generations, two large cities plus a large unincorporated remainder, a language split moving toward English, and faith routes that cover some households and miss others. Posting once in a Người Việt Facebook group reaches a <strong>bilingual Millennial-and-older classifieds</strong> public — not English-only peers, almost any Gen Z, Gen Alpha, or monolingual elders living on YouTube.",
+            "Bao’s public argument is spelled out in <a href=\"https://baohouse.substack.com/p/you-cannot-market-to-the-vietnamese\">You cannot market to “the Vietnamese community” in one post</a>."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Rails by generation (working model)",
+          "paragraphs": [
+            "<strong>First-gen elders:</strong> appointment media habit, now often OC/national Vietnamese YouTube + word of mouth at temple, parish, market, and salon. Design for <strong>family proxy</strong> — a short Vietnamese clip an adult child can forward.",
+            "<strong>Gen X / 1.5 and bilingual Millennials:</strong> Người Việt Facebook groups as classifieds (referral asks work; generic flyers die); Facebook Events as a parent calendar. Local Sac Vietnamese radio is gone; the Sacramento beat on diaspora TV is thin.",
+            "<strong>English-only Millennials (~23% at ages 41–45):</strong> not in Người Việt groups — English Pages, Events, Nextdoor, school and city calendars.",
+            "<strong>Gen Z adults:</strong> extrapolate from U.S. under-30 news habits (incidental news on TikTok / Instagram / YouTube / Facebook; creators over mastheads) — then subtract Vietnamese classifieds groups. Do not treat national under-30 rates as a measured Sac Vietnamese poll.",
+            "<strong>Gen Alpha:</strong> news is parent- and school-mediated; English-majority at home; Reels/Shorts-shaped; YouTube as search. Reach the parent’s calendar and the school bag — do not flyer the child or SEO a webpage for an 8-year-old."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Minimum stack to claim “the community”",
+          "paragraphs": [
+            "A practical four-channel stack: (1) Vietnamese appointment media or forwardable YouTube clip for elders; (2) one Người Việt group post <em>and</em> a Facebook Event for bilingual Millennial+; (3) short video (Reel / TikTok / searchable YouTube Short) for younger visual audiences; (4) parent/school <em>or</em> both parish and temple routes. Family forward is how elder and child messages jump the household.",
+            "NorCal audio/video landscape notes: <a href=\"https://baohouse.substack.com/p/norcal-aapi-radio-podcasts-and-youtube\">NorCal AAPI radio, podcasts, and YouTube</a>."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "You cannot market to the Vietnamese community in one post", "href": "https://baohouse.substack.com/p/you-cannot-market-to-the-vietnamese" },
+            { "label": "NorCal AAPI radio, podcasts, and YouTube", "href": "https://baohouse.substack.com/p/norcal-aapi-radio-podcasts-and-youtube" },
+            { "label": "Language", "href": "/demographics/vietnamese/language/" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/religion/",
+      "title": "Religion",
+      "description": "National Pew religion identity among Vietnamese Americans — Buddhist, Christian, and unaffiliated — and what that means for local outreach distribution.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong>.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "National identity mix (not a Sacramento census)",
+          "paragraphs": [
+            "National Pew (2022–23 survey of Vietnamese-alone adults): about <strong>37% Buddhist</strong>, <strong>36% Christian</strong>, and <strong>23% religiously unaffiliated</strong> (<a href=\"https://www.pewresearch.org/race-and-ethnicity/2024/08/06/vietnamese-americans-a-survey-data-snapshot/\">Vietnamese Americans: A Survey Data Snapshot</a>, Aug 2024). Vietnamese Americans are more than three times as likely as Asian Americans overall to identify as Buddhist (37% vs 11%).",
+            "There is <strong>no</strong> published Sacramento parish/temple census that redoes those shares for this metro. Treat roughly even Buddhist and Christian blocs, plus a large unaffiliated third, as the working mix."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Faith as a distribution system",
+          "paragraphs": [
+            "For many first-gen households, parish Tết, temple Vu Lan, and weekend Mass or ceremony are how news travels — not only belief. The unaffiliated third (and many younger Christians/Buddhists who do not attend) will not get that bulletin.",
+            "Civic and festival outreach that only flyers one faith parking lot misses the other half of the religious split <strong>and</strong> the unaffiliated. Buy parish <em>and</em> temple routes when claiming faith coverage — or accept the hole."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Pew: Vietnamese Americans survey snapshot", "href": "https://www.pewresearch.org/race-and-ethnicity/2024/08/06/vietnamese-americans-a-survey-data-snapshot/" },
+            { "label": "Media & outreach", "href": "/demographics/vietnamese/media-outreach/" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/vietnamese/transnational-economics/",
+      "title": "Transnational economics",
+      "description": "Remittances, filial obligation, and family stress in transnational Vietnamese families — essay-informed briefing by Bao Thien Ngo.",
+      "breadcrumb": [{ "label": "Vietnamese American demographics", "href": "/demographics/vietnamese/" }],
+      "intro": "Essay-informed briefing by <strong>Bao Thien Ngo</strong> — not an ACS table page. Read as cultural and family-economy context alongside the income topic.",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Remittances as family practice",
+          "paragraphs": [
+            "With a majority of Vietnamese Americans having immigrant roots, many households still send money to relatives in Vietnam. World Bank figures cited in Bao’s <a href=\"https://baohouse.substack.com/p/remittances-and-stressors-on-transnational\">Remittances and stressors on transnational Vietnamese families</a> show remittances to Vietnam rising from about <strong>$1.3 billion</strong> in 2000 to about <strong>$13.2 billion</strong> by 2022.",
+            "Cultural framing often cited in remittance commentary — filial piety, extended-family obligation, collectivist mutual support — helps explain why the practice persists even when U.S. senders face paycheck-to-paycheck pressure and high cost of living."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Stressors organizers should not ignore",
+          "paragraphs": [
+            "Bao’s essay highlights trade-offs: remittances can improve material conditions for relatives while not relieving the pain of separation; expectation can exceed means and produce guilt or resentment; communication style gaps between Vietnam and the U.S. (affirmation, academic pressure) strain relationships that money alone does not fix.",
+            "For program and financial-wellness work: treat remittance pressure as a real household budget line for some families, pair money education with relationship boundaries, and do not assume U.S. household ACS income is fully available for local spend."
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Related reading",
+          "paragraphs": [
+            "Broader family-economy exploration: <a href=\"https://baohouse.substack.com/p/exploring-the-field-of-family-economics\">Exploring the field of family economics</a>. For ACS income and poverty tables, use the <a href=\"/demographics/vietnamese/income-poverty/\">Income &amp; poverty</a> topic."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            { "label": "Remittances and stressors on transnational Vietnamese families", "href": "https://baohouse.substack.com/p/remittances-and-stressors-on-transnational" },
+            { "label": "Exploring the field of family economics", "href": "https://baohouse.substack.com/p/exploring-the-field-of-family-economics" },
+            { "label": "Income & poverty", "href": "/demographics/vietnamese/income-poverty/" },
+            { "label": "All topics", "href": "/demographics/vietnamese/" }
           ]
         }
       ]
