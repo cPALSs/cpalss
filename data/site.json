@@ -891,7 +891,7 @@
             {
               "title": "Income & poverty",
               "href": "/demographics/vietnamese/income-poverty/",
-              "body": "Household vs person income, elder poverty, wallets by generation"
+              "body": "Household vs person income, elder poverty, Sac LMI / CRA, wallets by generation"
             },
             {
               "title": "Nativity & generation",
@@ -1427,7 +1427,7 @@
     {
       "path": "/demographics/vietnamese/income-poverty/",
       "title": "Income & poverty",
-      "description": "Vietnamese American household vs person income, SNAP and retirement, child vs elder poverty, and wallet caveats for festival and program pricing.",
+      "description": "Vietnamese American household vs person income, SNAP and retirement, child vs elder poverty, Sacramento County LMI / CRA context, and wallet caveats for festival and program pricing.",
       "breadcrumb": [
         {
           "label": "Vietnamese American demographics",
@@ -2032,6 +2032,67 @@
           "note": "About 24.7% of county Vietnamese are at 501%+ of FPL vs 32.1% of non-Vietnamese in the same cut."
         },
         {
+          "type": "text",
+          "heading": "Low-to-moderate income (LMI) — bank / CRA framing",
+          "paragraphs": [
+            "Banks and credit unions often ask whether a program serves <strong>low-to-moderate income (LMI)</strong> people. Under the Community Reinvestment Act (CRA), that usually means household or family income at or below <strong>80% of area median family income (AMI)</strong> — <strong>low</strong> is under 50% AMI; <strong>moderate</strong> is 50% to under 80%. That bar is much wider than federal poverty.",
+            "Federal poverty (FPL) in the Sacramento County table above is the deep end (~16.7% of county Vietnamese). LMI is the broader share funders mean when they say they support organizations serving LMI communities. For HUD’s Sacramento–Roseville–Arden-Arcade metro area, FY 2025 low-income (80%) limits are about <strong>$72k</strong> (1-person) to <strong>$103k</strong> (4-person); very low-income (50%) is about <strong>$45k</strong> to <strong>$64k</strong> for those sizes."
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Sacramento County — CRA-style LMI estimate (households)",
+          "caption": "ACS 2017–2021 Selected Population Tables — Vietnamese alone or in any combination",
+          "headers": [
+            "Measure",
+            "Vietnamese",
+            "County overall"
+          ],
+          "rows": [
+            [
+              "Households (this cut)",
+              "10,335",
+              "559,036"
+            ],
+            [
+              "Median household income",
+              "$76,534",
+              "$76,422"
+            ],
+            [
+              "Median family income",
+              "$81,495",
+              "$88,841"
+            ],
+            [
+              "Low-income HH (≤50% of county family median)",
+              "~34%",
+              "~29%"
+            ],
+            [
+              "LMI HH (≤80% of county family median)",
+              "~48%",
+              "~47%"
+            ],
+            [
+              "People below 200% of FPL (C17002)",
+              "~35%",
+              "~30%"
+            ]
+          ],
+          "wide": true,
+          "note": "LMI shares estimate households under 50%/80% of the same-table Sacramento County median family income ($88,841), using B19001 income bands with linear interpolation inside open bands. Not HUD household-size-adjusted limits. Vintage differs from the ACS 2023 county poverty synthesis above."
+        },
+        {
+          "type": "text",
+          "heading": "How to read LMI for Sacramento Vietnamese",
+          "paragraphs": [
+            "On this same-vintage county benchmark, roughly <strong>half of Vietnamese households</strong> (~4,900 of ~10,300) fall under an 80%-of-county-family-median line — similar to the county overall (~47%). The sharper local signal is still <strong>poverty concentration</strong> (16.7% vs 9.3% non-Vietnamese in the ACS 2023 cut) and the <strong>place split</strong>: Elk Grove PUMAs near parity on mean income; Fruitridge / Southwest Sacramento and the Galt–Delta–rural PUMA show Vietnamese means about two-thirds of non-Vietnamese neighbors.",
+            "Cross-check with the ACS 2023 income-to-poverty bands above: about <strong>30%</strong> of county Vietnamese are at or below 200% of FPL, and about <strong>42%</strong> at or below 300% of FPL — the person-level near-poor band that often overlaps LMI for typical family sizes. Vietnamese family median in the SPT cut (~$81.5k) sits at about <strong>92%</strong> of the county family median, so the community is not uniformly LMI; it is bifurcated.",
+            "For bank conversations: lead with elevated poverty and corridor gaps, then that roughly half of Vietnamese households sit under a CRA-style county LMI line. Free public festivals that draw Elk Grove + South Sacramento families (including LMI tracts) are a natural program bridge. Prefer MSA AMI when a funder uses metro limits — Sacramento County alone understates how LMI Sac County Vietnamese look relative to a Placer/El Dorado–pulled metro median."
+          ]
+        },
+        {
           "type": "links",
           "items": [
             {
@@ -2041,6 +2102,10 @@
             {
               "label": "Census data on Vietnamese in Sacramento County",
               "href": "https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento"
+            },
+            {
+              "label": "HUD FY 2025 income limits documentation",
+              "href": "https://www.huduser.gov/portal/datasets/il.html"
             },
             {
               "label": "All topics",
