@@ -65,6 +65,7 @@
       
       <p>In Bao’s ACS 2012 vs 2022 national cut, U.S.-born Vietnamese rose from about <strong>37%</strong> to <strong>44%</strong> of the population; naturalized and non-citizen shares shifted accordingly (<a href="https://baohouse.substack.com/p/vietnamese-american-demographics">Vietnamese American demographics</a>).</p>
       <p>Pew’s 2021–23 ACS analysis puts immigrants at about <strong>60%</strong> and U.S.-born at <strong>40%</strong>, with median ages about <strong>50.8</strong> (immigrants) vs <strong>18.8</strong> (U.S.-born). About <strong>45%</strong> of U.S.-born Vietnamese are under 18 — the youth public is demographically a <strong>second-generation</strong> public (<a href="https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/">Pew fact sheet</a>).</p>
+      
     </section>
     <section class="block block-table block-table-numeric">
       <h2>Nativity snapshot</h2>
@@ -72,62 +73,72 @@
       <div class="table-scroll">
         <table>
           
+          
           <thead><tr><th>Measure</th><th>Immigrants</th><th>U.S.-born</th></tr></thead>
           <tbody>
-          <tr><td>Share of U.S. Vietnamese (Pew ACS 2021–23)</td><td>60%</td><td>40%</td></tr>
-          <tr><td>Median age</td><td>50.8</td><td>18.8</td></tr>
-          <tr><td>Under 18</td><td>4%</td><td>45%</td></tr>
-          <tr><td>65 and older</td><td>23%</td><td>2%</td></tr>
+          <tr class=""><td>Share of U.S. Vietnamese (Pew ACS 2021–23)</td><td>60%</td><td>40%</td></tr>
+          <tr class=""><td>Median age</td><td>50.8</td><td>18.8</td></tr>
+          <tr class=""><td>Under 18</td><td>4%</td><td>45%</td></tr>
+          <tr class=""><td>65 and older</td><td>23%</td><td>2%</td></tr>
           </tbody>
         </table>
       </div>
       <p class="table-note">Bao’s ACS 2012→2022 cut: U.S.-born share rose from ~37% to ~44%.</p>
     </section>
-    <section class="block block-table block-table-numeric">
-      <h2>Year of immigration (Vietnamese immigrants)</h2>
+    <section id="nativity-stack" class="block block-chart block-chart-wide">
+      <h2>Native-born vs foreign-born</h2>
+      
+      <figure class="chart-figure">
+        <figcaption class="chart-caption">ACS 2012 vs 2022 — Vietnamese alone or in combination (Bao synthesis)</figcaption>
+        <div class="chart-frame" style="--chart-height: 24rem">
+          <canvas id="nativity-stack-canvas" class="js-chart" role="img" aria-label="Stacked bars comparing native-born, naturalized, and non-citizen Vietnamese Americans in 2012 and 2022" data-chart="{&quot;kind&quot;:&quot;stackedShare&quot;,&quot;labels&quot;:[&quot;2012&quot;,&quot;2022&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Native&quot;,&quot;data&quot;:[37,44],&quot;backgroundColor&quot;:&quot;#d7b48a&quot;},{&quot;label&quot;:&quot;Foreign-born, naturalized&quot;,&quot;data&quot;:[47,43],&quot;backgroundColor&quot;:&quot;#8c2328&quot;},{&quot;label&quot;:&quot;Foreign-born, not citizen&quot;,&quot;data&quot;:[16,13],&quot;backgroundColor&quot;:&quot;#3d1214&quot;,&quot;borderRadius&quot;:{&quot;topLeft&quot;:10,&quot;topRight&quot;:10,&quot;bottomLeft&quot;:0,&quot;bottomRight&quot;:0}}],&quot;segmentLabels&quot;:{&quot;0&quot;:[&quot;685k (37%)&quot;,&quot;1,021k (44%)&quot;],&quot;1&quot;:[&quot;882k (47%)&quot;,&quot;992k (43%)&quot;],&quot;2&quot;:[&quot;293k (16%)&quot;,&quot;289k (13%)&quot;]},&quot;labelColors&quot;:[&quot;#2b1d1a&quot;,&quot;#ffffff&quot;,&quot;#ffffff&quot;]}"></canvas>
+        </div>
+        <p class="table-note">Counts shown in thousands. U.S.-born share rose from about 37% to 44%; non-citizen share edged down.</p>
+      </figure>
+    </section>
+    <section id="immigration-year" class="block block-table block-table-numeric">
+      <h2>Year of immigration</h2>
       
       <div class="table-scroll">
         <table>
-          <caption>Migration Policy Institute figures via Bao’s demographics post</caption>
-          <thead><tr><th>Period</th><th>Share of Vietnamese immigrants</th></tr></thead>
+          <caption>Share of Vietnamese immigrants by period of entry — Migration Policy Institute (via Bao synthesis)</caption>
+          
+          <thead><tr><th>Period of entry</th><th>Share</th></tr></thead>
           <tbody>
-          <tr><td>Entered before 2000</td><td>~60%</td></tr>
-          <tr><td>2000–2009</td><td>~17%</td></tr>
-          <tr><td>2010–2022</td><td>~23%</td></tr>
+          <tr class=""><td>Entered before 2000</td><td>60%</td></tr>
+          <tr class=""><td>2000–2009</td><td>17%</td></tr>
+          <tr class=""><td>2010–2022</td><td>23%</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="table-note">~2000 is a useful line between earlier refugee-heavy arrivals and later family-based immigration.</p>
+      <p class="table-note">~2000 is a useful line between earlier refugee-heavy arrivals and later family-based immigration. Percentages may not sum to 100 due to rounding.</p>
     </section>
-    <section class="block block-gallery">
+    <section id="immigration-path" class="block block-chart block-chart-wide">
+      <h2>Family ties over time</h2>
       
-      
-      <div class="gallery gallery-wide">
-        <figure class="gallery-item"><a href="/assets/demographics/national-nativity.png" class="zoom"><img src="/assets/demographics/national-nativity.png" alt="Native-born vs foreign-born (naturalized / not citizen) — ACS 2012 vs 2022" loading="lazy" decoding="async" /></a><figcaption><strong>Native-born vs foreign-born (naturalized / not citizen) — ACS 2012 vs 2022</strong></figcaption></figure>
-        <figure class="gallery-item"><a href="/assets/demographics/national-immigration-year.png" class="zoom"><img src="/assets/demographics/national-immigration-year.png" alt="Year of immigration among Vietnamese immigrants — Migration Policy Institute" loading="lazy" decoding="async" /></a><figcaption><strong>Year of immigration among Vietnamese immigrants — Migration Policy Institute</strong></figcaption></figure>
-        <figure class="gallery-item"><a href="/assets/demographics/national-immigration-path.png" class="zoom"><img src="/assets/demographics/national-immigration-path.png" alt="Family ties vs other paths to lawful permanent residence — Migration Policy Institute" loading="lazy" decoding="async" /></a><figcaption><strong>Family ties vs other paths to lawful permanent residence — Migration Policy Institute</strong></figcaption></figure>
-      </div>
+      <figure class="chart-figure">
+        <figcaption class="chart-caption">Approximate recreation of MPI’s pathway chart (refugee arrivals vs LPR as refugees/asylees vs LPR via family ties), 1975–2022</figcaption>
+        <div class="chart-frame" style="--chart-height: 26rem">
+          <canvas id="immigration-path-canvas" class="js-chart" role="img" aria-label="Line chart of Vietnamese refugee arrivals and lawful permanent residence pathways over time" data-chart="{&quot;kind&quot;:&quot;lineSeries&quot;,&quot;yMax&quot;:140000,&quot;labels&quot;:[&quot;1975&quot;,&quot;1976&quot;,&quot;1977&quot;,&quot;1978&quot;,&quot;1979&quot;,&quot;1980&quot;,&quot;1981&quot;,&quot;1982&quot;,&quot;1983&quot;,&quot;1984&quot;,&quot;1985&quot;,&quot;1986&quot;,&quot;1987&quot;,&quot;1988&quot;,&quot;1989&quot;,&quot;1990&quot;,&quot;1991&quot;,&quot;1992&quot;,&quot;1993&quot;,&quot;1994&quot;,&quot;1995&quot;,&quot;1996&quot;,&quot;1997&quot;,&quot;1998&quot;,&quot;1999&quot;,&quot;2000&quot;,&quot;2001&quot;,&quot;2002&quot;,&quot;2003&quot;,&quot;2004&quot;,&quot;2005&quot;,&quot;2006&quot;,&quot;2007&quot;,&quot;2008&quot;,&quot;2009&quot;,&quot;2010&quot;,&quot;2011&quot;,&quot;2012&quot;,&quot;2013&quot;,&quot;2014&quot;,&quot;2015&quot;,&quot;2016&quot;,&quot;2017&quot;,&quot;2018&quot;,&quot;2019&quot;,&quot;2020&quot;,&quot;2021&quot;,&quot;2022&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Refugee arrivals&quot;,&quot;data&quot;:[3000,20000,70000,113000,95000,72000,28000,16000,10000,8000,12000,7000,8000,14000,18000,19000,35000,42000,27000,18000,8000,4000,2000,1000,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],&quot;borderColor&quot;:&quot;#3aa5c9&quot;,&quot;pointRadius&quot;:0,&quot;tension&quot;:0.2},{&quot;label&quot;:&quot;LPR as refugees / asylees&quot;,&quot;data&quot;:[38000,55000,70000,78000,82000,80000,45000,26000,18000,13000,11000,10000,12000,15000,16000,17000,28000,32000,22000,20000,16000,10000,6000,3000,2000,1000,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],&quot;borderColor&quot;:&quot;#7a5ea8&quot;,&quot;pointRadius&quot;:0,&quot;tension&quot;:0.2},{&quot;label&quot;:&quot;LPR via family ties&quot;,&quot;data&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,2000,3000,5000,6000,8000,10000,9000,7000,5000,4000,3000,5000,12000,11000,10000,13000,15000,16000,18000,19000,20000,21000,22000,24000,23000,21000,20000,26000,30000,33000,28000,27000,22000,18000,24000],&quot;borderColor&quot;:&quot;#d9833b&quot;,&quot;pointRadius&quot;:0,&quot;tension&quot;:0.25,&quot;spanGaps&quot;:false}]}"></canvas>
+        </div>
+        <p class="table-note">Traced approximately from the MPI figure for shape — not official tabulated microdata. Family ties = immediate relatives of U.S. citizens plus other family-sponsored preferences.</p>
+      </figure>
     </section>
-    <section class="block block-text">
-      <h2>Working cohort labels (not Census categories)</h2>
-      
-      <p>Until a published Sacramento Vietnamese age pyramid exists, organizers use national nativity and age as a map, checked against local channels:</p>
-      <p><strong>First-gen elders</strong> (roughly before ~1965) — refugee-era and later immigrants; Vietnamese-primary; temple / parish / YouTube. <strong>Gen X / 1.5</strong> (~1965–1980) — often the last fully bilingual household generation. <strong>Millennials</strong> (~1981–1996) — bilingual remainder plus a large English-only slice. <strong>Gen Z</strong> (~1997–2012) — mostly U.S.-born, English-primary. <strong>Gen Alpha</strong> (~2013+) — English-only at home already ~half at ages 6–10.</p>
-    </section>
-    <section class="block block-table block-table-numeric">
+    <section class="block block-table block-table-numeric block-table-equal-trailing">
       <h2>Working generation weights</h2>
-      
+      <p class="lead">Until a published Sacramento Vietnamese age pyramid exists, organizers use national nativity and age as a map, checked against local channels. Labels below are working cohorts — not Census categories.</p>
       <div class="table-scroll">
         <table>
           <caption>National ACS/Pew shape for 2026 planning — not a Sacramento pyramid</caption>
+          <colgroup><col style="width: 64.0000%" /><col style="width: 18.0000%" /><col style="width: 18.0000%" /></colgroup>
           <thead><tr><th>Cohort</th><th>Ages in 2026</th><th>Working % of VA public</th></tr></thead>
           <tbody>
-          <tr><td>Boomer+ / first-gen elders</td><td>~62+</td><td>~20%</td></tr>
-          <tr><td>Gen X / 1.5</td><td>~46–61</td><td>~22%</td></tr>
-          <tr><td>Millennials</td><td>~30–45</td><td>~22%</td></tr>
-          <tr><td>Gen Z adults</td><td>~18–29</td><td>~16%</td></tr>
-          <tr><td>Gen Z minors</td><td>~14–17</td><td>~4%</td></tr>
-          <tr><td>Gen Alpha</td><td>~0–13</td><td>~16%</td></tr>
+          <tr class=""><td class="cell-stack"><span class="cell-label">Boomer+ / first-gen elders</span><span class="cell-detail">Roughly before ~1965 — refugee-era and later immigrants; Vietnamese-primary; temple / parish / YouTube.</span></td><td>~62+</td><td>~20%</td></tr>
+          <tr class=""><td class="cell-stack"><span class="cell-label">Gen X / 1.5</span><span class="cell-detail">~1965–1980 — often the last fully bilingual household generation.</span></td><td>~46–61</td><td>~22%</td></tr>
+          <tr class=""><td class="cell-stack"><span class="cell-label">Millennials</span><span class="cell-detail">~1981–1996 — bilingual remainder plus a large English-only slice.</span></td><td>~30–45</td><td>~22%</td></tr>
+          <tr class=""><td class="cell-stack"><span class="cell-label">Gen Z adults</span><span class="cell-detail">~1997–2008 birth years in this band — mostly U.S.-born, English-primary.</span></td><td>~18–29</td><td>~16%</td></tr>
+          <tr class=""><td class="cell-stack"><span class="cell-label">Gen Z minors</span><span class="cell-detail">Still in the Gen Z cohort; English-primary, reached through parents and school.</span></td><td>~14–17</td><td>~4%</td></tr>
+          <tr class=""><td class="cell-stack"><span class="cell-label">Gen Alpha</span><span class="cell-detail">~2013+ — English-only at home already ~half at ages 6–10.</span></td><td>~0–13</td><td>~16%</td></tr>
           </tbody>
         </table>
       </div>
@@ -137,8 +148,10 @@
       <h2>Post-2000 arrivals sit across age labels</h2>
       
       <p>Migration Policy Institute figures summarized in Bao’s demographics post mark ~2000 as a useful line between earlier refugee-heavy arrivals and later <strong>family-based</strong> immigration. Recent nationals may be Millennial or Gen Z by age and still Vietnamese-primary on Zalo and Facebook. <strong>Age is not language.</strong></p>
+      
     </section>
-    <section class="block block-links"><a class="btn btn-ghost" href="https://baohouse.substack.com/p/vietnamese-american-demographics" target="_blank" rel="noopener">Vietnamese American demographics (2012 vs 2022) →</a><a class="btn btn-ghost" href="https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/" target="_blank" rel="noopener">Pew: Facts about Vietnamese in the U.S. →</a><a class="btn btn-ghost" href="/demographics/vietnamese/">All topics →</a></section>
+    <section class="block block-links block-links-references"><h2>References</h2><ul class="ref-list"><li><a href="https://baohouse.substack.com/p/vietnamese-american-demographics" target="_blank" rel="noopener">Vietnamese American demographics (2012 vs 2022) <span class="ext" aria-hidden="true">↗</span></a> <span class="ref-host">baohouse.substack.com</span></li><li><a href="https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/" target="_blank" rel="noopener">Pew: Facts about Vietnamese in the U.S. <span class="ext" aria-hidden="true">↗</span></a> <span class="ref-host">pewresearch.org</span></li><li><a href="https://www.migrationpolicy.org/journal/spotlight/vietnamese-immigrants-united-states" target="_blank" rel="noopener">Vietnamese Immigrants in the United States <span class="ext" aria-hidden="true">↗</span></a> <span class="ref-host">migrationpolicy.org</span></li></ul></section>
+    <section class="block block-links block-links-nav"><a class="btn btn-ghost" href="/demographics/vietnamese/">All topics →</a></section>
     </div>
   </main>
   <footer class="site-footer">
@@ -149,6 +162,8 @@
         <p class="footer-links"><span class="footer-social"><a class="footer-social-link" href="https://facebook.com/cpalss/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a><a class="footer-social-link" href="https://www.instagram.com/cpalss.uplifting/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" stroke="none"/></svg></a><a class="footer-social-link" href="https://youtube.com/@cpalss" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></span><a href="mailto:Contact@cPALSs.com">Contact@cPALSs.com</a></p>      </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js" defer></script>
   <script src="/site.js" defer></script>
 </body>
 </html>

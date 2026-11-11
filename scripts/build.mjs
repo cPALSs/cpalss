@@ -205,33 +205,119 @@ function imageSize(src) {
 
 const blockRenderers = {
   text(b) {
+    const list = b.list?.length
+      ? `<ul class="content-list">${b.list.map((item) => `<li>${item}</li>`).join("")}</ul>`
+      : "";
     return `<section class="block block-text">
       ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
       ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
       ${(b.paragraphs || []).map((p) => `<p>${p}</p>`).join("\n      ")}
+      ${list}
     </section>`;
   },
   table(b) {
     const cell = (v, tag) => {
-      if (v && typeof v === "object" && v.html) return `<${tag}>${v.html}</${tag}>`;
+      if (v && typeof v === "object" && !Array.isArray(v)) {
+        if (v.html) return `<${tag}>${v.html}</${tag}>`;
+        if (v.label != null || v.detail != null) {
+          return `<${tag} class="cell-stack"><span class="cell-label">${esc(v.label ?? "")}</span>${
+            v.detail ? `<span class="cell-detail">${esc(v.detail)}</span>` : ""
+          }</${tag}>`;
+        }
+      }
       return `<${tag}>${esc(v ?? "")}</${tag}>`;
     };
+    const isTotalLabel = (label) => /\btotal\b/i.test(String(label ?? ""));
     const head = (b.headers || []).map((h) => cell(h, "th")).join("");
+    let expandSeq = 0;
     const body = (b.rows || [])
-      .map((row) => `<tr>${row.map((c) => cell(c, "td")).join("")}</tr>`)
+      .map((row) => {
+        if (row && typeof row === "object" && !Array.isArray(row) && Array.isArray(row.children)) {
+          const id = `table-exp-${++expandSeq}`;
+          const open = row.expanded === true;
+          const childCells = (row.cells || []).map((c) => cell(c, "td")).join("");
+          const childIds = row.children.map((_, i) => `${id}-${i}`);
+          const parent = `<tr class="table-expand-parent${open ? " is-open" : ""}">
+            <td><button type="button" class="table-expand" aria-expanded="${open ? "true" : "false"}" aria-controls="${childIds.join(" ")}"><span class="table-expand-icon" aria-hidden="true"></span>${esc(row.label)}</button></td>
+            ${childCells}
+          </tr>`;
+          const kids = row.children
+            .map((child, i) => {
+              const [label, ...rest] = child;
+              return `<tr class="table-expand-child" id="${id}-${i}" data-expand-for="${id}"${open ? "" : " hidden"}>
+              <td class="table-child-label">${esc(label)}</td>
+              ${rest.map((c) => cell(c, "td")).join("")}
+            </tr>`;
+            })
+            .join("\n          ");
+          return `${parent}\n          ${kids}`;
+        }
+        if (row && typeof row === "object" && !Array.isArray(row) && Array.isArray(row.cells)) {
+          const total = row.total === true || isTotalLabel(row.label || row.cells[0]);
+          const cells = row.label != null ? [row.label, ...row.cells] : row.cells;
+          return `<tr class="${total ? "table-total" : ""}">${cells.map((c) => cell(c, "td")).join("")}</tr>`;
+        }
+        const total = Array.isArray(row) && isTotalLabel(row[0]);
+        return `<tr class="${total ? "table-total" : ""}">${row.map((c) => cell(c, "td")).join("")}</tr>`;
+      })
       .join("\n          ");
     const numeric = b.numeric !== false;
-    return `<section class="block block-table${b.wide ? " block-table-wide" : ""}${numeric ? " block-table-numeric" : ""}">
+    const equal = b.equalColumns === true;
+    const equalTrailing = Number.isFinite(b.equalTrailing) ? Math.max(0, Math.floor(b.equalTrailing)) : 0;
+    const equalMiddle = Number.isFinite(b.equalMiddle) ? Math.max(0, Math.floor(b.equalMiddle)) : 0;
+    const colCount = (b.headers || []).length || (Array.isArray(b.rows?.[0]) ? b.rows[0].length : 0);
+    let colgroup = "";
+    let equalClass = "";
+    if (equal && colCount > 0) {
+      const colPct = `${(100 / colCount).toFixed(4)}%`;
+      colgroup = `<colgroup>${Array.from({ length: colCount }, () => `<col style="width: ${colPct}" />`).join("")}</colgroup>`;
+      equalClass = " block-table-equal";
+    } else if (equalMiddle > 0 && colCount >= equalMiddle + 2) {
+      // First + last flexible; a run of middle figure columns share equal width.
+      const midPct = Math.min(16, Math.floor(52 / equalMiddle));
+      const rest = 100 - midPct * equalMiddle;
+      const firstPct = rest * 0.62;
+      const lastPct = rest - firstPct;
+      const widths = [firstPct, ...Array.from({ length: equalMiddle }, () => midPct), lastPct];
+      colgroup = `<colgroup>${widths.map((w) => `<col style="width: ${w.toFixed(4)}%" />`).join("")}</colgroup>`;
+      equalClass = " block-table-equal-middle";
+    } else if (equalTrailing > 0 && colCount > equalTrailing) {
+      const lead = colCount - equalTrailing;
+      const trailBudget = Math.min(72, 18 * equalTrailing);
+      const trailPct = trailBudget / equalTrailing;
+      const leadPct = (100 - trailBudget) / lead;
+      const cols = [
+        ...Array.from({ length: lead }, () => `<col style="width: ${leadPct.toFixed(4)}%" />`),
+        ...Array.from({ length: equalTrailing }, () => `<col style="width: ${trailPct.toFixed(4)}%" />`),
+      ];
+      colgroup = `<colgroup>${cols.join("")}</colgroup>`;
+      equalClass = " block-table-equal-trailing";
+    }
+    return `<section class="block block-table${b.wide ? " block-table-wide" : ""}${numeric ? " block-table-numeric" : ""}${equalClass}">
       ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
       ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
       <div class="table-scroll">
         <table>
           ${b.caption ? `<caption>${esc(b.caption)}</caption>` : ""}
+          ${colgroup}
           ${head ? `<thead><tr>${head}</tr></thead>` : ""}
           <tbody>
           ${body}
           </tbody>
         </table>
+      </div>
+      ${b.note ? `<p class="table-note">${b.note}</p>` : ""}
+    </section>`;
+  },
+  embed(b) {
+    const title = esc(b.title || "Embedded map");
+    const src = esc(b.src);
+    const ratio = esc(b.aspect || "16 / 10");
+    return `<section class="block block-embed${b.wide ? " block-embed-wide" : ""}">
+      ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
+      ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
+      <div class="embed-frame" style="--embed-aspect: ${ratio}">
+        <iframe src="${src}" title="${title}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
       </div>
       ${b.note ? `<p class="table-note">${b.note}</p>` : ""}
     </section>`;
@@ -253,9 +339,25 @@ const blockRenderers = {
     </section>`;
   },
   links(b) {
-    return `<section class="block block-links">${b.items
-      .map((l) => `<a class="btn btn-ghost"${linkAttrs(l.href)}>${esc(l.label)} →</a>`)
-      .join("")}</section>`;
+    const isRefs = Boolean(b.heading) || b.variant === "references";
+    const variant = b.variant === "nav" ? " block-links-nav" : isRefs ? " block-links-references" : "";
+    const heading = b.heading ? `<h2>${esc(b.heading)}</h2>` : "";
+    const hostOf = (href) => {
+      try {
+        return new URL(href).hostname.replace(/^www\./, "");
+      } catch {
+        return "";
+      }
+    };
+    const items = b.items
+      .map((l) => {
+        if (!isRefs) return `<a class="btn btn-ghost"${linkAttrs(l.href)}>${esc(l.label)} →</a>`;
+        const host = isExternal(l.href) ? hostOf(l.href) : "";
+        const hostHtml = host ? ` <span class="ref-host">${esc(host)}</span>` : "";
+        return `<li><a${linkAttrs(l.href)}>${esc(l.label)}${isExternal(l.href) ? ' <span class="ext" aria-hidden="true">↗</span>' : ""}</a>${hostHtml}</li>`;
+      })
+      .join("");
+    return `<section class="block block-links${variant}">${heading}${isRefs ? `<ul class="ref-list">${items}</ul>` : items}</section>`;
   },
   people(b) {
     const people = b.items
@@ -303,6 +405,21 @@ const blockRenderers = {
       </div>
     </section>`;
   },
+  chart(b) {
+    const canvasId = esc((b.id ? `${b.id}-canvas` : null) || b.canvasId || `chart-${Math.random().toString(36).slice(2, 9)}`);
+    const spec = JSON.stringify(b.spec || {});
+    return `<section class="block block-chart${b.wide ? " block-chart-wide" : ""}">
+      ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
+      ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
+      <figure class="chart-figure">
+        ${b.caption ? `<figcaption class="chart-caption">${esc(b.caption)}</figcaption>` : ""}
+        <div class="chart-frame"${b.height ? ` style="--chart-height: ${esc(String(b.height))}"` : ""}>
+          <canvas id="${canvasId}" class="js-chart" role="img" aria-label="${esc(b.ariaLabel || b.caption || b.heading || "Chart")}" data-chart="${esc(spec)}"></canvas>
+        </div>
+        ${b.note ? `<p class="table-note">${b.note}</p>` : ""}
+      </figure>
+    </section>`;
+  },
   gallery(b) {
     const items = b.items
       .map((g) => {
@@ -324,9 +441,10 @@ const blockRenderers = {
     return `<section class="block block-gallery">
       ${b.heading ? `<h2>${esc(b.heading)}</h2>` : ""}
       ${b.lead ? `<p class="lead">${b.lead}</p>` : ""}
-      <div class="gallery${b.wide ? " gallery-wide" : ""}${b.framed ? " gallery-framed" : ""}"${b.aspect ? ` style="--frame-aspect: ${esc(b.aspect)}"` : ""}>
+      <div class="gallery${b.wide ? " gallery-wide" : ""}${(b.items || []).length === 1 ? " gallery-single" : ""}${b.framed ? " gallery-framed" : ""}"${b.aspect ? ` style="--frame-aspect: ${esc(b.aspect)}"` : ""}>
         ${items}
       </div>
+      ${b.note ? `<p class="table-note">${b.note}</p>` : ""}
     </section>`;
   },
   feature(b) {
@@ -439,6 +557,11 @@ function renderPage(page) {
     const html = fn(b);
     return b.id ? html.replace("<section ", `<section id="${esc(b.id)}" `) : html;
   });
+  const needsCharts = (page.blocks || []).some((b) => b.type === "chart");
+  const chartScripts = needsCharts
+    ? `<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js" defer></script>`
+    : "";
   return `<!DOCTYPE html>
 <html lang="en">
 ${renderHead(page)}
@@ -452,6 +575,7 @@ ${renderHead(page)}
     </div>
   </main>
   ${renderFooter()}
+  ${chartScripts}
   <script src="/site.js" defer></script>
 </body>
 </html>

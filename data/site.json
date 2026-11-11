@@ -932,7 +932,7 @@
     {
       "path": "/demographics/vietnamese/population-geography/",
       "title": "Population & geography",
-      "description": "How many Vietnamese Americans live in Sacramento County and Greater Sacramento, and where — ACS headcounts for organizers.",
+      "description": "Vietnamese American headcount for Sacramento County and surrounding counties — ACS 2023 1-year PUMS with place summary, expandable PUMA detail, and map.",
       "breadcrumb": [
         {
           "label": "Vietnamese American demographics",
@@ -943,207 +943,151 @@
       "blocks": [
         {
           "type": "text",
-          "heading": "Sacramento County and the metro",
           "paragraphs": [
-            "Sacramento County is the core local public used in workshop and partner briefings: about <strong>35,146</strong> Vietnamese people in ACS <strong>2023</strong>, per Bao’s <a href=\"https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento\">Census data on Vietnamese in Sacramento County</a>. That scale is small enough that a six-figure festival audience cannot be “the community showing up” alone — it requires neighbors who are not Vietnamese.",
-            "Greater Sacramento in Census terms is the Sacramento–Roseville–Folsom metro (Sacramento, Placer, Yolo, and El Dorado Counties). ACS <strong>2024 5-year</strong>, table B02015 Vietnamese alone, puts the MSA at about <strong>37,866</strong> (±2,565). Adding San Joaquin County (Stockton drive market, not in the MSA) adds about <strong>8,217</strong> — roughly <strong>~46k</strong> if the question is catchment, not a single county.",
-            "County Vietnamese-alone 5-year counts and Bao’s 2023 county synthesis are the same place counted two ways. Use <strong>~35k</strong> when partners already know that figure; use metro / Stockton-inclusive numbers when the question is drive-market reach."
+            "Sacramento County is the core local public for workshop and partner briefings: <strong>35,146</strong> Vietnamese people in ACS <strong>2023</strong> 1-year PUMS — Vietnamese alone or in combination (RAC3P: Vietnamese alone; White/Vietnamese; Chinese/Vietnamese; Vietnamese/Other Asian), per Bao’s <a href=\"https://baohouse.substack.com/p/census-data-on-vietnamese-in-sacramento\">county synthesis</a>. Surrounding counties below use the same definition and vintage.",
+            "Inside the county, about <strong>38.6%</strong> live in <strong>Elk Grove</strong> and <strong>35.2%</strong> in <strong>Sacramento proper</strong> (Bao’s PUMA grouping). A large share of the remainder is in <strong>unincorporated</strong> areas — including much of the Little Saigon corridor on Stockton Boulevard — that city-only maps undercount. For many Elk Grove households the boulevard is a <strong>destination, not home</strong>."
           ]
         },
         {
+          "type": "embed",
+          "heading": "Map",
+          "wide": true,
+          "title": "Vietnamese population by PUMA — Greater Sacramento",
+          "src": "https://www.google.com/maps/d/embed?mid=1TkW42RL9XG3_pmWCt1CwVnr3UH82C3c&ll=38.40014538054041%2C-121.52590226456901&z=9",
+          "aspect": "16 / 10",
+          "note": "Google My Map by Bao Thien Ngo — PUMA shading aligned with the Sacramento County synthesis. <a href=\"https://www.google.com/maps/d/viewer?mid=1TkW42RL9XG3_pmWCt1CwVnr3UH82C3c&ll=38.40014538054041%2C-121.52590226456901&z=9\">Open full map</a>."
+        },
+        {
           "type": "table",
-          "heading": "Headcount reference",
-          "numeric": false,
+          "heading": "Sacramento County place summary",
+          "caption": "ACS 2023 1-year PUMS — Vietnamese alone or in combination",
           "headers": [
             "Geography",
             "Vietnamese",
-            "Notes"
-          ],
-          "rows": [
-            [
-              "Sacramento County (ACS 2023 synthesis)",
-              "~35,146",
-              "Workshop / partner figure"
-            ],
-            [
-              "Sacramento–Roseville–Folsom MSA",
-              "37,866 ±2,565",
-              "ACS 2024 5-year, B02015 alone"
-            ],
-            [
-              "Sacramento County (same table)",
-              "33,295 ±2,622",
-              "Vietnamese alone, 5-year"
-            ],
-            [
-              "Placer County",
-              "2,330 ±506",
-              "Roseville, Lincoln, Rocklin"
-            ],
-            [
-              "Yolo County",
-              "1,808 ±505",
-              "Davis, Woodland, West Sac"
-            ],
-            [
-              "El Dorado County",
-              "433 ±201",
-              "Thin"
-            ],
-            [
-              "San Joaquin County (not in MSA)",
-              "8,217 ±1,460",
-              "Stockton drive market"
-            ]
-          ],
-          "note": "Do not mix Bao’s 2023 county synthesis with Vietnamese-alone 5-year city/county rows and call them one table."
-        },
-        {
-          "type": "table",
-          "heading": "Vietnamese by Sacramento County PUMA",
-          "caption": "ACS 2023 synthesis — total 35,146",
-          "headers": [
-            "PUMA",
-            "Vietnamese"
-          ],
-          "rows": [
-            [
-              "Total",
-              "35,146"
-            ],
-            [
-              "Elk Grove City (East)",
-              "7,619"
-            ],
-            [
-              "Elk Grove City (West)",
-              "5,962"
-            ],
-            [
-              "Sacramento City (Southeast / Fruitridge, Avondale & Depot Park)",
-              "6,687"
-            ],
-            [
-              "Galt, Isleton, Delta & Rural",
-              "3,758"
-            ],
-            [
-              "Sacramento City (Southwest / Pocket, Meadowview & North Laguna)",
-              "2,884"
-            ],
-            [
-              "Rancho Cordova City",
-              "2,258"
-            ],
-            [
-              "North Highlands, Foothill Farms & McClellan Park",
-              "1,796"
-            ],
-            [
-              "Sacramento City (North), Antelope & Rio Linda",
-              "1,067"
-            ],
-            [
-              "Sacramento City (Central / Downtown & Midtown)",
-              "893"
-            ],
-            [
-              "Sacramento City (Northwest / Natomas)",
-              "824"
-            ],
-            [
-              "Arden-Arcade, Carmichael & Fair Oaks (West)",
-              "684"
-            ],
-            [
-              "Citrus Heights City",
-              "384"
-            ],
-            [
-              "Folsom City, Orangevale & Fair Oaks (East)",
-              "330"
-            ]
-          ],
-          "wide": true,
-          "note": "About 38.6% in Elk Grove PUMAs combined (7,619 + 5,962) and 35.2% in City of Sacramento PUMAs in Bao’s county grouping."
-        },
-        {
-          "type": "gallery",
-          "heading": "Map",
-          "wide": true,
-          "items": [
-            {
-              "image": "/assets/demographics/sac-puma-map.jpg",
-              "caption": "PUMA map of Vietnamese population across Greater Sacramento (Bao Thien Ngo)"
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "heading": "Where people live inside the county",
-          "paragraphs": [
-            "Bao’s ACS 2023 county synthesis groups geography so that about <strong>38.6%</strong> of county Vietnamese live in <strong>Elk Grove</strong>, <strong>35.2%</strong> in the <strong>City of Sacramento</strong>, and the rest elsewhere in the county — roughly two-thirds in those two named cities.",
-            "Place-level Vietnamese-alone counts (ACS 2024 5-year) put Elk Grove first among incorporated cities (~9,800), Sacramento city second (~8,200), with Roseville, Rancho Cordova, Davis, Folsom, and others thinner. A large share of county Vietnamese live in <strong>unincorporated</strong> South Sacramento / Fruitridge / Laguna-adjacent tracts — including much of the Little Saigon corridor on Stockton Boulevard — that a city-only map undercounts.",
-            "Organizer implication: a Facebook group titled “Sacramento” does not mean the poster lives here, and an Elk Grove flyer does not automatically reach unincorporated corridor elders unless someone forwards it. Little Saigon is often a <strong>destination, not home</strong> for households that raised kids on the boulevard and now live in Elk Grove."
-          ]
-        },
-        {
-          "type": "table",
-          "heading": "Selected places (Vietnamese alone)",
-          "caption": "ACS 2024 5-year",
-          "headers": [
-            "Place",
-            "Vietnamese alone",
-            "±"
+            "% of county"
           ],
           "rows": [
             [
               "Elk Grove",
-              "9,757",
-              "1,378"
+              "13,581",
+              "38.6%"
             ],
             [
-              "Sacramento (city)",
-              "8,160",
-              "1,093"
+              "Sacramento proper",
+              "12,355",
+              "35.2%"
             ],
             [
-              "Stockton",
-              "5,438",
-              "1,267"
+              "Unincorporated Sacramento County",
+              "6,238",
+              "17.7%"
             ],
             [
-              "Roseville",
-              "1,288",
-              "394"
+              "Rest of county",
+              "2,972",
+              "8.5%"
             ],
             [
-              "Rancho Cordova",
-              "1,226",
-              "468"
-            ],
-            [
-              "Davis",
-              "1,033",
-              "433"
-            ],
-            [
-              "Folsom",
-              "981",
-              "429"
+              "Sacramento County total",
+              "35,146",
+              "100%"
             ]
           ],
-          "note": "City rows undercount unincorporated corridor tracts that sit outside city limits."
+          "note": "Elk Grove = East + West city PUMAs. Sacramento proper = Southeast, Southwest, Central, Northwest, and North / Antelope & Rio Linda PUMAs (Bao’s city grouping). Unincorporated ≈ Galt–Isleton–Delta–rural + North Highlands / Foothill Farms / McClellan + Arden-Arcade / Carmichael / Fair Oaks (West). Rest = Rancho Cordova, Citrus Heights, and Folsom / Orangevale / Fair Oaks (East)."
         },
         {
-          "type": "text",
-          "heading": "National scale",
-          "paragraphs": [
-            "Nationally, about <strong>2.3 million</strong> people identified as Vietnamese in the U.S. in recent ACS cuts; <strong>44%</strong> were U.S.-born in the 2022 cut summarized in <a href=\"https://baohouse.substack.com/p/vietnamese-american-demographics\">Vietnamese American demographics (2012 vs 2022)</a>. Use national scale for proportion and trend — not as a substitute for the Sacramento headcount."
-          ]
+          "type": "table",
+          "heading": "Headcount by geography",
+          "caption": "ACS 2023 1-year PUMS — Vietnamese alone or in combination",
+          "wide": true,
+          "numeric": false,
+          "headers": [
+            "Geography",
+            "Vietnamese"
+          ],
+          "rows": [
+            {
+              "label": "Sacramento County",
+              "cells": [
+                "35,146"
+              ],
+              "children": [
+                [
+                  "Elk Grove City (East)",
+                  "7,619"
+                ],
+                [
+                  "Elk Grove City (West)",
+                  "5,962"
+                ],
+                [
+                  "Sacramento City (Southeast / Fruitridge, Avondale & Depot Park)",
+                  "6,687"
+                ],
+                [
+                  "Galt, Isleton, Delta & Rural",
+                  "3,758"
+                ],
+                [
+                  "Sacramento City (Southwest / Pocket, Meadowview & North Laguna)",
+                  "2,884"
+                ],
+                [
+                  "Rancho Cordova City",
+                  "2,258"
+                ],
+                [
+                  "North Highlands, Foothill Farms & McClellan Park",
+                  "1,796"
+                ],
+                [
+                  "Sacramento City (North), Antelope & Rio Linda",
+                  "1,067"
+                ],
+                [
+                  "Sacramento City (Central / Downtown & Midtown)",
+                  "893"
+                ],
+                [
+                  "Sacramento City (Northwest / Natomas)",
+                  "824"
+                ],
+                [
+                  "Arden-Arcade, Carmichael & Fair Oaks (West)",
+                  "684"
+                ],
+                [
+                  "Citrus Heights City",
+                  "384"
+                ],
+                [
+                  "Folsom City, Orangevale & Fair Oaks (East)",
+                  "330"
+                ]
+              ]
+            },
+            [
+              "Placer County",
+              "4,118"
+            ],
+            [
+              "Yolo County",
+              "4,395"
+            ],
+            [
+              "El Dorado County",
+              "1,698"
+            ],
+            [
+              "San Joaquin County (not in MSA)",
+              "13,578"
+            ]
+          ],
+          "note": "Same race definition and vintage for every row (person weights). Published ACS 1-year detailed Asian tables are not available at county geography — these are PUMS tabulations. Sacramento–Roseville–Folsom MSA ≈ Sacramento + Placer + Yolo + El Dorado. San Joaquin is outside the MSA (Stockton drive market)."
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Census data on Vietnamese in Sacramento County",
@@ -1152,7 +1096,13 @@
             {
               "label": "Vietnamese American demographics (2012 vs 2022)",
               "href": "https://baohouse.substack.com/p/vietnamese-american-demographics"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "All topics",
               "href": "/demographics/vietnamese/"
@@ -1175,16 +1125,15 @@
       "blocks": [
         {
           "type": "text",
-          "heading": "National language mix",
           "paragraphs": [
-            "Per ACS 2022 (Bao’s national synthesis): about <strong>41%</strong> of Vietnamese Americans spoke English less than “very well,” <strong>28%</strong> spoke <strong>only English</strong>, and <strong>31%</strong> could act as a <strong>bilingual bridge</strong>. A decade earlier, English-only was about <strong>16%</strong>. The bridge is shrinking; English-only is the growth slice.",
-            "Pew’s 2021–23 ACS analysis describes the same shape: <strong>56%</strong> of Vietnamese ages 5+ are English proficient; U.S.-born Vietnamese are about <strong>90%</strong> proficient vs about <strong>36%</strong> of immigrants; about <strong>72%</strong> speak Vietnamese at home (<a href=\"https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/\">Pew Facts about Vietnamese in the U.S.</a>)."
+            "From ACS <strong>2012</strong> to <strong>2022</strong> (Bao’s national synthesis), the big move is <strong>English only</strong>: about <strong>16% → 28%</strong>. Limited English falls about <strong>49% → 41%</strong>; the bilingual bridge edges down about <strong>35% → 31%</strong> even as the U.S. Vietnamese population grows.",
+            "Pew’s 2021–23 ACS cut lands in the same shape: <strong>56%</strong> of Vietnamese ages 5+ are English proficient (<strong>~90%</strong> U.S.-born vs <strong>~36%</strong> immigrants); about <strong>72%</strong> speak Vietnamese at home (<a href=\"https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/\">Pew Facts about Vietnamese in the U.S.</a>)."
           ]
         },
         {
           "type": "table",
           "heading": "National language mix",
-          "caption": "ACS 2022 vs 2012 (Bao synthesis)",
+          "caption": "ACS 2012 vs 2022 (Bao synthesis)",
           "headers": [
             "Measure",
             "2012",
@@ -1214,21 +1163,11 @@
           ]
         },
         {
-          "type": "gallery",
-          "wide": true,
-          "items": [
-            {
-              "image": "/assets/demographics/national-language.png",
-              "caption": "Language spoken by Vietnamese Americans — ACS 2022 vs 2012 (English only · bilingual · limited English)"
-            }
-          ]
-        },
-        {
           "type": "text",
           "heading": "Age cuts that matter for outreach",
           "paragraphs": [
-            "From <a href=\"https://baohouse.substack.com/p/vietnamese-heritage-language-use\">Vietnamese heritage language use</a> (ACS 2023 PUMS): English-only at home is about <strong>23%</strong> at ages 41–45, <strong>nearly half</strong> among teens, and about <strong>half</strong> among children ~6–10 (today’s Gen Alpha band).",
-            "A Người Việt Facebook group is the <strong>bilingual remainder</strong> of Millennials and older — not “Sacramento Vietnamese ages 40–45.” The English-only slice in that band, almost all of Gen Z, and half of elementary-age kids need English or bilingual surfaces that are not Vietnamese classifieds groups."
+            "ACS 2023 PUMS age cuts (from <a href=\"https://baohouse.substack.com/p/vietnamese-heritage-language-use\">Vietnamese heritage language use</a>) show English-only rising sharply toward younger cohorts — roughly one in four around ages 41–45, nearly half among teens and ages 6–10.",
+            "A Người Việt Facebook group is the <strong>bilingual remainder</strong> of Millennials and older — not the English-only slice in that band, almost all of Gen Z, or half of elementary-age kids, who need English or bilingual surfaces outside Vietnamese classifieds groups."
           ]
         },
         {
@@ -1392,17 +1331,19 @@
             ]
           ],
           "wide": true,
-          "note": "“English only or <5” includes ages under 5 (LANX N/A). Ages 6–10 are ~half English-only — today’s Gen Alpha band."
+          "note": "“English only or <5” includes ages under 5 (LANX N/A). Ages 6–10 are ~half English-only — today’s Gen Alpha band.",
+          "equalColumns": true
         },
         {
           "type": "text",
           "heading": "Register, not just proficiency",
           "paragraphs": [
-            "Beyond ACS boxes, Bao’s writing on <a href=\"https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north\">North American Vernacular Vietnamese (NAVV)</a> describes a U.S. Vietnamese register shaped by diaspora life — useful for copy and education design, not a substitute for ACS proficiency tables."
+            "ACS counts who speaks English or Vietnamese; it does not say <em>which</em> Vietnamese. Bao’s <a href=\"https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north\">North American Vernacular Vietnamese (NAVV)</a> is the U.S. diaspora register — Southern-leaning, refugee-era vocabulary, and everyday English loans (<em>meeting</em>, <em>text</em>, <em>parking</em>) — distinct from mainland textbook or admin Vietnamese. Useful when writing copy or designing language education for Vietnamese Americans."
           ]
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Vietnamese heritage language use",
@@ -1415,7 +1356,13 @@
             {
               "label": "North American Vernacular Vietnamese",
               "href": "https://baohouse.substack.com/p/the-fourth-vietnamese-dialect-north"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "All topics",
               "href": "/demographics/vietnamese/"
@@ -1427,7 +1374,7 @@
     {
       "path": "/demographics/vietnamese/income-poverty/",
       "title": "Income & poverty",
-      "description": "Vietnamese American household vs person income, SNAP and retirement, child vs elder poverty, Sacramento County LMI / CRA context, and wallet caveats for festival and program pricing.",
+      "description": "Vietnamese American household vs person income, SNAP and retirement, child vs elder poverty, and Sacramento County LMI / CRA context.",
       "breadcrumb": [
         {
           "label": "Vietnamese American demographics",
@@ -1441,7 +1388,7 @@
           "heading": "Household medians hide person wallets",
           "paragraphs": [
             "National ACS trends in <a href=\"https://baohouse.substack.com/p/vietnamese-american-demographics\">Vietnamese American demographics (2012 vs 2022)</a> show household and family median income rising after inflation adjustment (household median about <strong>$86,025</strong> in 2022), while per capita income remains below the all-American average. SNAP receipt stayed roughly flat (~15%); Social Security and retirement income shares rose as the population aged (65+ from ~8% to ~13% over the decade).",
-            "<strong>Do not treat the ~$86k household median as an elder’s disposable income.</strong> That figure is often an adult child’s wages plus an elder in the same unit. Festival tickets, merch, and vendor spend come out of the <strong>person’s</strong> wallet."
+            "<strong>Do not treat the ~$86k household median as an elder’s disposable income.</strong> That figure is often an adult child’s wages plus an elder in the same unit — person-level income is the better read for individual spending power."
           ]
         },
         {
@@ -1498,7 +1445,8 @@
               "—"
             ]
           ],
-          "wide": true
+          "wide": true,
+          "equalTrailing": 3
         },
         {
           "type": "table",
@@ -1674,7 +1622,8 @@
               "$51,762"
             ]
           ],
-          "wide": true
+          "wide": true,
+          "equalTrailing": 3
         },
         {
           "type": "text",
@@ -1780,7 +1729,8 @@
             ]
           ],
           "wide": true,
-          "note": "Trend vs 2012 (Bao synthesis): all families 14.0%→8.9%; children 17.3%→9.6%; elders 18.6%→16.6%."
+          "note": "Trend vs 2012 (Bao synthesis): all families 14.0%→8.9%; children 17.3%→9.6%; elders 18.6%→16.6%.",
+          "equalTrailing": 3
         },
         {
           "type": "text",
@@ -1846,7 +1796,8 @@
             ]
           ],
           "wide": true,
-          "note": "Census does not assign person income under 15. Minors spend through a parent. National cut — Sacramento sample is too thin."
+          "note": "Census does not assign person income under 15. Minors spend through a parent. National cut — Sacramento sample is too thin.",
+          "equalTrailing": 4
         },
         {
           "type": "table",
@@ -1905,7 +1856,8 @@
           ],
           "wide": true,
           "numeric": false,
-          "note": "English-only = only English at home. Less than very well = another language and English well / not well / not at all. The rest are bilingual “very well.”"
+          "note": "<strong>Spend priority</strong> = which cohorts to buy reach for first when a campaign must spend money to get in front of people (ads, paid placement, festival marketing, and similar), after income and wallet strength. English-only = only English at home. Less than very well = another language and English well / not well / not at all. The rest are bilingual “very well.”",
+          "equalMiddle": 3
         },
         {
           "type": "text",
@@ -1966,7 +1918,8 @@
             ]
           ],
           "wide": true,
-          "note": "In the Galt / Delta / rural PUMA, Vietnamese mean income is about two-thirds of non-Vietnamese — the contrast Bao highlights in the county post."
+          "note": "In the Galt / Delta / rural PUMA, Vietnamese mean income is about two-thirds of non-Vietnamese — the contrast Bao highlights in the county post.",
+          "equalTrailing": 2
         },
         {
           "type": "table",
@@ -2029,7 +1982,8 @@
             ]
           ],
           "wide": true,
-          "note": "About 24.7% of county Vietnamese are at 501%+ of FPL vs 32.1% of non-Vietnamese in the same cut."
+          "note": "About 24.7% of county Vietnamese are at 501%+ of FPL vs 32.1% of non-Vietnamese in the same cut.",
+          "equalTrailing": 3
         },
         {
           "type": "text",
@@ -2081,7 +2035,8 @@
             ]
           ],
           "wide": true,
-          "note": "LMI shares estimate households under 50%/80% of the same-table Sacramento County median family income ($88,841), using B19001 income bands with linear interpolation inside open bands. Not HUD household-size-adjusted limits. Vintage differs from the ACS 2023 county poverty synthesis above."
+          "note": "LMI shares estimate households under 50%/80% of the same-table Sacramento County median family income ($88,841), using B19001 income bands with linear interpolation inside open bands. Not HUD household-size-adjusted limits. Vintage differs from the ACS 2023 county poverty synthesis above.",
+          "equalTrailing": 2
         },
         {
           "type": "text",
@@ -2089,11 +2044,12 @@
           "paragraphs": [
             "On this same-vintage county benchmark, roughly <strong>half of Vietnamese households</strong> (~4,900 of ~10,300) fall under an 80%-of-county-family-median line — similar to the county overall (~47%). The sharper local signal is still <strong>poverty concentration</strong> (16.7% vs 9.3% non-Vietnamese in the ACS 2023 cut) and the <strong>place split</strong>: Elk Grove PUMAs near parity on mean income; Fruitridge / Southwest Sacramento and the Galt–Delta–rural PUMA show Vietnamese means about two-thirds of non-Vietnamese neighbors.",
             "Cross-check with the ACS 2023 income-to-poverty bands above: about <strong>30%</strong> of county Vietnamese are at or below 200% of FPL, and about <strong>42%</strong> at or below 300% of FPL — the person-level near-poor band that often overlaps LMI for typical family sizes. Vietnamese family median in the SPT cut (~$81.5k) sits at about <strong>92%</strong> of the county family median, so the community is not uniformly LMI; it is bifurcated.",
-            "For bank conversations: lead with elevated poverty and corridor gaps, then that roughly half of Vietnamese households sit under a CRA-style county LMI line. Free public festivals that draw Elk Grove + South Sacramento families (including LMI tracts) are a natural program bridge. Prefer MSA AMI when a funder uses metro limits — Sacramento County alone understates how LMI Sac County Vietnamese look relative to a Placer/El Dorado–pulled metro median."
+            "For bank conversations: lead with elevated poverty and corridor gaps, then that roughly half of Vietnamese households sit under a CRA-style county LMI line. Prefer MSA AMI when a funder uses metro limits — Sacramento County alone understates how LMI Sac County Vietnamese look relative to a Placer/El Dorado–pulled metro median."
           ]
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Vietnamese American demographics (2012 vs 2022)",
@@ -2106,7 +2062,13 @@
             {
               "label": "HUD FY 2025 income limits documentation",
               "href": "https://www.huduser.gov/portal/datasets/il.html"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "All topics",
               "href": "/demographics/vietnamese/"
@@ -2168,54 +2130,332 @@
           "note": "Bao’s ACS 2012→2022 cut: U.S.-born share rose from ~37% to ~44%."
         },
         {
+          "type": "chart",
+          "id": "nativity-stack",
+          "wide": true,
+          "height": "24rem",
+          "heading": "Native-born vs foreign-born",
+          "caption": "ACS 2012 vs 2022 — Vietnamese alone or in combination (Bao synthesis)",
+          "ariaLabel": "Stacked bars comparing native-born, naturalized, and non-citizen Vietnamese Americans in 2012 and 2022",
+          "note": "Counts shown in thousands. U.S.-born share rose from about 37% to 44%; non-citizen share edged down.",
+          "spec": {
+            "kind": "stackedShare",
+            "labels": [
+              "2012",
+              "2022"
+            ],
+            "datasets": [
+              {
+                "label": "Native",
+                "data": [
+                  37,
+                  44
+                ],
+                "backgroundColor": "#d7b48a"
+              },
+              {
+                "label": "Foreign-born, naturalized",
+                "data": [
+                  47,
+                  43
+                ],
+                "backgroundColor": "#8c2328"
+              },
+              {
+                "label": "Foreign-born, not citizen",
+                "data": [
+                  16,
+                  13
+                ],
+                "backgroundColor": "#3d1214",
+                "borderRadius": {
+                  "topLeft": 10,
+                  "topRight": 10,
+                  "bottomLeft": 0,
+                  "bottomRight": 0
+                }
+              }
+            ],
+            "segmentLabels": {
+              "0": [
+                "685k (37%)",
+                "1,021k (44%)"
+              ],
+              "1": [
+                "882k (47%)",
+                "992k (43%)"
+              ],
+              "2": [
+                "293k (16%)",
+                "289k (13%)"
+              ]
+            },
+            "labelColors": [
+              "#2b1d1a",
+              "#ffffff",
+              "#ffffff"
+            ]
+          }
+        },
+        {
           "type": "table",
-          "heading": "Year of immigration (Vietnamese immigrants)",
-          "caption": "Migration Policy Institute figures via Bao’s demographics post",
+          "id": "immigration-year",
+          "heading": "Year of immigration",
+          "caption": "Share of Vietnamese immigrants by period of entry — Migration Policy Institute (via Bao synthesis)",
           "headers": [
-            "Period",
-            "Share of Vietnamese immigrants"
+            "Period of entry",
+            "Share"
           ],
           "rows": [
             [
               "Entered before 2000",
-              "~60%"
+              "60%"
             ],
             [
               "2000–2009",
-              "~17%"
+              "17%"
             ],
             [
               "2010–2022",
-              "~23%"
+              "23%"
             ]
           ],
-          "note": "~2000 is a useful line between earlier refugee-heavy arrivals and later family-based immigration."
+          "note": "~2000 is a useful line between earlier refugee-heavy arrivals and later family-based immigration. Percentages may not sum to 100 due to rounding."
         },
         {
-          "type": "gallery",
+          "type": "chart",
+          "id": "immigration-path",
           "wide": true,
-          "items": [
-            {
-              "image": "/assets/demographics/national-nativity.png",
-              "caption": "Native-born vs foreign-born (naturalized / not citizen) — ACS 2012 vs 2022"
-            },
-            {
-              "image": "/assets/demographics/national-immigration-year.png",
-              "caption": "Year of immigration among Vietnamese immigrants — Migration Policy Institute"
-            },
-            {
-              "image": "/assets/demographics/national-immigration-path.png",
-              "caption": "Family ties vs other paths to lawful permanent residence — Migration Policy Institute"
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "heading": "Working cohort labels (not Census categories)",
-          "paragraphs": [
-            "Until a published Sacramento Vietnamese age pyramid exists, organizers use national nativity and age as a map, checked against local channels:",
-            "<strong>First-gen elders</strong> (roughly before ~1965) — refugee-era and later immigrants; Vietnamese-primary; temple / parish / YouTube. <strong>Gen X / 1.5</strong> (~1965–1980) — often the last fully bilingual household generation. <strong>Millennials</strong> (~1981–1996) — bilingual remainder plus a large English-only slice. <strong>Gen Z</strong> (~1997–2012) — mostly U.S.-born, English-primary. <strong>Gen Alpha</strong> (~2013+) — English-only at home already ~half at ages 6–10."
-          ]
+          "height": "26rem",
+          "heading": "Family ties over time",
+          "caption": "Approximate recreation of MPI’s pathway chart (refugee arrivals vs LPR as refugees/asylees vs LPR via family ties), 1975–2022",
+          "ariaLabel": "Line chart of Vietnamese refugee arrivals and lawful permanent residence pathways over time",
+          "note": "Traced approximately from the MPI figure for shape — not official tabulated microdata. Family ties = immediate relatives of U.S. citizens plus other family-sponsored preferences.",
+          "spec": {
+            "kind": "lineSeries",
+            "yMax": 140000,
+            "labels": [
+              "1975",
+              "1976",
+              "1977",
+              "1978",
+              "1979",
+              "1980",
+              "1981",
+              "1982",
+              "1983",
+              "1984",
+              "1985",
+              "1986",
+              "1987",
+              "1988",
+              "1989",
+              "1990",
+              "1991",
+              "1992",
+              "1993",
+              "1994",
+              "1995",
+              "1996",
+              "1997",
+              "1998",
+              "1999",
+              "2000",
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022"
+            ],
+            "datasets": [
+              {
+                "label": "Refugee arrivals",
+                "data": [
+                  3000,
+                  20000,
+                  70000,
+                  113000,
+                  95000,
+                  72000,
+                  28000,
+                  16000,
+                  10000,
+                  8000,
+                  12000,
+                  7000,
+                  8000,
+                  14000,
+                  18000,
+                  19000,
+                  35000,
+                  42000,
+                  27000,
+                  18000,
+                  8000,
+                  4000,
+                  2000,
+                  1000,
+                  500,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "borderColor": "#3aa5c9",
+                "pointRadius": 0,
+                "tension": 0.2
+              },
+              {
+                "label": "LPR as refugees / asylees",
+                "data": [
+                  38000,
+                  55000,
+                  70000,
+                  78000,
+                  82000,
+                  80000,
+                  45000,
+                  26000,
+                  18000,
+                  13000,
+                  11000,
+                  10000,
+                  12000,
+                  15000,
+                  16000,
+                  17000,
+                  28000,
+                  32000,
+                  22000,
+                  20000,
+                  16000,
+                  10000,
+                  6000,
+                  3000,
+                  2000,
+                  1000,
+                  500,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "borderColor": "#7a5ea8",
+                "pointRadius": 0,
+                "tension": 0.2
+              },
+              {
+                "label": "LPR via family ties",
+                "data": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  2000,
+                  3000,
+                  5000,
+                  6000,
+                  8000,
+                  10000,
+                  9000,
+                  7000,
+                  5000,
+                  4000,
+                  3000,
+                  5000,
+                  12000,
+                  11000,
+                  10000,
+                  13000,
+                  15000,
+                  16000,
+                  18000,
+                  19000,
+                  20000,
+                  21000,
+                  22000,
+                  24000,
+                  23000,
+                  21000,
+                  20000,
+                  26000,
+                  30000,
+                  33000,
+                  28000,
+                  27000,
+                  22000,
+                  18000,
+                  24000
+                ],
+                "borderColor": "#d9833b",
+                "pointRadius": 0,
+                "tension": 0.25,
+                "spanGaps": false
+              }
+            ]
+          }
         },
         {
           "type": "table",
@@ -2228,36 +2468,56 @@
           ],
           "rows": [
             [
-              "Boomer+ / first-gen elders",
+              {
+                "label": "Boomer+ / first-gen elders",
+                "detail": "Roughly before ~1965 — refugee-era and later immigrants; Vietnamese-primary; temple / parish / YouTube."
+              },
               "~62+",
               "~20%"
             ],
             [
-              "Gen X / 1.5",
+              {
+                "label": "Gen X / 1.5",
+                "detail": "~1965–1980 — often the last fully bilingual household generation."
+              },
               "~46–61",
               "~22%"
             ],
             [
-              "Millennials",
+              {
+                "label": "Millennials",
+                "detail": "~1981–1996 — bilingual remainder plus a large English-only slice."
+              },
               "~30–45",
               "~22%"
             ],
             [
-              "Gen Z adults",
+              {
+                "label": "Gen Z adults",
+                "detail": "~1997–2008 birth years in this band — mostly U.S.-born, English-primary."
+              },
               "~18–29",
               "~16%"
             ],
             [
-              "Gen Z minors",
+              {
+                "label": "Gen Z minors",
+                "detail": "Still in the Gen Z cohort; English-primary, reached through parents and school."
+              },
               "~14–17",
               "~4%"
             ],
             [
-              "Gen Alpha",
+              {
+                "label": "Gen Alpha",
+                "detail": "~2013+ — English-only at home already ~half at ages 6–10."
+              },
               "~0–13",
               "~16%"
             ]
-          ]
+          ],
+          "lead": "Until a published Sacramento Vietnamese age pyramid exists, organizers use national nativity and age as a map, checked against local channels. Labels below are working cohorts — not Census categories.",
+          "equalTrailing": 2
         },
         {
           "type": "text",
@@ -2268,6 +2528,7 @@
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Vietnamese American demographics (2012 vs 2022)",
@@ -2277,6 +2538,16 @@
               "label": "Pew: Facts about Vietnamese in the U.S.",
               "href": "https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/"
             },
+            {
+              "label": "Vietnamese Immigrants in the United States",
+              "href": "https://www.migrationpolicy.org/journal/spotlight/vietnamese-immigrants-united-states"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "All topics",
               "href": "/demographics/vietnamese/"
@@ -2306,28 +2577,19 @@
           ]
         },
         {
-          "type": "table",
+          "type": "gallery",
           "heading": "Preferred self-label",
-          "caption": "Pew — Asian identity in the U.S. (May 2023)",
-          "headers": [
-            "Group",
-            "Prefer ethnic + “American”"
+          "wide": true,
+          "lead": "Vietnamese adults are the most likely among the six largest Asian origin groups to most often describe themselves as <strong>Vietnamese American</strong> (ethnic origin + American): <strong>41%</strong>.",
+          "items": [
+            {
+              "image": "/assets/demographics/pew-ethnic-origin-labels.png",
+              "caption": "Use of ethnic origin labels among the largest origin groups — Pew Research Center (May 2023)",
+              "href": "https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/",
+              "hrefLabel": "Source"
+            }
           ],
-          "rows": [
-            [
-              "Vietnamese",
-              "41%"
-            ],
-            [
-              "Indian",
-              "21%"
-            ],
-            [
-              "Japanese",
-              "20%"
-            ]
-          ],
-          "note": "64% of Vietnamese adults most often use ethnic alone or with American; pan-ethnic Asian/Asian American ~25%."
+          "note": "About <strong>64%</strong> of Vietnamese adults most often use their ethnic label alone or with American. Pan-ethnic Asian / Asian American is less common among Vietnamese (~25%) than among Japanese (~39%) or Chinese (~35%). Chart © Pew Research Center; used for briefing context."
         },
         {
           "type": "text",
@@ -2339,11 +2601,18 @@
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Pew: Asian identity in the U.S. (May 2023)",
               "href": "https://www.pewresearch.org/race-and-ethnicity/2023/05/08/asian-identity-in-the-us/"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "Population & geography",
               "href": "/demographics/vietnamese/population-geography/"
@@ -2506,7 +2775,7 @@
             ],
             [
               "Gen Alpha",
-              "Parents + school bag + YouTube as search + the festival as lived news"
+              "Parents + school bag + YouTube as search"
             ],
             [
               "Paid attendance / spend",
@@ -2554,6 +2823,7 @@
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "You cannot market to the Vietnamese community in one post",
@@ -2562,7 +2832,13 @@
             {
               "label": "NorCal AAPI radio, podcasts, and YouTube",
               "href": "https://baohouse.substack.com/p/norcal-aapi-radio-podcasts-and-youtube"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "Language",
               "href": "/demographics/vietnamese/language/"
@@ -2624,16 +2900,23 @@
           "heading": "Faith as a distribution system",
           "paragraphs": [
             "For many first-gen households, parish Tết, temple Vu Lan, and weekend Mass or ceremony are how news travels — not only belief. The unaffiliated third (and many younger Christians/Buddhists who do not attend) will not get that bulletin.",
-            "Civic and festival outreach that only flyers one faith parking lot misses the other half of the religious split <strong>and</strong> the unaffiliated. Buy parish <em>and</em> temple routes when claiming faith coverage — or accept the hole."
+            "Outreach that only flyers one faith parking lot misses the other half of the religious split <strong>and</strong> the unaffiliated. Buy parish <em>and</em> temple routes when claiming faith coverage — or accept the hole."
           ]
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Pew: Vietnamese Americans survey snapshot",
               "href": "https://www.pewresearch.org/race-and-ethnicity/2024/08/06/vietnamese-americans-a-survey-data-snapshot/"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "Media & outreach",
               "href": "/demographics/vietnamese/media-outreach/"
@@ -2703,6 +2986,7 @@
         },
         {
           "type": "links",
+          "heading": "References",
           "items": [
             {
               "label": "Remittances and stressors on transnational Vietnamese families",
@@ -2711,7 +2995,13 @@
             {
               "label": "Exploring the field of family economics",
               "href": "https://baohouse.substack.com/p/exploring-the-field-of-family-economics"
-            },
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
             {
               "label": "Income & poverty",
               "href": "/demographics/vietnamese/income-poverty/"

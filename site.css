@@ -210,6 +210,49 @@ h3 {
   align-items: center;
 }
 
+.block-links-references {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.65rem;
+}
+
+.ref-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.ref-list a {
+  color: var(--maroon);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.ref-list a:hover {
+  color: var(--maroon-deep);
+}
+
+.ref-host {
+  color: var(--ink-muted);
+  font-size: 0.92em;
+}
+
+.ref-host::before {
+  content: "(";
+}
+
+.ref-host::after {
+  content: ")";
+}
+
+.block-links-nav {
+  margin-top: 2.5rem;
+  padding-top: 0.25rem;
+}
+
 .btn-ghost:hover {
   background: var(--maroon);
   color: #fff;
@@ -574,6 +617,55 @@ h3 {
   max-width: var(--max);
 }
 
+.content-list {
+  margin: 0.85rem 0 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.content-list li {
+  padding-left: 0.15rem;
+}
+
+.content-list li::marker {
+  color: var(--maroon);
+}
+
+.block-chart {
+  max-width: var(--max);
+}
+
+.block-chart-wide {
+  max-width: min(100%, 56rem);
+}
+
+.chart-figure {
+  margin: 0;
+  padding: 1rem 1rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--card);
+}
+
+.chart-caption {
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+}
+
+.chart-frame {
+  position: relative;
+  height: var(--chart-height, 22rem);
+}
+
+.chart-frame canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .block-table {
   max-width: var(--max);
 }
@@ -581,6 +673,13 @@ h3 {
 .block-table-wide {
   max-width: min(100%, 56rem);
 }
+
+.block-table-equal table,
+.block-table-equal-trailing table,
+.block-table-equal-middle table {
+  table-layout: fixed;
+}
+
 
 .table-scroll {
   overflow-x: auto;
@@ -618,7 +717,35 @@ h3 {
   background: color-mix(in srgb, var(--maroon) 8%, var(--card));
   color: var(--ink);
   font-weight: 700;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.block-table tr.table-total td {
+  background: var(--cream-soft);
+  font-weight: 700;
+}
+
+.block-table td.cell-stack {
+  vertical-align: middle;
+}
+
+.cell-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.cell-label {
+  font-weight: 600;
+}
+
+.cell-detail {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--ink-muted);
+  font-weight: 400;
 }
 
 .block-table-numeric td:not(:first-child),
@@ -632,6 +759,73 @@ h3 {
   font-size: 0.9rem;
   color: var(--ink-muted);
   max-width: 42rem;
+}
+
+.table-expand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-expand:hover,
+.table-expand:focus-visible {
+  color: var(--maroon);
+}
+
+.table-expand-icon {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+
+.table-expand-parent.is-open .table-expand-icon {
+  transform: rotate(45deg);
+}
+
+.table-expand-child .table-child-label {
+  padding-left: 2rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+.block-embed {
+  max-width: var(--max);
+}
+
+.block-embed-wide {
+  max-width: min(100%, 56rem);
+}
+
+.embed-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--embed-aspect, 16 / 10);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: var(--card);
+}
+
+.embed-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .lead {
@@ -852,6 +1046,11 @@ h3 {
 
 .gallery-wide {
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+
+.gallery-wide:has(> .gallery-item:only-child),
+.gallery-single {
+  grid-template-columns: 1fr;
 }
 
 .gallery-item {
