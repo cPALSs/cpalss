@@ -50,6 +50,14 @@
           "href": "/demographics/vietnamese/"
         },
         {
+          "label": "Elk Grove languages",
+          "href": "/demographics/elkgrove/language/"
+        },
+        {
+          "label": "South Sacramento languages",
+          "href": "/demographics/south-sac/language/"
+        },
+        {
           "label": "Viet Youth Resources",
           "href": "https://youth.cpalss.com/"
         },
@@ -3009,6 +3017,446 @@
             {
               "label": "All topics",
               "href": "/demographics/vietnamese/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/elkgrove/",
+      "title": "Elk Grove demographics",
+      "description": "ACS language and place briefings for Elk Grove, California — for festival partners and organizers working Elk Grove Regional Park and the city’s catchments.",
+      "intro": "Place briefings for partners who need Elk Grove language and audience numbers — not a single flyer for “the community.” Research synthesis by <strong>Bao Thien Ngo</strong> / cPALSs.",
+      "blocks": [
+        {
+          "type": "cards",
+          "heading": "Topics",
+          "items": [
+            {
+              "title": "Languages spoken at home",
+              "href": "/demographics/elkgrove/language/",
+              "body": "ACS C16001 mix for Elk Grove city — English, Spanish, Chinese, Tagalog, Vietnamese, and more"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
+            {
+              "label": "South Sacramento languages",
+              "href": "/demographics/south-sac/language/"
+            },
+            {
+              "label": "Vietnamese American demographics",
+              "href": "/demographics/vietnamese/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/elkgrove/language/",
+      "title": "Elk Grove — languages spoken at home",
+      "description": "ACS 2020–2024 languages spoken at home in Elk Grove city, California — for partners planning multilingual outreach around Elk Grove festivals.",
+      "breadcrumb": [
+        {
+          "label": "Elk Grove demographics",
+          "href": "/demographics/elkgrove/"
+        }
+      ],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong> / cPALSs. Figures are U.S. Census Bureau American Community Survey <strong>2020–2024</strong> 5-year estimates, table <strong>C16001</strong> (language spoken at home, population age 5 and over).",
+      "blocks": [
+        {
+          "type": "text",
+          "paragraphs": [
+            "Elk Grove is the venue city for the Elk Grove Lunar New Year Tết Festival at Elk Grove Regional Park. About <strong>34.8%</strong> of residents age 5+ speak a language other than English at home (<a href=\"https://www.census.gov/quickfacts/elkgrovecitycalifornia\">Census QuickFacts</a>). A language spoken at home does <strong>not</strong> mean someone cannot speak English.",
+            "For partner translation decisions (for example utility or sponsor outreach materials), treat <strong>English, Vietnamese, and Spanish</strong> as the priority set for this festival’s named-Vietnamese product plus the city’s largest non-English home languages. <strong>Chinese</strong> is a strong Elk Grove nice-to-have; <strong>Hmong</strong> matters more in South Sacramento catchments than inside Elk Grove city limits."
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Elk Grove city — language spoken at home",
+          "caption": "ACS 2020–2024 · C16001 · population age 5+ · estimate 169,570",
+          "numeric": true,
+          "headers": [
+            "Language",
+            "Share",
+            "Estimate"
+          ],
+          "rows": [
+            [
+              "English only",
+              "65.2%",
+              "110,567"
+            ],
+            [
+              "Spanish",
+              "7.8%",
+              "13,192"
+            ],
+            [
+              "Other Indo-European",
+              "6.7%",
+              "11,312"
+            ],
+            [
+              "Chinese (incl. Mandarin and Cantonese)",
+              "5.5%",
+              "9,260"
+            ],
+            [
+              "Tagalog (incl. Filipino)",
+              "4.5%",
+              "7,649"
+            ],
+            [
+              "Vietnamese",
+              "4.2%",
+              "7,088"
+            ],
+            [
+              "Other Asian and Pacific Island languages",
+              "2.8%",
+              "4,816"
+            ],
+            [
+              "Arabic",
+              "1.0%",
+              "1,751"
+            ],
+            [
+              "Other and unspecified",
+              "1.0%",
+              "1,690"
+            ],
+            [
+              "Russian, Polish, or other Slavic",
+              "0.7%",
+              "1,201"
+            ],
+            [
+              "Korean",
+              "0.3%",
+              "566"
+            ]
+          ],
+          "note": "Source: U.S. Census Bureau, ACS 5-year estimates via Census API (place GEOID 0622020). Smaller rows omit low-count West Germanic / French categories."
+        },
+        {
+          "type": "text",
+          "heading": "West Elk Grove ZCTAs (venue catchment)",
+          "paragraphs": [
+            "ZIP Code Tabulation Areas <strong>95757</strong> and <strong>95758</strong> cover much of west Elk Grove near the park. Language ranks are similar to the city: English majority, then Spanish / other Indo-European / Chinese / Tagalog / Vietnamese in the mid-single digits. Use the city table for partner briefs unless a ZIP-specific ask requires otherwise."
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "ZCTA 95757 & 95758 — selected languages",
+          "caption": "ACS 2020–2024 · C16001 · share of population age 5+",
+          "numeric": true,
+          "headers": [
+            "Language",
+            "95757",
+            "95758"
+          ],
+          "rows": [
+            [
+              "English only",
+              "62.7%",
+              "62.4%"
+            ],
+            [
+              "Spanish",
+              "6.1%",
+              "10.3%"
+            ],
+            [
+              "Other Indo-European",
+              "8.1%",
+              "7.7%"
+            ],
+            [
+              "Chinese",
+              "7.7%",
+              "5.6%"
+            ],
+            [
+              "Tagalog/Filipino",
+              "5.3%",
+              "4.4%"
+            ],
+            [
+              "Vietnamese",
+              "3.6%",
+              "2.9%"
+            ],
+            [
+              "Other Asian & Pacific Island",
+              "2.3%",
+              "3.6%"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "How cPALSs uses this for festival partners",
+          "paragraphs": [
+            "<strong>Priority for translated partner materials:</strong> Vietnamese, English, and Spanish. Vietnamese matches the festival’s named product and a large share of the regional Vietnamese American public; Spanish is Elk Grove’s largest non-English home language; English reaches the majority of residents and most younger walk-up guests.",
+            "<strong>Nice to have:</strong> Chinese (stronger inside Elk Grove than in much of South Sacramento) and Hmong (stronger in South Sacramento — see the South Sacramento languages page). Tagalog is real in Elk Grove (~4.5%) but usually a lower priority than Vietnamese/Spanish for Tết-partner utility outreach.",
+            "<strong>Honest capacity note:</strong> cPALSs’ own public marketing is not yet running sustained Chinese or Hmong campaigns. We are still looking for a director of marketing to help build a multilingual team. Partner materials in Chinese or Hmong are welcome when the partner can produce them; they are not a promise of matching cPALSs channel spend in those languages."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Related",
+          "items": [
+            {
+              "label": "South Sacramento — languages spoken at home",
+              "href": "/demographics/south-sac/language/"
+            },
+            {
+              "label": "Vietnamese American — language",
+              "href": "/demographics/vietnamese/language/"
+            },
+            {
+              "label": "Census QuickFacts — Elk Grove city",
+              "href": "https://www.census.gov/quickfacts/elkgrovecitycalifornia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/south-sac/",
+      "title": "South Sacramento demographics",
+      "description": "ACS language briefings for South Sacramento / Little Saigon corridor proxies — Florin, Parkway, and ZCTAs 95823–95828.",
+      "intro": "Place briefings for the South Sacramento and Little Saigon corridor catchments that feed Elk Grove festivals and Stockton Blvd destinations. Research synthesis by <strong>Bao Thien Ngo</strong> / cPALSs.",
+      "blocks": [
+        {
+          "type": "cards",
+          "heading": "Topics",
+          "items": [
+            {
+              "title": "Languages spoken at home",
+              "href": "/demographics/south-sac/language/",
+              "body": "Florin, Parkway, and ZIP proxies — Spanish-heavy mix with Vietnamese, Hmong-bucketed Asian languages, and Chinese"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "variant": "nav",
+          "items": [
+            {
+              "label": "Elk Grove languages",
+              "href": "/demographics/elkgrove/language/"
+            },
+            {
+              "label": "Vietnamese American demographics",
+              "href": "/demographics/vietnamese/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/demographics/south-sac/language/",
+      "title": "South Sacramento — languages spoken at home",
+      "description": "ACS 2020–2024 languages spoken at home for South Sacramento proxies (Florin, Parkway, ZCTAs 95823–95828) — for partners planning multilingual outreach along the Little Saigon corridor.",
+      "breadcrumb": [
+        {
+          "label": "South Sacramento demographics",
+          "href": "/demographics/south-sac/"
+        }
+      ],
+      "intro": "Research and synthesis by <strong>Bao Thien Ngo</strong> / cPALSs. “South Sacramento” is not a Census place. These tables use ACS <strong>2020–2024</strong> 5-year <strong>C16001</strong> estimates for corridor proxies: <strong>Florin CDP</strong>, <strong>Parkway CDP</strong>, and ZCTAs <strong>95823</strong>, <strong>95824</strong>, and <strong>95828</strong> (Little Saigon / Stockton Blvd belt).",
+      "blocks": [
+        {
+          "type": "text",
+          "paragraphs": [
+            "Compared with Elk Grove city, these South Sacramento proxies are far less English-only (often mid-40s%) and far more <strong>Spanish</strong>. <strong>Vietnamese</strong> is especially concentrated in Florin and ZCTA 95828. The ACS “Other Asian and Pacific Island languages” bucket is large here; in Sacramento County that bucket is driven heavily by <strong>Hmong</strong> (also named in the County’s elections language-access materials).",
+            "Festival guests travel: Elk Grove Park draws from both the venue city and this corridor. Partner translation for regional outreach should not use Elk Grove city alone."
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Florin CDP — language spoken at home",
+          "caption": "ACS 2020–2024 · C16001 · population age 5+ · estimate 47,485",
+          "numeric": true,
+          "headers": [
+            "Language",
+            "Share",
+            "Estimate"
+          ],
+          "rows": [
+            [
+              "English only",
+              "44.1%",
+              "20,956"
+            ],
+            [
+              "Spanish",
+              "20.8%",
+              "9,869"
+            ],
+            [
+              "Other Asian and Pacific Island languages",
+              "13.9%",
+              "6,611"
+            ],
+            [
+              "Vietnamese",
+              "7.3%",
+              "3,446"
+            ],
+            [
+              "Other Indo-European",
+              "5.0%",
+              "2,369"
+            ],
+            [
+              "Chinese (incl. Mandarin and Cantonese)",
+              "4.5%",
+              "2,118"
+            ],
+            [
+              "Tagalog (incl. Filipino)",
+              "2.5%",
+              "1,174"
+            ]
+          ],
+          "note": "“Other Asian and Pacific Island languages” includes Hmong and related languages; ACS does not break Hmong out on this city/CDP C16001 release."
+        },
+        {
+          "type": "table",
+          "heading": "Parkway CDP — language spoken at home",
+          "caption": "ACS 2020–2024 · C16001 · population age 5+ · estimate 14,477",
+          "numeric": true,
+          "headers": [
+            "Language",
+            "Share",
+            "Estimate"
+          ],
+          "rows": [
+            [
+              "English only",
+              "46.1%",
+              "6,678"
+            ],
+            [
+              "Spanish",
+              "33.4%",
+              "4,831"
+            ],
+            [
+              "Other Asian and Pacific Island languages",
+              "8.3%",
+              "1,202"
+            ],
+            [
+              "Other Indo-European",
+              "4.7%",
+              "675"
+            ],
+            [
+              "Tagalog (incl. Filipino)",
+              "2.6%",
+              "376"
+            ],
+            [
+              "Vietnamese",
+              "2.4%",
+              "354"
+            ],
+            [
+              "Chinese (incl. Mandarin and Cantonese)",
+              "1.5%",
+              "215"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "South Sac ZCTAs — selected languages",
+          "caption": "ACS 2020–2024 · C16001 · share of population age 5+",
+          "numeric": true,
+          "headers": [
+            "Language",
+            "95823",
+            "95824",
+            "95828"
+          ],
+          "rows": [
+            [
+              "English only",
+              "46.3%",
+              "42.3%",
+              "45.3%"
+            ],
+            [
+              "Spanish",
+              "24.4%",
+              "31.8%",
+              "19.5%"
+            ],
+            [
+              "Other Asian & Pacific Island",
+              "9.1%",
+              "12.2%",
+              "12.2%"
+            ],
+            [
+              "Vietnamese",
+              "2.7%",
+              "4.5%",
+              "8.2%"
+            ],
+            [
+              "Chinese",
+              "3.2%",
+              "5.2%",
+              "4.7%"
+            ],
+            [
+              "Tagalog/Filipino",
+              "2.9%",
+              "0.7%",
+              "2.8%"
+            ],
+            [
+              "Other Indo-European",
+              "9.6%",
+              "1.7%",
+              "5.6%"
+            ]
+          ],
+          "note": "95823 pop 5+ ≈ 78.5k · 95824 ≈ 30.9k · 95828 ≈ 58.4k. ZCTA boundaries approximate postal ZIPs."
+        },
+        {
+          "type": "text",
+          "heading": "How cPALSs uses this for festival partners",
+          "paragraphs": [
+            "<strong>Priority for translated partner materials:</strong> Vietnamese, English, and Spanish — same priority set as Elk Grove, reinforced here by Spanish dominance and Vietnamese concentration in Florin / 95828.",
+            "<strong>Nice to have:</strong> Hmong (via the large Other Asian &amp; Pacific Island share) and Chinese. Hmong is a stronger South Sacramento nice-to-have than inside Elk Grove city.",
+            "<strong>Honest capacity note:</strong> cPALSs is not currently marketing in Chinese or Hmong as standing campaign languages. We are still looking for a director of marketing to help build a multilingual team. If a partner can produce Chinese or Hmong materials, that helps corridor reach; it is not paired with a promise that cPALSs already runs matching multilingual paid or organic campaigns in those languages."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Related",
+          "items": [
+            {
+              "label": "Elk Grove — languages spoken at home",
+              "href": "/demographics/elkgrove/language/"
+            },
+            {
+              "label": "Vietnamese American — language",
+              "href": "/demographics/vietnamese/language/"
+            },
+            {
+              "label": "Vietnamese American — population & geography",
+              "href": "/demographics/vietnamese/population-geography/"
             }
           ]
         }
